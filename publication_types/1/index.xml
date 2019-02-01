@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Caterina Urban</title>
+    <link>https://caterinaurban.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Caterina Urban</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://caterinaurban.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Abstract Interpretation of CTL Properties</title>
+      <link>https://caterinaurban.github.io/publication/sas2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/sas2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Abstract Interpretation Framework for Input Data Usage</title>
+      <link>https://caterinaurban.github.io/publication/esop2018/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/esop2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abstract Interpretation as Automated Deduction</title>
+      <link>https://caterinaurban.github.io/publication/cade2015/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/cade2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation</title>
+      <link>https://caterinaurban.github.io/publication/vmcai2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/vmcai2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Decision Tree Abstract Domain for Proving Conditional Termination</title>
+      <link>https://caterinaurban.github.io/publication/sas2014/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/sas2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Abstract Domain to Infer Ordinal-Valued Ranking Functions</title>
+      <link>https://caterinaurban.github.io/publication/esop2014/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/esop2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Abstract Domain of Segmented Ranking Functions</title>
+      <link>https://caterinaurban.github.io/publication/sas2013/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/sas2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formal Analysis of Facebook Connect Single Sign-On Authentication Protocol</title>
+      <link>https://caterinaurban.github.io/publication/sofsem2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/sofsem2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
