@@ -22,11 +22,47 @@
     </item>
     
     <item>
+      <title>MaxSMT-Based Type Inference for Python 3</title>
+      <link>https://caterinaurban.github.io/publication/cav2018a/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/cav2018a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Permission Inference for Array Programs</title>
+      <link>https://caterinaurban.github.io/publication/cav2018b/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/cav2018b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An Abstract Interpretation Framework for Input Data Usage</title>
       <link>https://caterinaurban.github.io/publication/esop2018/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/esop2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise Widening Operators for Proving Termination by Abstract Interpretation</title>
+      <link>https://caterinaurban.github.io/publication/tacas2017/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/tacas2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Büchi, Lindenbaum, Tarski: A Program Analysis Appetizer</title>
+      <link>https://caterinaurban.github.io/publication/ijcai2016/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/ijcai2016/</guid>
       <description></description>
     </item>
     

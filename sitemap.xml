@@ -32,8 +32,53 @@
     
     <url>
     
+      <loc>https://caterinaurban.github.io/publication/cav2018a/</loc>
+      <lastmod>2018-07-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication/cav2018b/</loc>
+      <lastmod>2018-07-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://caterinaurban.github.io/publication/esop2018/</loc>
       <lastmod>2018-04-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication/jar2017/</loc>
+      <lastmod>2017-07-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication/tacas2017/</loc>
+      <lastmod>2017-04-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication/comlan2017/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -61,6 +106,15 @@
     
       <loc>https://caterinaurban.github.io/talk/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication/ijcai2016/</loc>
+      <lastmod>2016-08-01T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -188,6 +242,16 @@
     
       <loc>https://caterinaurban.github.io/publication_types/1/</loc>
       <lastmod>2018-08-01T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/2/</loc>
+      <lastmod>2017-07-01T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
