@@ -17,14 +17,14 @@
       
     
   
-  <meta name="description" content="We present a parameterized abstract domain for proving program termination by abstract interpretation. The domain automatically synthesizes piecewise-defined ranking functions and infers sufficient conditions for program termination. The analysis uses over-approximations but we prove its soundness, meaning that all program executions respecting these sufficient conditions are indeed terminating. 
+  <meta name="description" content="In this work, we present a novel approach based on recent advances in software model checking to synthesize ranking functions and prove termination (and non-termination) of imperative programs. 
 
-The abstract domain is parameterized by a numerical abstract domain for environments and a numerical abstract domain for functions. This parameterization allows to easily tune the trade-off between precision and cost of the analysis. We describe an instantiation of this generic domain with intervals and affine functions. We define all abstract operators, including widening to ensure convergence. 
+Our approach incrementally refines a termination argument from an under-approximation of the terminating program state. Specifically, we learn *bits* of information from terminating executions, and from these we extrapolate ranking functions over-approximating the number of loop iterations needed for termination. We combine these *pieces* into piecewise-defined, lexicographic, or multiphase ranking functions. 
 
-To illustrate the potential of the proposed framework, we have implemented a research prototype static analyzer, for a small imperative language, that yielded interesting preliminary results.">
+The proposed technique has been implemented in SeaHorn – an LLVM based verification framework – targeting C code. Preliminary experimental evaluation demonstrated its effectiveness in synthesizing ranking functions and proving termination of C programs.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication/sas2013/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication/tacas2016/">
 
   
 
@@ -78,7 +78,7 @@ To illustrate the potential of the proposed framework, we have implemented a res
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/publication/sas2013/">
+  <link rel="canonical" href="https://caterinaurban.github.io/publication/tacas2016/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -86,25 +86,25 @@ To illustrate the potential of the proposed framework, we have implemented a res
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="">
-  <meta property="og:url" content="https://caterinaurban.github.io/publication/sas2013/">
-  <meta property="og:title" content="The Abstract Domain of Segmented Ranking Functions | ">
-  <meta property="og:description" content="We present a parameterized abstract domain for proving program termination by abstract interpretation. The domain automatically synthesizes piecewise-defined ranking functions and infers sufficient conditions for program termination. The analysis uses over-approximations but we prove its soundness, meaning that all program executions respecting these sufficient conditions are indeed terminating. 
+  <meta property="og:url" content="https://caterinaurban.github.io/publication/tacas2016/">
+  <meta property="og:title" content="Synthesizing Ranking Functions from Bits and Pieces | ">
+  <meta property="og:description" content="In this work, we present a novel approach based on recent advances in software model checking to synthesize ranking functions and prove termination (and non-termination) of imperative programs. 
 
-The abstract domain is parameterized by a numerical abstract domain for environments and a numerical abstract domain for functions. This parameterization allows to easily tune the trade-off between precision and cost of the analysis. We describe an instantiation of this generic domain with intervals and affine functions. We define all abstract operators, including widening to ensure convergence. 
+Our approach incrementally refines a termination argument from an under-approximation of the terminating program state. Specifically, we learn *bits* of information from terminating executions, and from these we extrapolate ranking functions over-approximating the number of loop iterations needed for termination. We combine these *pieces* into piecewise-defined, lexicographic, or multiphase ranking functions. 
 
-To illustrate the potential of the proposed framework, we have implemented a research prototype static analyzer, for a small imperative language, that yielded interesting preliminary results."><meta property="og:image" content="https://caterinaurban.github.io/img/headers/collatz.png">
+The proposed technique has been implemented in SeaHorn – an LLVM based verification framework – targeting C code. Preliminary experimental evaluation demonstrated its effectiveness in synthesizing ranking functions and proving termination of C programs."><meta property="og:image" content="https://caterinaurban.github.io/img/headers/collatz.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2013-06-01T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2016-04-01T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2013-06-01T00:00:00&#43;02:00">
-  
-
+  <meta property="article:modified_time" content="2016-04-01T00:00:00&#43;02:00">
   
 
   
 
-  <title>The Abstract Domain of Segmented Ranking Functions | </title>
+  
+
+  <title>Synthesizing Ranking Functions from Bits and Pieces | </title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -252,10 +252,10 @@ To illustrate the potential of the proposed framework, we have implemented a res
 
 
   <div class="article-container">
-    <h1 itemprop="name">The Abstract Domain of Segmented Ranking Functions</h1>
+    <h1 itemprop="name">Synthesizing Ranking Functions from Bits and Pieces</h1>
     <span class="pub-authors" itemprop="author">
       
-      <strong>Caterina Urban</strong>
+      <strong>Caterina Urban</strong>, Arie Gurfinkel, Temesghen Kahsai
       
     </span>
     <span class="pull-right">
@@ -267,11 +267,11 @@ To illustrate the potential of the proposed framework, we have implemented a res
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text"><p>We present a parameterized abstract domain for proving program termination by abstract interpretation. The domain automatically synthesizes piecewise-defined ranking functions and infers sufficient conditions for program termination. The analysis uses over-approximations but we prove its soundness, meaning that all program executions respecting these sufficient conditions are indeed terminating.</p>
+    <p class="pub-abstract" itemprop="text"><p>In this work, we present a novel approach based on recent advances in software model checking to synthesize ranking functions and prove termination (and non-termination) of imperative programs.</p>
 
-<p>The abstract domain is parameterized by a numerical abstract domain for environments and a numerical abstract domain for functions. This parameterization allows to easily tune the trade-off between precision and cost of the analysis. We describe an instantiation of this generic domain with intervals and affine functions. We define all abstract operators, including widening to ensure convergence.</p>
+<p>Our approach incrementally refines a termination argument from an under-approximation of the terminating program state. Specifically, we learn <em>bits</em> of information from terminating executions, and from these we extrapolate ranking functions over-approximating the number of loop iterations needed for termination. We combine these <em>pieces</em> into piecewise-defined, lexicographic, or multiphase ranking functions.</p>
 
-<p>To illustrate the potential of the proposed framework, we have implemented a research prototype static analyzer, for a small imperative language, that yielded interesting preliminary results.</p>
+<p>The proposed technique has been implemented in SeaHorn – an LLVM based verification framework – targeting C code. Preliminary experimental evaluation demonstrated its effectiveness in synthesizing ranking functions and proving termination of C programs.</p>
 </p>
     
 
@@ -301,7 +301,7 @@ To illustrate the potential of the proposed framework, we have implemented a res
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In Proc. 20th Static Analysis Symposium (SAS 2013)</div>
+          <div class="col-xs-12 col-sm-9">In Proc. 22nd International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2016)</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -315,7 +315,7 @@ To illustrate the potential of the proposed framework, we have implemented a res
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            2013
+            2016
           </div>
         </div>
       </div>
@@ -335,7 +335,7 @@ To illustrate the potential of the proposed framework, we have implemented a res
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/sas2013.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/tacas2016.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -346,28 +346,18 @@ To illustrate the potential of the proposed framework, we have implemented a res
 
 
 
-  
-  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/function/">
-    Project
-  </a>
-  
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/sas2013slides.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/tacas2016slides.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/bib/sas2013.bib" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/bib/tacas2016.bib" target="_blank" rel="noopener">
   BibTeX
-</a>
-
-<a class="btn btn-primary btn-outline" href="https://hal.inria.fr/hal-00925670" target="_blank" rel="noopener">
-  HAL
 </a>
 
 
