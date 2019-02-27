@@ -27,7 +27,8 @@
       <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/project/lyra/</guid>
-      <description></description>
+      <description>Nowadays, thanks to advances in machine learning and the availability of massive amounts of data, computer software plays an increasingly important role in assisting or even autonomously making decisions with far-reaching societal impact, e.g., in fields such as social welfare, criminal justice, and even health care.
+As data-driven decision-making software becomes more and more widespread, we become increasingly vulnerable to programming errors. In particular, programming errors that do not cause failures can have serious consequences since code that produces an erroneous but plausible result gives no indication that something went wrong.</description>
     </item>
     
   </channel>
