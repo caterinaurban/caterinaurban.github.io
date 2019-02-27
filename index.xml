@@ -34,7 +34,8 @@
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sas2018/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -43,7 +44,8 @@
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cav2018a/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/typpete.png&#34; alt=&#34;Typpete&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -61,7 +63,8 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/esop2018/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -79,7 +82,8 @@
       <pubDate>Sat, 01 Apr 2017 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/tacas2017/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -88,7 +92,8 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/comlan2017/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -119,12 +124,62 @@
     </item>
     
     <item>
+      <title>Static Analysis by Abstract Interpretation of Functional Temporal Properties of Programs</title>
+      <link>https://caterinaurban.github.io/publication/phd2015/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/phd2015/</guid>
+      <description>
+
+&lt;h4 id=&#34;phd-advisors&#34;&gt;PhD Advisors&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Radhia_Cousot&#34; target=&#34;_blank&#34;&gt;Radhia Cousot&lt;/a&gt;&lt;br /&gt;
+CNRS &amp;amp; École Normale Supérieure, Paris, France&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www-apr.lip6.fr/~mine/&#34; target=&#34;_blank&#34;&gt;Antoine Miné&lt;/a&gt;&lt;br /&gt;
+CNRS &amp;amp; École Normale Supérieure, Paris, France&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;reviewers&#34;&gt;Reviewers&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cliplab.org/herme/&#34; target=&#34;_blank&#34;&gt;Manuel Hermenegildo&lt;/a&gt;&lt;br /&gt;
+IMDEA Software Institute &amp;amp; Technical University of Madrid, Madrid, Spain&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.colorado.edu/~srirams/&#34; target=&#34;_blank&#34;&gt;Sriram Sankaranarayanan&lt;/a&gt;&lt;br /&gt;
+University of Colorado Boulder, Boulder, USA&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://swt.informatik.uni-freiburg.de/staff/podelski&#34; target=&#34;_blank&#34;&gt;Andreas Podelski&lt;/a&gt;&lt;br /&gt;
+University of Freiburg, Freiburg, Germany&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;jury&#34;&gt;Jury&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cs.nyu.edu/~pcousot/&#34; target=&#34;_blank&#34;&gt;Patrick Cousot&lt;/a&gt;&lt;br /&gt;
+New York University, New York, USA&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www-verimag.imag.fr/~halbwach/&#34; target=&#34;_blank&#34;&gt;Nicolas Halbwachs&lt;/a&gt;&lt;br /&gt;
+Verimag, Grenoble, France&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cliplab.org/herme/&#34; target=&#34;_blank&#34;&gt;Manuel Hermenegildo&lt;/a&gt;&lt;br /&gt;
+IMDEA Software Institute &amp;amp; Technical University of Madrid, Madrid, Spain&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www-apr.lip6.fr/~mine/&#34; target=&#34;_blank&#34;&gt;Antoine Miné&lt;/a&gt;&lt;br /&gt;
+CNRS &amp;amp; École Normale Supérieure, Paris, France&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.tau.ac.il/~msagiv/&#34; target=&#34;_blank&#34;&gt;Mooly Sagiv&lt;/a&gt;&lt;br /&gt;
+Tel Aviv University, Tel Aviv, Israel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://swt.informatik.uni-freiburg.de/staff/podelski&#34; target=&#34;_blank&#34;&gt;Andreas Podelski&lt;/a&gt;&lt;br /&gt;
+University of Freiburg, Freiburg, Germany&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Conflict-Driven Conditional Termination</title>
       <link>https://caterinaurban.github.io/publication/cav2015/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cav2015/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -133,16 +188,8 @@
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sv-comp2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation</title>
-      <link>https://caterinaurban.github.io/publication/vmcai2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/vmcai2015/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -103,6 +103,23 @@
     </item>
     
     <item>
+      <title>Static Analysis by Abstract Interpretation of Functional Temporal Properties of Programs</title>
+      <link>https://caterinaurban.github.io/publication/phd2015/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/phd2015/</guid>
+      <description>PhD Advisors  Radhia Cousot
+CNRS &amp;amp; École Normale Supérieure, Paris, France Antoine Miné
+CNRS &amp;amp; École Normale Supérieure, Paris, France  Reviewers  Manuel Hermenegildo
+IMDEA Software Institute &amp;amp; Technical University of Madrid, Madrid, Spain Sriram Sankaranarayanan
+University of Colorado Boulder, Boulder, USA
+ Andreas Podelski
+University of Freiburg, Freiburg, Germany  Jury  Patrick Cousot
+New York University, New York, USA Nicolas Halbwachs
+Verimag, Grenoble, France Manuel Hermenegildo</description>
+    </item>
+    
+    <item>
       <title>Conflict-Driven Conditional Termination</title>
       <link>https://caterinaurban.github.io/publication/cav2015/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
