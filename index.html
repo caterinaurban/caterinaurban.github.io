@@ -64,7 +64,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-135294155-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -104,6 +104,32 @@
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "rgb(254, 200, 21)",
+          "text": "rgb(40, 42, 54)"
+        },
+        "button": {
+          "background": "rgb(40, 42, 54)",
+          "text": "rgb(254, 200, 21)"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
   
   <script type="application/ld+json">
@@ -392,21 +418,25 @@
 <p>I am a member of the INRIA research team <a href="https://team.inria.fr/antique/" target="_blank">ANTIQUE</a> (ANalise StaTIQUE). Previously, I was a postdoctoral researcher at the Chair of Programming Methodology, lead by Peter Müller at ETH Zurich. I completed my Ph.D. in Computer Science, working under the joint supervision of Radhia Cousot and Antoine Miné at École Normale Supérieure.
 I hold a Bachelor’s and a Master’s degree in Computer Science, both received with full marks and honors (summa cum laude) from the Università degli Studi di Udine.</p>
 
-<p>My research interests span the whole spectrum of <strong>formal methods</strong> and aim at developing methods and tools to enhance the reliability of computer software and understanding complex software systems. My main area of expertise is <strong>static analysis</strong> based on <strong>abstract interpretation</strong>, which provides rigorous mathematical guarantees of the behavior of computer programs. In the past I worked on proving <strong>termination</strong> and other <strong>liveness properties</strong> of programs. I am currently engaged in a long-term research effort to enhance the understanding and reliability of <strong>data science</strong> software, which nowadays plays an increasingly important role in critical decision making in fields such as finance and medicine.</p>
+<p>My research interests span the whole spectrum of <strong>formal methods</strong> and aim at developing methods and tools to enhance the reliability of computer software and understanding complex software systems. My main area of expertise is <strong>static analysis</strong> based on <strong>abstract interpretation</strong>, which provides rigorous mathematical guarantees of the behavior of computer programs. I am currently engaged in a long-term research effort to enhance the understanding and reliability of <strong>data science</strong> software, which nowadays plays an increasingly important role in critical decision making in fields such as finance and medicine.</p>
 
 <h3 id="news"><strong>News</strong></h3>
 
-<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the ESOP 2020 <strong>program committee</strong></p>
+<p>👩🏼‍💻&nbsp;&nbsp;&nbsp;&nbsp;I have been developing a <a href="https://github.com/caterinaurban/apronpy" target="_blank"><strong>Python interface</strong></a> for the <a href="http://apron.cri.ensmp.fr/library/" target="_blank"><strong>APRON numerical abstract domain library</strong></a>. Contributions are welcome!</p>
 
-<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="http://ifm2019.hvl.no" target="_blank">iFM 2019</a> <strong>program committee</strong></p>
+<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <strong>ESOP 2020</strong> <strong>program committee</strong></p>
 
-<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="https://www.esweek.org/emsoft/" target="_blank">EMSOFT 2019</a> <strong>program committee</strong></p>
+<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="http://ifm2019.hvl.no" target="_blank"><strong>iFM 2019</strong></a> <strong>program committee</strong></p>
 
-<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="https://nsv19.mpi-sws.org" target="_blank">NSV 2019</a> <strong>program committee</strong></p>
+<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="https://www.esweek.org/emsoft/" target="_blank"><strong>EMSOFT 2019</strong></a> <strong>program committee</strong></p>
 
-<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="https://pldi19.sigplan.org" target="_blank">PLDI 2019</a> <strong>artifact evaluation committee</strong></p>
+<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <strong>AVoCS 2019</strong> <strong>program committee</strong></p>
 
-<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="http://i-cav.org/2019/" target="_blank">CAV 2019</a> <strong>program committee</strong></p>
+<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="https://nsv19.mpi-sws.org" target="_blank"><strong>NSV 2019</strong></a> <strong>program committee</strong></p>
+
+<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="https://pldi19.sigplan.org" target="_blank"><strong>PLDI 2019</strong></a> <strong>artifact evaluation committee</strong></p>
+
+<p>👥&nbsp;&nbsp;&nbsp;&nbsp;I am a member of the <a href="http://i-cav.org/2019/" target="_blank"><strong>CAV 2019</strong></a> <strong>program committee</strong></p>
 
 
     <div class="row">
@@ -938,7 +968,7 @@ I hold a Bachelor’s and a Master’s degree in Computer Science, both received
       
       <li>
         <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">  Antique Research Team<br>  École Normale Supérieure<br>  45, rue d'Ulm<br>  75005 Paris, France<br>  </span>
+        <span id="person-address" itemprop="address">  ANTIQUE Research Team<br>  École Normale Supérieure<br>  45, rue d'Ulm<br>  75005 Paris, France<br>  </span>
       </li>
       
 
@@ -951,7 +981,7 @@ I hold a Bachelor’s and a Master’s degree in Computer Science, both received
       <input id="map-provider" value="2">
       <input id="map-lat" value="48.842">
       <input id="map-lng" value="2.3444">
-      <input id="map-dir" value="  Antique Research Team
+      <input id="map-dir" value="  ANTIQUE Research Team
   École Normale Supérieure
   45, rue d&#39;Ulm
   75005 Paris, France
