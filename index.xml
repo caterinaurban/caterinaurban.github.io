@@ -16,8 +16,37 @@
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/gssi2019/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/GSSI2019.pdf&#34; alt=&#34;GSSI2019&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Static Program Analysis for a Software-Driven Society</title>
+      <link>https://caterinaurban.github.io/talk/epfl2018/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/epfl2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Program Analysis for a Software-Driven Society</title>
+      <link>https://caterinaurban.github.io/talk/stevens2018/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/stevens2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Program Analysis for a Software-Driven Society</title>
+      <link>https://caterinaurban.github.io/talk/mpisws2018/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/mpisws2018/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -85,7 +114,9 @@ Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cav2018a/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/typpete.png&#34; alt=&#34;Typpete&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/cav2018a.png&#34; alt=&#34;cav2018a&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/typpete.png&#34; alt=&#34;Typpete&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -95,7 +126,8 @@ Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cav2018b/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/cav2018b.png&#34; alt=&#34;cav2018b&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -104,7 +136,9 @@ Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/esop2018/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/esop2018.png&#34; alt=&#34;esop2018&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -153,34 +187,6 @@ Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
       <pubDate>Thu, 26 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/upmc2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inference of Ranking Functions for Proving Temporal Properties by Abstract Interpretation</title>
-      <link>https://caterinaurban.github.io/publication/comlan2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/comlan2017/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Büchi, Lindenbaum, Tarski: A Program Analysis Appetizer</title>
-      <link>https://caterinaurban.github.io/publication/ijcai2016/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/ijcai2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Synthesizing Ranking Functions from Bits and Pieces</title>
-      <link>https://caterinaurban.github.io/publication/tacas2016/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/tacas2016/</guid>
       <description></description>
     </item>
     
