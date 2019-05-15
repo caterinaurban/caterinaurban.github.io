@@ -18,7 +18,7 @@
       <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/project/function/</guid>
-      <description></description>
+      <description>Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug3 and the Microsoft Azure Storage service interruption. Termination bugs can also be exploited in denial-of-service attacks. Therefore, proving program termination is important for ensuring software reliability. The traditional method for proving termination is based on the synthesis of a ranking function, a well-founded metric which strictly decreases during the program execution. The goal of the project is the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination by means of abstract interpretation.</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@
       <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/project/lyra/</guid>
-      <description>Nowadays, thanks to advances in machine learning and the availability of massive amounts of data, computer software plays an increasingly important role in assisting or even autonomously making decisions with far-reaching societal impact, e.g., in fields such as social welfare, criminal justice, and even health care.
-As data-driven decision-making software becomes more and more widespread, we become increasingly vulnerable to programming errors. In particular, programming errors that do not cause failures can have serious consequences since code that produces an erroneous but plausible result gives no indication that something went wrong.</description>
+      <description>The Lyra research project is a long-term research effort to enhance the &lt;em&gt;understanding&lt;/em&gt; and &lt;em&gt;reliabilty&lt;/em&gt; of data-driven decision-making software. It aims ad developing &lt;strong&gt;new &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;accessible&lt;/em&gt; analyses and tools&lt;/strong&gt; to reason about and provide rigorous guarantees of the behavior of data analytics, big data, machine learning, and deep learning applications.</description>
     </item>
     
   </channel>

@@ -1,5 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/</loc>
+      <lastmod>2019-04-16T13:39:12+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
     
     
@@ -59,8 +68,38 @@
     
     <url>
     
+      <loc>https://caterinaurban.github.io/project/</loc>
+      <lastmod>2019-02-27T14:07:09+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/1/</loc>
+      <lastmod>2019-04-02T20:07:11+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://caterinaurban.github.io/publication/sas2018/</loc>
       <lastmod>2019-02-27T12:07:27+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/</loc>
+      <lastmod>2019-04-02T20:07:11+02:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -106,6 +145,16 @@
     
       <loc>https://caterinaurban.github.io/talk/shonan2017a/</loc>
       <lastmod>2019-04-01T11:36:21+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/2/</loc>
+      <lastmod>2019-02-27T12:07:27+01:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -203,8 +252,27 @@
     
     <url>
     
+      <loc>https://caterinaurban.github.io/talk/tuwien2015/</loc>
+      <lastmod>2015-08-14T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://caterinaurban.github.io/publication/cade2015/</loc>
       <lastmod>2019-02-04T11:29:50+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/3/</loc>
+      <lastmod>2019-04-02T20:07:11+02:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -250,6 +318,16 @@
     
       <loc>https://caterinaurban.github.io/publication/sas2014/</loc>
       <lastmod>2019-02-27T12:07:27+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/7/</loc>
+      <lastmod>2019-02-27T12:07:27+01:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -311,77 +389,7 @@
     
     <url>
     
-      <loc>https://caterinaurban.github.io/publication_types/1/</loc>
-      <lastmod>2019-02-27T12:07:27+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication_types/2/</loc>
-      <lastmod>2019-02-04T11:29:50+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication_types/3/</loc>
-      <lastmod>2019-04-02T20:07:11+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication_types/7/</loc>
-      <lastmod>2019-02-27T12:07:27+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://caterinaurban.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/</loc>
-      <lastmod>2019-04-01T11:36:21+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/project/</loc>
-      <lastmod>2019-02-01T14:14:57+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication_types/</loc>
-      <lastmod>2019-02-27T12:07:27+01:00</lastmod>
       <priority>0</priority>
     </url>
     

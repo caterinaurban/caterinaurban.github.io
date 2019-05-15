@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -15,11 +13,14 @@
   
   
   
-  <meta name="description" content="  Research Scientist (Chargé de Recherche)
-  ">
+    
+      
+    
+  
+  <meta name="description" content="Algorithmic deduction and abstract interpretation are two widely used and successful approaches to implementing program verifiers. A major impediment to combining these approaches is that their mathematical foundations and implementation approaches are fundamentally different. This paper presents a new, logical perspective on abstract interpreters that perform reachability analysis using non-relational domains. We encode reachability of a location in a control-flow graph as satisfiability in a monadic, second-order logic parameterized by a first-order theory. We show that three components of an abstract interpreter, the lattice, transformers and iteration algorithm, represent a first-order, substructural theory, parametric deduction and abduction in that theory, and second-order constraint propagation.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/project/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/tuwien2015/">
 
   
 
@@ -79,15 +80,15 @@
   
 
   
-  <link rel="alternate" href="https://caterinaurban.github.io/project/index.xml" type="application/rss+xml" title="Caterina Urban">
-  <link rel="feed" href="https://caterinaurban.github.io/project/index.xml" type="application/rss+xml" title="Caterina Urban">
+  <link rel="alternate" href="https://caterinaurban.github.io/index.xml" type="application/rss+xml" title="Caterina Urban">
+  <link rel="feed" href="https://caterinaurban.github.io/index.xml" type="application/rss+xml" title="Caterina Urban">
   
 
   <link rel="manifest" href="https://caterinaurban.github.io/site.webmanifest">
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/project/">
+  <link rel="canonical" href="https://caterinaurban.github.io/talk/tuwien2015/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -95,13 +96,14 @@
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/project/">
-  <meta property="og:title" content="Projects | Caterina Urban">
-  <meta property="og:description" content="  Research Scientist (Chargé de Recherche)
-  ">
+  <meta property="og:url" content="https://caterinaurban.github.io/talk/tuwien2015/">
+  <meta property="og:title" content="Abstract Interpretation as Automated Deduction | Caterina Urban">
+  <meta property="og:description" content="Algorithmic deduction and abstract interpretation are two widely used and successful approaches to implementing program verifiers. A major impediment to combining these approaches is that their mathematical foundations and implementation approaches are fundamentally different. This paper presents a new, logical perspective on abstract interpreters that perform reachability analysis using non-relational domains. We encode reachability of a location in a control-flow graph as satisfiability in a monadic, second-order logic parameterized by a first-order theory. We show that three components of an abstract interpreter, the lattice, transformers and iteration algorithm, represent a first-order, substructural theory, parametric deduction and abduction in that theory, and second-order constraint propagation.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-10-17T17:19:55&#43;02:00">
+  <meta property="article:published_time" content="2015-08-14T00:00:00&#43;02:00">
+  
+  <meta property="article:modified_time" content="2015-08-14T00:00:00&#43;02:00">
   
 
   
@@ -141,9 +143,9 @@
          "@type": "WebPage",
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
-    "articleSection" : "project",
-    "name" : "Projects",
-    "headline" : "Projects",
+    "articleSection" : "talk",
+    "name" : "Abstract Interpretation as Automated Deduction",
+    "headline" : "Abstract Interpretation as Automated Deduction",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -151,16 +153,16 @@
     "publisher": "",
     "accountablePerson" : "",
     "copyrightHolder" : "",
-    "copyrightYear" : "2018",
-    "datePublished": "2018-10-17 17:19:55 \x2b0200 CEST",
-    "dateModified" : "2018-10-17 17:19:55 \x2b0200 CEST",
-    "url" : "https:\/\/caterinaurban.github.io\/project\/",
+    "copyrightYear" : "2015",
+    "datePublished": "2015-08-14 00:00:00 \x2b0200 CEST",
+    "dateModified" : "2015-08-14 00:00:00 \x2b0200 CEST",
+    "url" : "https:\/\/caterinaurban.github.io\/talk\/tuwien2015\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>Projects | Caterina Urban</title>
+  <title>Abstract Interpretation as Automated Deduction | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -312,41 +314,102 @@
   </div>
 </nav>
 
-
-
-
-
-<div class="universal-wrapper">
-
-  <h1>Projects</h1>
+<div class="pub" itemscope itemtype="http://schema.org/Event">
 
   
 
-  
-  
-  <div>
-    <h2><a href="https://caterinaurban.github.io/project/function/">FuncTion</a></h2>
-    <div class="article-style">
-      
-      Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug3 and the Microsoft Azure Storage service interruption. Termination bugs can also be exploited in denial-of-service attacks. Therefore, proving program termination is important for ensuring software reliability. The traditional method for proving termination is based on the synthesis of a ranking function, a well-founded metric which strictly decreases during the program execution. The goal of the project is the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination by means of abstract interpretation.
-      
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Abstract Interpretation as Automated Deduction</h1>
+      <span class="pub-authors" itemprop="author">
+        
+      </span>
+      <span class="pull-right">
+        
+
+      </span>
     </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://caterinaurban.github.io/project/lyra/">Lyra</a></h2>
-    <div class="article-style">
-      
-      The Lyra research project is a long-term research effort to enhance the <em>understanding</em> and <em>reliabilty</em> of data-driven decision-making software. It aims ad developing <strong>new <em>practical</em> and <em>accessible</em> analyses and tools</strong> to reason about and provide rigorous guarantees of the behavior of data analytics, big data, machine learning, and deep learning applications.
-      
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract" itemprop="text">Algorithmic deduction and abstract interpretation are two widely used and successful approaches to implementing program verifiers. A major impediment to combining these approaches is that their mathematical foundations and implementation approaches are fundamentally different. This paper presents a new, logical perspective on abstract interpreters that perform reachability analysis using non-relational domains. We encode reachability of a location in a control-flow graph as satisfiability in a monadic, second-order logic parameterized by a first-order theory. We show that three components of an abstract interpreter, the lattice, transformers and iteration algorithm, represent a first-order, substructural theory, parametric deduction and abduction in that theory, and second-order constraint propagation.</p>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            
+            Friday, August 14, 2015
+            <div class="talk-time">
+              
+                9:30 AM
+                
+                  &mdash; 10:30 AM
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
     </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
+          <div class="col-xs-12 col-sm-9">
+            <a href="http://www.vcla.at/2015/08/caterina-urban/" target="_blank" rel="noopener">
+            FORSYTE Seminar
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
+          <div class="col-xs-12 col-sm-9">TU Wien, Austria</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <p><img src="https://caterinaurban.github.io/img/TUWien2015.pdf" alt="TUWien2015" /></p>
+
+    </div>
+
+    
+
+
+
+
+
   </div>
-  
-
-  
-
-
 </div>
+
+
+
 <footer class="site-footer">
   <div class="container">
 
@@ -434,12 +497,22 @@
 
     
     
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous"></script>
+    
+    
 
     
     
 
   </body>
 </html>
-
-
 
