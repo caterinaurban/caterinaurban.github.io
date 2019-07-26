@@ -17,10 +17,13 @@
       
     
   
-  <meta name="description" content="We present a family of parameterized abstract domains for proving termination of imperative programs by abstract interpretation. The domains automatically synthesize piecewise-defined ranking functions and infer sufficient conditions for program termination. We have implemented a prototype static analyzer for proving termination of programs written in (a subset of) C and, using experimental evidence, we show that it is competitive with the state of the art and performs well on a wide variety of benchmarks.">
+  <meta name="description" content="We present new static analysis methods for proving liveness properties of programs. In particular, with reference to the hierarchy of temporal properties proposed by Manna and Pnueli, we focus on guarantee (i.e., “something good occurs at least once”) and recurrence (i.e., “something good occurs infinitely often”) temporal properties. 
+We generalize the abstract interpretation framework for termination presented by Cousot and Cousot. Specifically, static analyses of guarantee and recurrence temporal properties are systematically derived by abstraction of the program operational trace semantics. 
+These methods automatically infer sufficient preconditions for the temporal properties by reusing existing numerical abstract domains based on piecewise-defined ranking functions. We augment these abstract domains with new abstract operators, including a dual widening.
+To illustrate the potential of the proposed methods, we have implemented a research prototype static analyzer, for programs written in a C-like syntax, that yielded interesting preliminary results.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/inria2014a/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/eth2014/">
 
   
 
@@ -88,7 +91,7 @@
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/talk/inria2014a/">
+  <link rel="canonical" href="https://caterinaurban.github.io/talk/eth2014/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -96,14 +99,17 @@
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/talk/inria2014a/">
-  <meta property="og:title" content="Automatic Inference of Ranking Functions by Abstract Interpretation | Caterina Urban">
-  <meta property="og:description" content="We present a family of parameterized abstract domains for proving termination of imperative programs by abstract interpretation. The domains automatically synthesize piecewise-defined ranking functions and infer sufficient conditions for program termination. We have implemented a prototype static analyzer for proving termination of programs written in (a subset of) C and, using experimental evidence, we show that it is competitive with the state of the art and performs well on a wide variety of benchmarks."><meta property="og:image" content="https://caterinaurban.github.io/img/headers/collatz.png">
+  <meta property="og:url" content="https://caterinaurban.github.io/talk/eth2014/">
+  <meta property="og:title" content="Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation | Caterina Urban">
+  <meta property="og:description" content="We present new static analysis methods for proving liveness properties of programs. In particular, with reference to the hierarchy of temporal properties proposed by Manna and Pnueli, we focus on guarantee (i.e., “something good occurs at least once”) and recurrence (i.e., “something good occurs infinitely often”) temporal properties. 
+We generalize the abstract interpretation framework for termination presented by Cousot and Cousot. Specifically, static analyses of guarantee and recurrence temporal properties are systematically derived by abstraction of the program operational trace semantics. 
+These methods automatically infer sufficient preconditions for the temporal properties by reusing existing numerical abstract domains based on piecewise-defined ranking functions. We augment these abstract domains with new abstract operators, including a dual widening.
+To illustrate the potential of the proposed methods, we have implemented a research prototype static analyzer, for programs written in a C-like syntax, that yielded interesting preliminary results."><meta property="og:image" content="https://caterinaurban.github.io/img/headers/collatz.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2014-03-18T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2014-11-03T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2019-04-01T11:36:21&#43;02:00">
+  <meta property="article:modified_time" content="2014-11-03T00:00:00&#43;01:00">
   
 
   
@@ -144,8 +150,8 @@
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
     "articleSection" : "talk",
-    "name" : "Automatic Inference of Ranking Functions by Abstract Interpretation",
-    "headline" : "Automatic Inference of Ranking Functions by Abstract Interpretation",
+    "name" : "Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation",
+    "headline" : "Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -154,15 +160,15 @@
     "accountablePerson" : "",
     "copyrightHolder" : "",
     "copyrightYear" : "2014",
-    "datePublished": "2014-03-18 00:00:00 \x2b0100 CET",
-    "dateModified" : "2014-03-18 00:00:00 \x2b0100 CET",
-    "url" : "https:\/\/caterinaurban.github.io\/talk\/inria2014a\/",
+    "datePublished": "2014-11-03 00:00:00 \x2b0100 CET",
+    "dateModified" : "2014-11-03 00:00:00 \x2b0100 CET",
+    "url" : "https:\/\/caterinaurban.github.io\/talk\/eth2014\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>Automatic Inference of Ranking Functions by Abstract Interpretation | Caterina Urban</title>
+  <title>Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -331,7 +337,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Automatic Inference of Ranking Functions by Abstract Interpretation</h1>
+      <h1 itemprop="name">Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation</h1>
       <span class="pub-authors" itemprop="author">
         
       </span>
@@ -343,7 +349,10 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">We present a family of parameterized abstract domains for proving termination of imperative programs by abstract interpretation. The domains automatically synthesize piecewise-defined ranking functions and infer sufficient conditions for program termination. We have implemented a prototype static analyzer for proving termination of programs written in (a subset of) C and, using experimental evidence, we show that it is competitive with the state of the art and performs well on a wide variety of benchmarks.</p>
+      <p class="pub-abstract" itemprop="text">We present new static analysis methods for proving liveness properties of programs. In particular, with reference to the hierarchy of temporal properties proposed by Manna and Pnueli, we focus on guarantee (i.e., “something good occurs at least once”) and recurrence (i.e., “something good occurs infinitely often”) temporal properties.
+We generalize the abstract interpretation framework for termination presented by Cousot and Cousot. Specifically, static analyses of guarantee and recurrence temporal properties are systematically derived by abstraction of the program operational trace semantics.
+These methods automatically infer sufficient preconditions for the temporal properties by reusing existing numerical abstract domains based on piecewise-defined ranking functions. We augment these abstract domains with new abstract operators, including a dual widening.
+To illustrate the potential of the proposed methods, we have implemented a research prototype static analyzer, for programs written in a C-like syntax, that yielded interesting preliminary results.</p>
     
 
     <div class="row">
@@ -353,7 +362,7 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
             
-            Tuesday, March 18, 2014
+            Monday, November 3, 2014
             <div class="talk-time">
               
             </div>
@@ -370,9 +379,9 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
           <div class="col-xs-12 col-sm-9">
-            <a href="http://www.rocq.inria.fr/semdoc/" target="_blank" rel="noopener">
-            INRIA Junior Seminar
-            </a>
+            
+            
+            
           </div>
         </div>
       </div>
@@ -386,7 +395,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">🇫🇷 INRIA Paris-Rocquencourt, France</div>
+          <div class="col-xs-12 col-sm-9">🇨🇭 ETH Zurich, Switzerland</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -407,14 +416,6 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://www.rocq.inria.fr/semdoc/Presentations/20140318_CaterinaUrban.pdf">
-  Slides
-</a>
-
-
-<a class="btn btn-primary btn-outline" href="https://www.rocq.inria.fr/semdoc/Videos/Junior_Seminar18032014_C_Urban.mp4">
-  Video
-</a>
 
 
 
@@ -438,7 +439,9 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      <p><img src="https://caterinaurban.github.io/img/function.png" alt="FuncTion" /></p>
+      <p><img src="https://caterinaurban.github.io/img/ETH2014.pdf" alt="ETH2014" /></p>
+
+<p><img src="https://caterinaurban.github.io/img/function.png" alt="FuncTion" /></p>
 
     </div>
 
