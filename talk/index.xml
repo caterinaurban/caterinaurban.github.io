@@ -104,10 +104,28 @@
     
     <item>
       <title>Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation</title>
+      <link>https://caterinaurban.github.io/talk/uniud2014/</link>
+      <pubDate>Thu, 18 Dec 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/uniud2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/talk/eth2014/</link>
       <pubDate>Mon, 03 Nov 2014 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/eth2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
+      <link>https://caterinaurban.github.io/talk/qmul2014/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/qmul2014/</guid>
       <description></description>
     </item>
     
@@ -122,10 +140,37 @@
     
     <item>
       <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
+      <link>https://caterinaurban.github.io/talk/ucl2014/</link>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/ucl2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Abstract Domain to Infer Ordinal-Valued Ranking Functions</title>
+      <link>https://caterinaurban.github.io/talk/inria2014b/</link>
+      <pubDate>Wed, 28 May 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/inria2014b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/talk/inria2014a/</link>
       <pubDate>Tue, 18 Mar 2014 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inria2014a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
+      <link>https://caterinaurban.github.io/talk/ibm2014/</link>
+      <pubDate>Thu, 16 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/ibm2014/</guid>
       <description></description>
     </item>
     

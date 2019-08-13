@@ -17,10 +17,14 @@
       
     
   
-  <meta name="description" content="We present a family of parameterized abstract domains for proving termination of imperative programs by abstract interpretation. The domains automatically synthesize piecewise-defined lexicographic ranking functions and infer sufficient preconditions for program termination. The abstract domains are parameterized by a numerical abstract domain for state partitioning and a numerical abstract domain for ranking functions. This parameterization allows to easily tune the trade-off between precision and cost of the analysis. We describe instantiations of these domains with intervals, octagons, polyhedra and affine functions. We have implemented a prototype static analyzer for proving conditional termination of programs written in (a subset of) C and, using experimental evidence, we show that it is competitive with the state of the art and performs well on a wide variety of benchmarks.">
+  <meta name="description" content="We present a parameterized abstract domain for proving program termination by abstract interpretation. The domain automatically synthesizes piecewise-defined ranking functions and infers sufficient conditions for program termination. The analysis uses over-approximations but we prove its soundness, meaning that all program executions respecting these sufficient conditions are indeed terminating. 
+The abstract domain is parametric in the choices of the state abstraction, used for partitioning the program states, and the type of functions used as ranking functions. This parameterization allows to easily tune the trade-off between precision and cost of the analysis. We describe an instance of the abstract domain based on intervals and affine functions. 
+We also propose an extension of the abstract domain to ordinal-valued ranking function. Handling ordinals leads to a powerful approach for proving termination, which in particular subsumes existing techniques based on lexicographic ranking functions.
+To illustrate the potential of the proposed framework, we have implemented a research prototype static analyzer, for a small while-language, that yielded interesting preliminary results. In particular, we successfully analyzed small but intricate examples that are out of the reach of existing methods.
+">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/dagstuhl14352/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/ibm2014/">
 
   
 
@@ -88,7 +92,7 @@
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/talk/dagstuhl14352/">
+  <link rel="canonical" href="https://caterinaurban.github.io/talk/ibm2014/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -96,14 +100,18 @@
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/talk/dagstuhl14352/">
+  <meta property="og:url" content="https://caterinaurban.github.io/talk/ibm2014/">
   <meta property="og:title" content="Automatic Inference of Ranking Functions by Abstract Interpretation | Caterina Urban">
-  <meta property="og:description" content="We present a family of parameterized abstract domains for proving termination of imperative programs by abstract interpretation. The domains automatically synthesize piecewise-defined lexicographic ranking functions and infer sufficient preconditions for program termination. The abstract domains are parameterized by a numerical abstract domain for state partitioning and a numerical abstract domain for ranking functions. This parameterization allows to easily tune the trade-off between precision and cost of the analysis. We describe instantiations of these domains with intervals, octagons, polyhedra and affine functions. We have implemented a prototype static analyzer for proving conditional termination of programs written in (a subset of) C and, using experimental evidence, we show that it is competitive with the state of the art and performs well on a wide variety of benchmarks."><meta property="og:image" content="https://caterinaurban.github.io/img/headers/collatz.png">
+  <meta property="og:description" content="We present a parameterized abstract domain for proving program termination by abstract interpretation. The domain automatically synthesizes piecewise-defined ranking functions and infers sufficient conditions for program termination. The analysis uses over-approximations but we prove its soundness, meaning that all program executions respecting these sufficient conditions are indeed terminating. 
+The abstract domain is parametric in the choices of the state abstraction, used for partitioning the program states, and the type of functions used as ranking functions. This parameterization allows to easily tune the trade-off between precision and cost of the analysis. We describe an instance of the abstract domain based on intervals and affine functions. 
+We also propose an extension of the abstract domain to ordinal-valued ranking function. Handling ordinals leads to a powerful approach for proving termination, which in particular subsumes existing techniques based on lexicographic ranking functions.
+To illustrate the potential of the proposed framework, we have implemented a research prototype static analyzer, for a small while-language, that yielded interesting preliminary results. In particular, we successfully analyzed small but intricate examples that are out of the reach of existing methods.
+"><meta property="og:image" content="https://caterinaurban.github.io/img/headers/collatz.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2014-08-26T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2014-01-16T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2019-07-26T15:57:04&#43;02:00">
+  <meta property="article:modified_time" content="2014-01-16T00:00:00&#43;01:00">
   
 
   
@@ -154,9 +162,9 @@
     "accountablePerson" : "",
     "copyrightHolder" : "",
     "copyrightYear" : "2014",
-    "datePublished": "2014-08-26 00:00:00 \x2b0200 CEST",
-    "dateModified" : "2014-08-26 00:00:00 \x2b0200 CEST",
-    "url" : "https:\/\/caterinaurban.github.io\/talk\/dagstuhl14352\/",
+    "datePublished": "2014-01-16 00:00:00 \x2b0100 CET",
+    "dateModified" : "2014-01-16 00:00:00 \x2b0100 CET",
+    "url" : "https:\/\/caterinaurban.github.io\/talk\/ibm2014\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
@@ -343,7 +351,10 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">We present a family of parameterized abstract domains for proving termination of imperative programs by abstract interpretation. The domains automatically synthesize piecewise-defined lexicographic ranking functions and infer sufficient preconditions for program termination. The abstract domains are parameterized by a numerical abstract domain for state partitioning and a numerical abstract domain for ranking functions. This parameterization allows to easily tune the trade-off between precision and cost of the analysis. We describe instantiations of these domains with intervals, octagons, polyhedra and affine functions. We have implemented a prototype static analyzer for proving conditional termination of programs written in (a subset of) C and, using experimental evidence, we show that it is competitive with the state of the art and performs well on a wide variety of benchmarks.</p>
+      <p class="pub-abstract" itemprop="text">We present a parameterized abstract domain for proving program termination by abstract interpretation. The domain automatically synthesizes piecewise-defined ranking functions and infers sufficient conditions for program termination. The analysis uses over-approximations but we prove its soundness, meaning that all program executions respecting these sufficient conditions are indeed terminating.
+The abstract domain is parametric in the choices of the state abstraction, used for partitioning the program states, and the type of functions used as ranking functions. This parameterization allows to easily tune the trade-off between precision and cost of the analysis. We describe an instance of the abstract domain based on intervals and affine functions.
+We also propose an extension of the abstract domain to ordinal-valued ranking function. Handling ordinals leads to a powerful approach for proving termination, which in particular subsumes existing techniques based on lexicographic ranking functions.
+To illustrate the potential of the proposed framework, we have implemented a research prototype static analyzer, for a small while-language, that yielded interesting preliminary results. In particular, we successfully analyzed small but intricate examples that are out of the reach of existing methods.</p>
     
 
     <div class="row">
@@ -353,7 +364,7 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
             
-            Tuesday, August 26, 2014
+            Thursday, January 16, 2014
             <div class="talk-time">
               
             </div>
@@ -370,9 +381,9 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
           <div class="col-xs-12 col-sm-9">
-            <a href="http://www.dagstuhl.de/14352" target="_blank" rel="noopener">
-            Dagstuhl Seminar 14352 “Next Generation Static Software Analysis Tools”
-            </a>
+            
+            
+            
           </div>
         </div>
       </div>
@@ -386,7 +397,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">🇩🇪 Schloss Dagstuhl, Germany</div>
+          <div class="col-xs-12 col-sm-9">🇺🇸 IBM Thomas J. Watson Research Center, USA</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -430,9 +441,7 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      <p><img src="https://caterinaurban.github.io/img/dagstuhl14352.pdf" alt="dagstuhl14352" /></p>
-
-<p><img src="https://caterinaurban.github.io/img/function.png" alt="FuncTion" /></p>
+      <p><img src="https://caterinaurban.github.io/img/function.png" alt="FuncTion" /></p>
 
     </div>
 
