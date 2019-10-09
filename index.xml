@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Static Analysis of Data Science Software</title>
+      <link>https://caterinaurban.github.io/talk/sas2019/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/sas2019/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Static Analysis of Data Science Software</title>
@@ -178,16 +188,6 @@ Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
       
       <guid>https://caterinaurban.github.io/publication/jar2017/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Precise Widening Operators for Proving Termination by Abstract Interpretation</title>
-      <link>https://caterinaurban.github.io/publication/tacas2017/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/tacas2017/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>
