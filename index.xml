@@ -70,7 +70,16 @@
 
 &lt;p&gt;The Lyra research project is a long-term research effort to enhance the &lt;em&gt;understanding&lt;/em&gt; and &lt;em&gt;reliabilty&lt;/em&gt; of data-driven decision-making software. It aims ad developing &lt;strong&gt;new &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;accessible&lt;/em&gt; analyses and tools&lt;/strong&gt; to reason about and provide rigorous guarantees of the behavior of data analytics, big data, machine learning, and deep learning applications. For this purpose, we are currently targeting &lt;strong&gt;Python&lt;/strong&gt;, one of the most popular programming languages for data science. A prototype static analyzer is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/Lyra&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;student-projects&#34;&gt;Student Projects&lt;/h2&gt;
+&lt;h2 id=&#34;available-projects&#34;&gt;Available Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://caterinaurban.github.io/files/fairness.pdf&#34;&gt;Algorithmic Fairness Static Analysis for Neural Networks&lt;/a&gt;&lt;br /&gt;
+M2 Research Internship Proposal&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://caterinaurban.github.io/files/usage.pdf&#34;&gt;A General Framework for Input Data Uage Static Analysis&lt;/a&gt;&lt;br /&gt;
+M2 Research Internship Proposal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;completed-projects&#34;&gt;Completed Projects&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Radwa Sherif Abdelbar&lt;br /&gt;
