@@ -86,6 +86,8 @@ To remove this section, either delete content/home/teaching.md or edit the front
 Python Interface for the APRON Numerical Abstract Domain Library
 FuncTion  
 Abstract Interpretation-based Static Analysis for (Conditional) Termination (and Other CTL Properties)
+Libra 
+Perfectly Parallel Abstract Interpretation-based Fairness Certification for Neural Networks
 Lyra 
 Abstract Interpretation-based Static Analysis for Data Science Applications
 Typpete 
