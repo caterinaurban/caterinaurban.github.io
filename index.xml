@@ -11,6 +11,16 @@
     
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
+      <link>https://caterinaurban.github.io/talk/tau2020/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/tau2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/thales2020/</link>
       <pubDate>Thu, 09 Jan 2020 00:00:00 +0100</pubDate>
       
@@ -92,21 +102,19 @@
 
 &lt;p&gt;The Lyra research project is a long-term research effort to enhance the &lt;em&gt;understanding&lt;/em&gt; and &lt;em&gt;reliabilty&lt;/em&gt; of data-driven decision-making software. It aims ad developing &lt;strong&gt;new &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;accessible&lt;/em&gt; analyses and tools&lt;/strong&gt; to reason about and provide rigorous guarantees of the behavior of data analytics, big data, machine learning, and deep learning applications. For this purpose, we are currently targeting &lt;strong&gt;Python&lt;/strong&gt;, one of the most popular programming languages for data science. A prototype static analyzer is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/Lyra&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;available-projects&#34;&gt;Available Projects&lt;/h2&gt;
+&lt;!---
+## Available Projects
 
-&lt;h4 id=&#34;phd-more-topics-to-be-announced&#34;&gt;PhD (more topics to be announced)&lt;/h4&gt;
+#### PhD (more topics to be announced)
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://caterinaurban.github.io/files/ai_ai.pdf&#34;&gt;Formal Verification of Functional Correctness Properties of Neural Networks&lt;/a&gt;&lt;br /&gt;
-Application at: &lt;a href=&#34;https://jobs.inria.fr/public/classic/fr/offres/2019-01367&#34; target=&#34;_blank&#34;&gt;https://jobs.inria.fr/public/classic/fr/offres/2019-01367&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+* [Formal Verification of Functional Correctness Properties of Neural Networks](/files/ai_ai.pdf)&lt;br /&gt;
+Application at: https://jobs.inria.fr/public/classic/fr/offres/2019-01367
 
-&lt;h4 id=&#34;m2-research-internships&#34;&gt;M2 Research Internships&lt;/h4&gt;
+#### M2 Research Internships
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://caterinaurban.github.io/files/fairness.pdf&#34;&gt;Algorithmic Fairness Static Analysis for Neural Networks&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://caterinaurban.github.io/files/usage.pdf&#34;&gt;A General Framework for Input Data Uage Static Analysis&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+* [Algorithmic Fairness Static Analysis for Neural Networks](/files/fairness.pdf)&lt;br /&gt;
+* [A General Framework for Input Data Uage Static Analysis](/files/usage.pdf)&lt;br /&gt;
+---&gt;
 
 &lt;h2 id=&#34;completed-projects&#34;&gt;Completed Projects&lt;/h2&gt;
 
@@ -199,16 +207,6 @@ Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
       
       <guid>https://caterinaurban.github.io/talk/mpisws2018/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>An Abstract Interpretation Framework for Input Data Usage</title>
-      <link>https://caterinaurban.github.io/talk/shonan2017b/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/shonan2017b/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>
