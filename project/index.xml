@@ -18,7 +18,16 @@
       <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/project/function/</guid>
-      <description>Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug3 and the Microsoft Azure Storage service interruption. Termination bugs can also be exploited in denial-of-service attacks. Therefore, proving program termination is important for ensuring software reliability. The traditional method for proving termination is based on the synthesis of a ranking function, a well-founded metric which strictly decreases during the program execution. The goal of the project is the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination by means of abstract interpretation.</description>
+      <description>The goal of the FuncTion project was the development of a static analyzer which automatically infers ranking functions and sufficient precondition for &lt;strong&gt;program termination&lt;/strong&gt; (and other &lt;strong&gt;liveness properties&lt;/strong&gt;) by means of abstract interpretation.</description>
+    </item>
+    
+    <item>
+      <title>Libra</title>
+      <link>https://caterinaurban.github.io/project/libra/</link>
+      <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/project/libra/</guid>
+      <description>The goal of the Libra project is to develop new analyses and tools to reason about and certify &lt;strong&gt;fairness of decision-making software&lt;/strong&gt;.</description>
     </item>
     
     <item>
@@ -27,7 +36,7 @@
       <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/project/lyra/</guid>
-      <description>The Lyra research project is a long-term research effort to enhance the &lt;em&gt;understanding&lt;/em&gt; and &lt;em&gt;reliabilty&lt;/em&gt; of data-driven decision-making software. It aims ad developing &lt;strong&gt;new &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;accessible&lt;/em&gt; analyses and tools&lt;/strong&gt; to reason about and provide rigorous guarantees of the behavior of data analytics, big data, machine learning, and deep learning applications.</description>
+      <description>The Lyra research project is a long-term research effort to enhance the understanding and reliabilty of &lt;strong&gt;data science software&lt;/strong&gt;. It aims ad developing new practical and accessible analyses and tools to reason about and provide rigorous guarantees of the behavior of data analytics, big data, machine learning, and deep learning applications.</description>
     </item>
     
   </channel>

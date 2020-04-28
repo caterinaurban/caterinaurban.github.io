@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug3 and the Microsoft Azure Storage service interruption. Termination bugs can also be exploited in denial-of-service attacks. Therefore, proving program termination is important for ensuring software reliability. The traditional method for proving termination is based on the synthesis of a ranking function, a well-founded metric which strictly decreases during the program execution. The goal of the project is the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination by means of abstract interpretation.">
+  <meta name="description" content="The goal of the FuncTion project was the development of a static analyzer which automatically infers ranking functions and sufficient precondition for **program termination** (and other **liveness properties**) by means of abstract interpretation.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/project/function/">
@@ -98,7 +98,7 @@
   <meta property="og:site_name" content="Caterina Urban">
   <meta property="og:url" content="https://caterinaurban.github.io/project/function/">
   <meta property="og:title" content="FuncTion | Caterina Urban">
-  <meta property="og:description" content="Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug3 and the Microsoft Azure Storage service interruption. Termination bugs can also be exploited in denial-of-service attacks. Therefore, proving program termination is important for ensuring software reliability. The traditional method for proving termination is based on the synthesis of a ranking function, a well-founded metric which strictly decreases during the program execution. The goal of the project is the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination by means of abstract interpretation."><meta property="og:image" content="https://caterinaurban.github.io/img/headers/collatz.png">
+  <meta property="og:description" content="The goal of the FuncTion project was the development of a static analyzer which automatically infers ranking functions and sufficient precondition for **program termination** (and other **liveness properties**) by means of abstract interpretation."><meta property="og:image" content="https://caterinaurban.github.io/img/headers/collatz.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-10-17T17:19:55&#43;02:00">
@@ -146,7 +146,7 @@
     "articleSection" : "project",
     "name" : "FuncTion",
     "headline" : "FuncTion",
-    "description" : "Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug3 and the Microsoft Azure Storage service interruption. Termination bugs can also be exploited in denial-of-service attacks. Therefore, proving program termination is important for ensuring software reliability. The traditional method for proving termination is based on the synthesis of a ranking function, a well-founded metric which strictly decreases during the program execution. The goal of the project is the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination by means of abstract interpretation.",
+    "description" : "The goal of the FuncTion project was the development of a static analyzer which automatically infers ranking functions and sufficient precondition for \x3cstrong\x3eprogram termination\x3c\/strong\x3e (and other \x3cstrong\x3eliveness properties\x3c\/strong\x3e) by means of abstract interpretation.",
     "inLanguage" : "en-US",
     "author" : "",
     "creator" : "",
@@ -157,7 +157,7 @@
     "datePublished": "2018-10-17 17:19:55 \x2b0200 CEST",
     "dateModified" : "2018-10-17 17:19:55 \x2b0200 CEST",
     "url" : "https:\/\/caterinaurban.github.io\/project\/function\/",
-    "wordCount" : "0",
+    "wordCount" : "113",
     "keywords" : [ "Blog" ]
 }
 </script>
@@ -343,7 +343,13 @@
     
 
     <div class="article-style" itemprop="articleBody">
-      
+      <p>Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug<sup><a href="http://techcrunch.com/2008/12/31/zune-bug-explained-in-detail/" target="_blank">[1]</a></sup> and the Microsoft Azure Storage service interruption<sup><a href="http://azure.microsoft.com/blog/2014/11/19/update-on-azure-storage-
+service- interruption/" target="_blank">[2]</a></sup>. Termination bugs can also be exploited in denial-of-service attacks<sup><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1890" target="_blank">[3]</a></sup>. Therefore, proving program termination is important for ensuring software reliability.</p>
+
+<p><img src="https://caterinaurban.github.io/img/function.png" alt="FuncTion" /></p>
+
+<p>The traditional method for proving termination is based on the synthesis of a <span style="color:rgb(254, 200, 21)"><strong>ranking function</strong></span>, a well-founded metric which strictly decreases during the program execution. The goal of the project was the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination (and other liveness properties) by means of abstract interpretation. The static analyzer is open-source and available on <a href="https://github.com/caterinaurban/function" target="_blank"> GitHub</a>.</p>
+
     </div>
 
     

@@ -17,13 +17,10 @@
       
     
   
-  <meta name="description" content="Recently, there is growing concern that machine-learning models, which currently assist or even automate decision making, reproduce, and in the worst case reinforce, bias of the training data. The development of tools and techniques for certifying fairness of these models or describing their biased behavior is, therefore, critical. In this paper, we propose a *perfectly parallel* static analysis for certifying *causal fairness* of feed-forward neural networks used for classification of tabular data. When certification succeeds, our approach provides definite guarantees, otherwise, it describes and quantifies the biased behavior. We design the analysis to be *sound*, in 
-practice also *exact*, and configurable in terms of scalability and precision, thereby
-enabling *pay-as-you-go certification*. We implement our approach in an open-source tool and demonstrate its effectiveness on models trained with popular datasets.
-">
+  <meta name="description" content="The goal of the Libra project is to develop new analyses and tools to reason about and certify **fairness of decision-making software**.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/tau2020/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/project/libra/">
 
   
 
@@ -91,7 +88,7 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/talk/tau2020/">
+  <link rel="canonical" href="https://caterinaurban.github.io/project/libra/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -99,17 +96,14 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/talk/tau2020/">
-  <meta property="og:title" content="Perfectly Parallel Fairness Certification of Neural Networks | Caterina Urban">
-  <meta property="og:description" content="Recently, there is growing concern that machine-learning models, which currently assist or even automate decision making, reproduce, and in the worst case reinforce, bias of the training data. The development of tools and techniques for certifying fairness of these models or describing their biased behavior is, therefore, critical. In this paper, we propose a *perfectly parallel* static analysis for certifying *causal fairness* of feed-forward neural networks used for classification of tabular data. When certification succeeds, our approach provides definite guarantees, otherwise, it describes and quantifies the biased behavior. We design the analysis to be *sound*, in 
-practice also *exact*, and configurable in terms of scalability and precision, thereby
-enabling *pay-as-you-go certification*. We implement our approach in an open-source tool and demonstrate its effectiveness on models trained with popular datasets.
-"><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
+  <meta property="og:url" content="https://caterinaurban.github.io/project/libra/">
+  <meta property="og:title" content="Libra | Caterina Urban">
+  <meta property="og:description" content="The goal of the Libra project is to develop new analyses and tools to reason about and certify **fairness of decision-making software**."><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2020-01-09T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2018-10-17T17:19:55&#43;02:00">
   
-  <meta property="article:modified_time" content="2020-04-28T14:02:37&#43;02:00">
+  <meta property="article:modified_time" content="2018-10-17T17:19:55&#43;02:00">
   
 
   
@@ -149,26 +143,26 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
          "@type": "WebPage",
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
-    "articleSection" : "talk",
-    "name" : "Perfectly Parallel Fairness Certification of Neural Networks",
-    "headline" : "Perfectly Parallel Fairness Certification of Neural Networks",
-    "description" : "",
+    "articleSection" : "project",
+    "name" : "Libra",
+    "headline" : "Libra",
+    "description" : "The goal of the Libra project is to develop new analyses and tools to reason about and certify \x3cstrong\x3efairness of decision-making software\x3c\/strong\x3e.",
     "inLanguage" : "en-US",
     "author" : "",
     "creator" : "",
     "publisher": "",
     "accountablePerson" : "",
     "copyrightHolder" : "",
-    "copyrightYear" : "2020",
-    "datePublished": "2020-01-09 00:00:00 \x2b0100 CET",
-    "dateModified" : "2020-01-09 00:00:00 \x2b0100 CET",
-    "url" : "https:\/\/caterinaurban.github.io\/talk\/tau2020\/",
-    "wordCount" : "0",
+    "copyrightYear" : "2018",
+    "datePublished": "2018-10-17 17:19:55 \x2b0200 CEST",
+    "dateModified" : "2018-10-17 17:19:55 \x2b0200 CEST",
+    "url" : "https:\/\/caterinaurban.github.io\/project\/libra\/",
+    "wordCount" : "186",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>Perfectly Parallel Fairness Certification of Neural Networks | Caterina Urban</title>
+  <title>Libra | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -320,7 +314,8 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/Event">
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
 <div class="article-header">
@@ -337,10 +332,8 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Perfectly Parallel Fairness Certification of Neural Networks</h1>
-      <span class="pub-authors" itemprop="author">
-        
-      </span>
+      <h1 itemprop="name">Libra</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
 
@@ -348,122 +341,280 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
     </div>
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">Recently, there is growing concern that machine-learning models, which currently assist or even automate decision making, reproduce, and in the worst case reinforce, bias of the training data. The development of tools and techniques for certifying fairness of these models or describing their biased behavior is, therefore, critical. In this paper, we propose a <em>perfectly parallel</em> static analysis for certifying <em>causal fairness</em> of feed-forward neural networks used for classification of tabular data. When certification succeeds, our approach provides definite guarantees, otherwise, it describes and quantifies the biased behavior. We design the analysis to be <em>sound</em>, in
-practice also <em>exact</em>, and configurable in terms of scalability and precision, thereby
-enabling <em>pay-as-you-go certification</em>. We implement our approach in an open-source tool and demonstrate its effectiveness on models trained with popular datasets.</p>
-    
 
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            
-            Sunday, May 24, 2020
-            <div class="talk-time">
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
+    <div class="article-style" itemprop="articleBody">
+      <p>Nowadays we are witnessing widespread adoption of decision-making software with far-reaching societal impact, e.g., in fiels such as social welfare, criminal justice, and even health care.
+It is not difficult to envision that in the future most of the decisions in society will be delegated to software.
+As decision-making software becomes more and more widespread, a number of recent cases have evidenced the importance of ensuring <span style="color:rgb(254, 200, 21)"><strong>software fairness</strong></span><sup><a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" target="_blank">[1]</a></sup><sup><a href="https://www.nature.com/articles/d41586-019-03228-6" target="_blank">[2]</a></sup>.
+<figure>
+  <img src="https://caterinaurban.github.io/img/bias.png">
+  <figcaption><center>Even software products that we regularly use are biased!</center></figcaption>
+</figure>
+Going forward, decision-making software will be subject to more and more legal regulations as well as administrative audits.</p>
+
+<!---
+However, programming errors are not the only concern. A number of recent cases have evidenced the importance of ensuring **data privacy**<sup>[[3]](https://www.nytimes.com/2012/02/19/magazine/shopping- habits.html)</sup> as well as **software fairness and non-discrimination**<sup>[[4]](https://www.nytimes.com/2017/10/26/opinion/algorithm- compas- sentencing- bias.html)</sup>. Going forward, decision-making software will be subject to more and more legal regulations (e.g., the European General Data Protection Regulation adopted in 2016) as well as administrative audits.
+--->
+
+<p><img src="https://caterinaurban.github.io/img/libra.png" alt="Lyra" /></p>
+
+<p>The goal of the Libra research project is to meet these needs and develop <strong>new analyses and tools to</strong> reason about and <strong>certify fairness</strong> of decision-making software.</p>
+
+<p>A prototype static analyzer for certifying fairness of feed-forward neural networks used for classification of tabular data is open-source and available on <a href="https://github.com/caterinaurban/Libra" target="_blank"> GitHub</a>.</p>
+
+<!---
+## Available Projects
+
+#### PhD (more topics to be announced)
+
+* [Formal Verification of Functional Correctness Properties of Neural Networks](/files/ai_ai.pdf)<br />
+Application at: https://jobs.inria.fr/public/classic/fr/offres/2019-01367
+
+#### M2 Research Internships
+
+* [Algorithmic Fairness Static Analysis for Neural Networks](/files/fairness.pdf)<br />
+* [A General Framework for Input Data Uage Static Analysis](/files/usage.pdf)<br />
+--->
+
     </div>
-    <div class="visible-xs space-below"></div>
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
-          <div class="col-xs-12 col-sm-9">
-            
-            PL &amp; Systems Seminar
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
 
     
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">🇮🇱 Tel Aviv University, Israel (remote)</div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
+
+
+
+
+
+    
+    
     
 
     
-    <div class="row" style="padding-top: 10px">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
-          <div class="col-xs-12 col-sm-9">
+      
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    <strong>Caterina Urban</strong>, Maria Christakis, Valentin Wüstholz, Fuyuan Zhang</span>.
+  <a href="https://caterinaurban.github.io/publication/fairness/" itemprop="name">Perfectly Parallel Fairness Certification of Neural Networks</a>.
+  CoRR abs/1912.02499,
+  2019.
+  <p>
 
-            
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/fairness.pdf">
+<a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/pdf/fairness.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/caterinaurban/Libra">
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/caterinaurban/Libra" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/libra/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/lyra/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/bib/fairness.bib" target="_blank" rel="noopener">
+  BibTeX
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1912.02499" target="_blank" rel="noopener">
+  arXiv
+</a>
+
+</p>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+      
+        <h2>Talks</h2>
+        
+          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="https://caterinaurban.github.io/talk/tau2020/">Perfectly Parallel Fairness Certification of Neural Networks</a></span>
+  <div itemprop="startDate">
+    
+    Sunday, May 24, 2020
+    
+  </div>
+  <div class="talk-metadata">
+    
+            PL &amp; Systems Seminar, 🇮🇱 Tel Aviv University, Israel (remote)
+	
+  </div>
+  <div class="talk-links">
+    
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/pdf/fairness.pdf">
+  PDF
+</a>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/caterinaurban/Libra">
   Code
 </a>
 
 
   
-  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/libra/">
+  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/libra/">
     Project
   </a>
   
 
   
-  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/lyra/">
+  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/lyra/">
     Project
   </a>
   
-
-
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style">
-      <p><img src="https://caterinaurban.github.io/img/libra.png" alt="Libra" /></p>
-
-    </div>
-
-    
-
-
 
 
 
   </div>
 </div>
+
+        
+          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="https://caterinaurban.github.io/talk/thales2020/">Perfectly Parallel Fairness Certification of Neural Networks</a></span>
+  <div itemprop="startDate">
+    
+    Friday, May 15, 2020
+    
+  </div>
+  <div class="talk-metadata">
+    
+		🇫🇷 Thales Research &amp; Technology, France (remote)
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/pdf/fairness.pdf">
+  PDF
+</a>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/caterinaurban/Libra">
+  Code
+</a>
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/libra/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/lyra/">
+    Project
+  </a>
+  
+
+
+
+  </div>
+</div>
+
+        
+          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="https://caterinaurban.github.io/talk/sas2019/">Static Analysis of Data Science Software</a></span>
+  <div itemprop="startDate">
+    
+    Wednesday, October 9, 2019
+    
+  </div>
+  <div class="talk-metadata">
+    
+            26th Static Analysis Symposium (SAS 2019)”, 🇵🇹 Porto, Portugal
+	
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/pdf/sas2019slides.pdf">
+  Slides
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/DX_wOrq9J18">
+  Video
+</a>
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/lyra/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/libra/">
+    Project
+  </a>
+  
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://twitter.com/l_gonnord/status/1181915304072482817">
+  Twitter
+</a>
+
+
+  </div>
+</div>
+
+        
+      
+    
+
+  </div>
+</article>
 
 
 
@@ -552,18 +703,6 @@ enabling <em>pay-as-you-go certification</em>. We implement our approach in an o
       <script>hljs.initHighlightingOnLoad();</script>
     
 
-    
-    
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        CommonHTML: { linebreaks: { automatic: true } },
-        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
-        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
-        messageStyle: 'none'
-      });
-    </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous"></script>
     
     
 

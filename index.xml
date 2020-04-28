@@ -81,7 +81,54 @@
       <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/project/function/</guid>
-      <description></description>
+      <description>&lt;p&gt;Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug&lt;sup&gt;&lt;a href=&#34;http://techcrunch.com/2008/12/31/zune-bug-explained-in-detail/&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt; and the Microsoft Azure Storage service interruption&lt;sup&gt;&lt;a href=&#34;http://azure.microsoft.com/blog/2014/11/19/update-on-azure-storage-
+service- interruption/&#34; target=&#34;_blank&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;. Termination bugs can also be exploited in denial-of-service attacks&lt;sup&gt;&lt;a href=&#34;http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1890&#34; target=&#34;_blank&#34;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. Therefore, proving program termination is important for ensuring software reliability.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The traditional method for proving termination is based on the synthesis of a &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;ranking function&lt;/strong&gt;&lt;/span&gt;, a well-founded metric which strictly decreases during the program execution. The goal of the project was the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination (and other liveness properties) by means of abstract interpretation. The static analyzer is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/function&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Libra</title>
+      <link>https://caterinaurban.github.io/project/libra/</link>
+      <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/project/libra/</guid>
+      <description>&lt;p&gt;Nowadays we are witnessing widespread adoption of decision-making software with far-reaching societal impact, e.g., in fiels such as social welfare, criminal justice, and even health care.
+It is not difficult to envision that in the future most of the decisions in society will be delegated to software.
+As decision-making software becomes more and more widespread, a number of recent cases have evidenced the importance of ensuring &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;software fairness&lt;/strong&gt;&lt;/span&gt;&lt;sup&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-019-03228-6&#34; target=&#34;_blank&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.
+&lt;figure&gt;
+  &lt;img src=&#34;https://caterinaurban.github.io/img/bias.png&#34;&gt;
+  &lt;figcaption&gt;&lt;center&gt;Even software products that we regularly use are biased!&lt;/center&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+Going forward, decision-making software will be subject to more and more legal regulations as well as administrative audits.&lt;/p&gt;
+
+&lt;!---
+However, programming errors are not the only concern. A number of recent cases have evidenced the importance of ensuring **data privacy**&lt;sup&gt;[[3]](https://www.nytimes.com/2012/02/19/magazine/shopping- habits.html)&lt;/sup&gt; as well as **software fairness and non-discrimination**&lt;sup&gt;[[4]](https://www.nytimes.com/2017/10/26/opinion/algorithm- compas- sentencing- bias.html)&lt;/sup&gt;. Going forward, decision-making software will be subject to more and more legal regulations (e.g., the European General Data Protection Regulation adopted in 2016) as well as administrative audits.
+---&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The goal of the Libra research project is to meet these needs and develop &lt;strong&gt;new analyses and tools to&lt;/strong&gt; reason about and &lt;strong&gt;certify fairness&lt;/strong&gt; of decision-making software.&lt;/p&gt;
+
+&lt;p&gt;A prototype static analyzer for certifying fairness of feed-forward neural networks used for classification of tabular data is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/Libra&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!---
+## Available Projects
+
+#### PhD (more topics to be announced)
+
+* [Formal Verification of Functional Correctness Properties of Neural Networks](/files/ai_ai.pdf)&lt;br /&gt;
+Application at: https://jobs.inria.fr/public/classic/fr/offres/2019-01367
+
+#### M2 Research Internships
+
+* [Algorithmic Fairness Static Analysis for Neural Networks](/files/fairness.pdf)&lt;br /&gt;
+* [A General Framework for Input Data Uage Static Analysis](/files/usage.pdf)&lt;br /&gt;
+---&gt;
+</description>
     </item>
     
     <item>
@@ -94,13 +141,13 @@
 
 &lt;p&gt;Nowadays, thanks to advances in machine learning and the availability of massive amounts of data, computer software plays an increasingly important role in assisting or even autonomously making decisions with far-reaching societal impact, e.g., in fields such as social welfare, criminal justice, and even health care.&lt;/p&gt;
 
-&lt;p&gt;As data-driven decision-making software becomes more and more widespread, we become increasingly vulnerable to &lt;strong&gt;programming errors&lt;/strong&gt;. In particular, programming errors that do not cause failures can have serious consequences since code that produces an erroneous but plausible result gives no indication that something went wrong. In financial applications, flawed code can cause losses of billions of dollars&lt;sup&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/2012_JPMorgan_Chase_trading_loss&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. In medical applications, programming errors are deadly&lt;sup&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Therac-25&#34; target=&#34;_blank&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;As data science software becomes more and more widespread, we become increasingly vulnerable to &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;programming errors&lt;/strong&gt;&lt;/span&gt;. In particular, programming errors that do not cause failures can have serious consequences since code that produces an erroneous but plausible result gives no indication that something went wrong. In financial applications, flawed code can cause losses of billions of dollars&lt;sup&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/2012_JPMorgan_Chase_trading_loss&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. In medical applications, programming errors are deadly&lt;sup&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Therac-25&#34; target=&#34;_blank&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p&gt;However, programming errors are not the only concern. A number of recent cases have evidenced the importance of ensuring &lt;strong&gt;data privacy&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://www.nytimes.com/2012/02/19/magazine/shopping- habits.html&#34; target=&#34;_blank&#34;&gt;[3]&lt;/a&gt;&lt;/sup&gt; as well as &lt;strong&gt;software fairness and non-discrimination&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://www.nytimes.com/2017/10/26/opinion/algorithm- compas- sentencing- bias.html&#34; target=&#34;_blank&#34;&gt;[4]&lt;/a&gt;&lt;/sup&gt;. Going forward, decision-making software will be subject to more and more legal regulations (e.g., the European General Data Protection Regulation adopted in 2016) as well as administrative audits.&lt;/p&gt;
+&lt;p&gt;However, programming errors are not the only concern. A number of recent cases have evidenced the importance of ensuring &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;data privacy&lt;/strong&gt;&lt;/span&gt;&lt;sup&gt;&lt;a href=&#34;https://www.nytimes.com/2012/02/19/magazine/shopping- habits.html&#34; target=&#34;_blank&#34;&gt;[3]&lt;/a&gt;&lt;/sup&gt; as well as &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;software fairness&lt;/strong&gt;&lt;/span&gt;&lt;sup&gt;&lt;a href=&#34;https://www.nytimes.com/2017/10/26/opinion/algorithm- compas- sentencing- bias.html&#34; target=&#34;_blank&#34;&gt;[4]&lt;/a&gt;&lt;/sup&gt;. Going forward, data science software will be subject to more and more legal regulations (e.g., the European General Data Protection Regulation adopted in 2016) as well as administrative audits.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The Lyra research project is a long-term research effort to enhance the &lt;em&gt;understanding&lt;/em&gt; and &lt;em&gt;reliabilty&lt;/em&gt; of data-driven decision-making software. It aims ad developing &lt;strong&gt;new &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;accessible&lt;/em&gt; analyses and tools&lt;/strong&gt; to reason about and provide rigorous guarantees of the behavior of data analytics, big data, machine learning, and deep learning applications. For this purpose, we are currently targeting &lt;strong&gt;Python&lt;/strong&gt;, one of the most popular programming languages for data science. A prototype static analyzer is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/Lyra&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The Lyra research project is a long-term research effort to enhance the &lt;em&gt;understanding&lt;/em&gt; and &lt;em&gt;reliabilty&lt;/em&gt; of data science software. It aims ad developing &lt;strong&gt;new &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;accessible&lt;/em&gt; analyses and tools&lt;/strong&gt; to reason about and provide rigorous guarantees of the behavior of data analytics, big data, machine learning, and deep learning applications. For this purpose, we are currently targeting &lt;strong&gt;Python&lt;/strong&gt;, one of the most popular programming languages for data science. A prototype static analyzer is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/Lyra&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;!---
 ## Available Projects
@@ -197,15 +244,6 @@ Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
       <pubDate>Thu, 22 Mar 2018 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/stevens2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Static Program Analysis for a Software-Driven Society</title>
-      <link>https://caterinaurban.github.io/talk/mpisws2018/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/mpisws2018/</guid>
       <description></description>
     </item>
     
