@@ -17,13 +17,10 @@
       
     
   
-  <meta name="description" content="Data science software is playing an increasingly important role in every aspect of our daily lives and is even slowly creeping into mission critical scenarios, despite being often opaque and unpredictable. 
-
-In this paper, we will discuss some key challenges and a number of research questions that we are currently addressing in developing static analysis methods and tools for data science software.
-">
+  <meta name="description" content="">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/sas2019/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/dsv2020/">
 
   
 
@@ -91,7 +88,7 @@ In this paper, we will discuss some key challenges and a number of research ques
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/talk/sas2019/">
+  <link rel="canonical" href="https://caterinaurban.github.io/talk/dsv2020/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -99,17 +96,14 @@ In this paper, we will discuss some key challenges and a number of research ques
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/talk/sas2019/">
-  <meta property="og:title" content="Static Analysis of Data Science Software | Caterina Urban">
-  <meta property="og:description" content="Data science software is playing an increasingly important role in every aspect of our daily lives and is even slowly creeping into mission critical scenarios, despite being often opaque and unpredictable. 
-
-In this paper, we will discuss some key challenges and a number of research questions that we are currently addressing in developing static analysis methods and tools for data science software.
-"><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
+  <meta property="og:url" content="https://caterinaurban.github.io/talk/dsv2020/">
+  <meta property="og:title" content="A Static Analyzer for Data Science Software | Caterina Urban">
+  <meta property="og:description" content=""><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-10-09T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2020-07-06T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2020-04-28T15:06:31&#43;02:00">
+  <meta property="article:modified_time" content="2020-07-06T00:00:00&#43;02:00">
   
 
   
@@ -150,8 +144,8 @@ In this paper, we will discuss some key challenges and a number of research ques
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
     "articleSection" : "talk",
-    "name" : "Static Analysis of Data Science Software",
-    "headline" : "Static Analysis of Data Science Software",
+    "name" : "A Static Analyzer for Data Science Software",
+    "headline" : "A Static Analyzer for Data Science Software",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -159,16 +153,16 @@ In this paper, we will discuss some key challenges and a number of research ques
     "publisher": "",
     "accountablePerson" : "",
     "copyrightHolder" : "",
-    "copyrightYear" : "2019",
-    "datePublished": "2019-10-09 00:00:00 \x2b0200 CEST",
-    "dateModified" : "2019-10-09 00:00:00 \x2b0200 CEST",
-    "url" : "https:\/\/caterinaurban.github.io\/talk\/sas2019\/",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-07-06 00:00:00 \x2b0200 CEST",
+    "dateModified" : "2020-07-06 00:00:00 \x2b0200 CEST",
+    "url" : "https:\/\/caterinaurban.github.io\/talk\/dsv2020\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>Static Analysis of Data Science Software | Caterina Urban</title>
+  <title>A Static Analyzer for Data Science Software | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -356,7 +350,7 @@ In this paper, we will discuss some key challenges and a number of research ques
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Static Analysis of Data Science Software</h1>
+      <h1 itemprop="name">A Static Analyzer for Data Science Software</h1>
       <span class="pub-authors" itemprop="author">
         
       </span>
@@ -367,11 +361,7 @@ In this paper, we will discuss some key challenges and a number of research ques
     </div>
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text"><p>Data science software is playing an increasingly important role in every aspect of our daily lives and is even slowly creeping into mission critical scenarios, despite being often opaque and unpredictable.</p>
-
-<p>In this paper, we will discuss some key challenges and a number of research questions that we are currently addressing in developing static analysis methods and tools for data science software.</p>
-</p>
+      <br>
     
 
     <div class="row">
@@ -381,7 +371,7 @@ In this paper, we will discuss some key challenges and a number of research ques
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
             
-            Wednesday, October 9, 2019
+            Monday, July 20, 2020
             <div class="talk-time">
               
             </div>
@@ -398,8 +388,8 @@ In this paper, we will discuss some key challenges and a number of research ques
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
           <div class="col-xs-12 col-sm-9">
-            <a href="https://easychair.org/smart-program/SAS2019/" target="_blank" rel="noopener">
-            26th Static Analysis Symposium (SAS 2019)
+            <a href="https://smackers.github.io/democratizing-software-verification-workshop-2020/" target="_blank" rel="noopener">
+            Workshop on Democratizing Software Verification (DSV 2020)
             </a>
           </div>
         </div>
@@ -414,7 +404,7 @@ In this paper, we will discuss some key challenges and a number of research ques
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">🇵🇹 Porto, Portugal</div>
+          <div class="col-xs-12 col-sm-9">🇺🇸 Los Angeles, USA (remote)</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -435,14 +425,6 @@ In this paper, we will discuss some key challenges and a number of research ques
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/sas2019slides.pdf">
-  Slides
-</a>
-
-
-<a class="btn btn-primary btn-outline" href="https://youtu.be/DX_wOrq9J18">
-  Video
-</a>
 
 
 
@@ -452,16 +434,6 @@ In this paper, we will discuss some key challenges and a number of research ques
   </a>
   
 
-  
-  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/libra/">
-    Project
-  </a>
-  
-
-
-<a class="btn btn-primary btn-outline" href="https://twitter.com/l_gonnord/status/1181915304072482817">
-  Twitter
-</a>
 
 
 
@@ -476,9 +448,7 @@ In this paper, we will discuss some key challenges and a number of research ques
     <div class="space-below"></div>
 
     <div class="article-style">
-      <p><img src="https://www.di.ens.fr/~urban/SAS2019.gif" alt="SAS2019" /></p>
-
-<p><img src="https://caterinaurban.github.io/img/lyra.png" alt="Lyra" /></p>
+      <p><img src="https://caterinaurban.github.io/img/lyra.png" alt="Lyra" /></p>
 
     </div>
 

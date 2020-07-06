@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Static Analyzer for Data Science Software</title>
+      <link>https://caterinaurban.github.io/talk/dsv2020/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/dsv2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
@@ -234,18 +244,6 @@ Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
       
       <guid>https://caterinaurban.github.io/publication/cav2018b/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/cav2018b.png&#34; alt=&#34;cav2018b&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An Abstract Interpretation Framework for Input Data Usage</title>
-      <link>https://caterinaurban.github.io/publication/esop2018/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/esop2018/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/esop2018.png&#34; alt=&#34;esop2018&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
