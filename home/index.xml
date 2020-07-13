@@ -67,22 +67,12 @@
     </item>
     
     <item>
-      <title>Custom Section</title>
-      <link>https://caterinaurban.github.io/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
-    </item>
-    
-    <item>
       <title>Students</title>
       <link>https://caterinaurban.github.io/home/students/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/home/students/</guid>
-      <description> PhD Students  Denis Mazzucato (Oct 2020 -)  Interns  Serge Durand (Jun - Aug 2020) ENS Paris-Saclay, France (M1) Marco Zanella (May - Aug 2020) University of Padova, Italy (PhD)  Former Students </description>
+      <description> PhD Students  Denis Mazzucato (Oct 2020 -)  Interns  Serge Durand (Jun - Aug 2020) ENS Paris-Saclay, France (M1) Marco Zanella (May - Aug 2020) University of Padova, Italy (PhD)  </description>
     </item>
     
     <item>
@@ -92,6 +82,15 @@ To remove this section, either delete content/home/teaching.md or edit the front
       
       <guid>https://caterinaurban.github.io/home/tags/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://caterinaurban.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/home/teaching/</guid>
+      <description> Year 2020-2021  Abstract Interpretation: Application to Verification and Static Analysis M2, Master Parisien de Recherche en Informatique (MPRI), Université de Paris  </description>
     </item>
     
     <item>
