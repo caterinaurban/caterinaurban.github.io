@@ -4,8 +4,9 @@
     
     <url>
     
-      <loc>https://caterinaurban.github.io/talk/dsv2020/</loc>
-      <lastmod>2020-07-19T17:58:53+02:00</lastmod>
+      <loc>https://caterinaurban.github.io/publication_types/4/</loc>
+      <lastmod>2020-07-21T12:12:07+02:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -14,8 +15,36 @@
     <url>
     
       <loc>https://caterinaurban.github.io/</loc>
-      <lastmod>2020-07-19T17:58:53+02:00</lastmod>
+      <lastmod>2020-07-21T12:12:07+02:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/</loc>
+      <lastmod>2020-07-21T12:12:07+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication/shape/</loc>
+      <lastmod>2020-07-21T12:12:07+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/talk/dsv2020/</loc>
+      <lastmod>2020-07-20T11:53:21+02:00</lastmod>
     </url>
     
   
@@ -59,28 +88,8 @@
     
     <url>
     
-      <loc>https://caterinaurban.github.io/publication_types/4/</loc>
-      <lastmod>2020-06-16T10:59:45+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://caterinaurban.github.io/publication/fairness/</loc>
       <lastmod>2020-06-16T10:59:45+02:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication_types/</loc>
-      <lastmod>2020-06-16T10:59:45+02:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

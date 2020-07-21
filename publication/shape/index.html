@@ -17,13 +17,11 @@
       
     
   
-  <meta name="description" content="Nowadays, data science software and notably machine learning plays an increasingly important role in our daily lives. It thus becomes of paramount importance to have effective verification tools available to prove its correctness and reliability.
-
-In this talk we will take you sightseeing through the architecture of Lyra, a static analyzer for Python components of a data science pipeline. The main attractions will be the submodules expressly designed to be stand-alone and reusable by other verification tools as well as the abstract domains designed to address new and challenging research problems that arise from targeting data science software.
+  <meta name="description" content="Nowadays, as machine-learned software quickly permeates our society, we are becoming increasingly vulnerable to programming errors in the data pre-processing or training software, as well as errors in the data itself. In this paper, we propose a static shape analysis framework for input data of data-processing programs. Our analysis automatically infers necessary conditions on the structure and values of the data read by a data-processing program. Our framework builds on a family of underlying abstract domains, extended to indirectly reason about the input data rather than simply reasoning about the program variables. The choice of these abstract domain is a parameter of the analysis. We describe various instances built from existing abstract domains. The proposed approach is implemented in an open-source static analyzer for Python programs. We demonstrate its potential on a number of representative examples.
 ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/dsv2020/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication/shape/">
 
   
 
@@ -91,7 +89,7 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/talk/dsv2020/">
+  <link rel="canonical" href="https://caterinaurban.github.io/publication/shape/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -99,17 +97,15 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/talk/dsv2020/">
-  <meta property="og:title" content="A Guided Tour of a Static Analyzer for Data Science Software | Caterina Urban">
-  <meta property="og:description" content="Nowadays, data science software and notably machine learning plays an increasingly important role in our daily lives. It thus becomes of paramount importance to have effective verification tools available to prove its correctness and reliability.
-
-In this talk we will take you sightseeing through the architecture of Lyra, a static analyzer for Python components of a data science pipeline. The main attractions will be the submodules expressly designed to be stand-alone and reusable by other verification tools as well as the abstract domains designed to address new and challenging research problems that arise from targeting data science software.
+  <meta property="og:url" content="https://caterinaurban.github.io/publication/shape/">
+  <meta property="og:title" content="What Programs Want: Automatic Inference of Input Data Specifications | Caterina Urban">
+  <meta property="og:description" content="Nowadays, as machine-learned software quickly permeates our society, we are becoming increasingly vulnerable to programming errors in the data pre-processing or training software, as well as errors in the data itself. In this paper, we propose a static shape analysis framework for input data of data-processing programs. Our analysis automatically infers necessary conditions on the structure and values of the data read by a data-processing program. Our framework builds on a family of underlying abstract domains, extended to indirectly reason about the input data rather than simply reasoning about the program variables. The choice of these abstract domain is a parameter of the analysis. We describe various instances built from existing abstract domains. The proposed approach is implemented in an open-source static analyzer for Python programs. We demonstrate its potential on a number of representative examples.
 "><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2020-07-06T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2020-07-21T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2020-07-20T11:53:21&#43;02:00">
+  <meta property="article:modified_time" content="2020-07-21T12:12:07&#43;02:00">
   
 
   
@@ -149,9 +145,9 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
          "@type": "WebPage",
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
-    "articleSection" : "talk",
-    "name" : "A Guided Tour of a Static Analyzer for Data Science Software",
-    "headline" : "A Guided Tour of a Static Analyzer for Data Science Software",
+    "articleSection" : "publication",
+    "name" : "What Programs Want: Automatic Inference of Input Data Specifications",
+    "headline" : "What Programs Want: Automatic Inference of Input Data Specifications",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -160,15 +156,15 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
     "accountablePerson" : "",
     "copyrightHolder" : "",
     "copyrightYear" : "2020",
-    "datePublished": "2020-07-06 00:00:00 \x2b0200 CEST",
-    "dateModified" : "2020-07-06 00:00:00 \x2b0200 CEST",
-    "url" : "https:\/\/caterinaurban.github.io\/talk\/dsv2020\/",
+    "datePublished": "2020-07-21 00:00:00 \x2b0200 CEST",
+    "dateModified" : "2020-07-21 00:00:00 \x2b0200 CEST",
+    "url" : "https:\/\/caterinaurban.github.io\/publication\/shape\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>A Guided Tour of a Static Analyzer for Data Science Software | Caterina Urban</title>
+  <title>What Programs Want: Automatic Inference of Input Data Specifications | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -358,7 +354,7 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/Event">
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 <div class="article-header">
@@ -373,24 +369,44 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
 
 
   <div class="article-container">
+    <h1 itemprop="name">What Programs Want: Automatic Inference of Input Data Specifications</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      <strong>Caterina Urban</strong>
+      
+    </span>
+    <span class="pull-right">
+      
 
-    <div class="pub-title">
-      <h1 itemprop="name">A Guided Tour of a Static Analyzer for Data Science Software</h1>
-      <span class="pub-authors" itemprop="author">
-        
-      </span>
-      <span class="pull-right">
-        
-
-      </span>
-    </div>
+    </span>
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text"><p>Nowadays, data science software and notably machine learning plays an increasingly important role in our daily lives. It thus becomes of paramount importance to have effective verification tools available to prove its correctness and reliability.</p>
 
-<p>In this talk we will take you sightseeing through the architecture of Lyra, a static analyzer for Python components of a data science pipeline. The main attractions will be the submodules expressly designed to be stand-alone and reusable by other verification tools as well as the abstract domains designed to address new and challenging research problems that arise from targeting data science software.</p>
-</p>
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Nowadays, as machine-learned software quickly permeates our society, we are becoming increasingly vulnerable to programming errors in the data pre-processing or training software, as well as errors in the data itself. In this paper, we propose a static shape analysis framework for input data of data-processing programs. Our analysis automatically infers necessary conditions on the structure and values of the data read by a data-processing program. Our framework builds on a family of underlying abstract domains, extended to indirectly reason about the input data rather than simply reasoning about the program variables. The choice of these abstract domain is a parameter of the analysis. We describe various instances built from existing abstract domains. The proposed approach is implemented in an open-source static analyzer for Python programs. We demonstrate its potential on a number of representative examples.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a href="https://caterinaurban.github.io/publication/#4">
+              Technical Report
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
     
 
     <div class="row">
@@ -399,11 +415,7 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            
-            Monday, July 20, 2020
-            <div class="talk-time">
-              
-            </div>
+            2020
           </div>
         </div>
       </div>
@@ -411,37 +423,6 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
     </div>
     <div class="visible-xs space-below"></div>
 
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
-          <div class="col-xs-12 col-sm-9">
-            <a href="https://smackers.github.io/democratizing-software-verification-workshop-2020/" target="_blank" rel="noopener">
-            Workshop on Democratizing Software Verification (DSV 2020)
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">🇺🇸 Los Angeles, USA (remote)</div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-    
-
-    
     <div class="row" style="padding-top: 10px">
       <div class="col-sm-1"></div>
       <div class="col-sm-10">
@@ -454,15 +435,19 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/dsv2020.pdf">
-  Slides
+<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/shape.pdf" target="_blank" rel="noopener">
+  PDF
 </a>
 
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/caterinaurban/Lyra">
+
+
+<a class="btn btn-primary btn-outline" href="https://github.com/caterinaurban/Lyra" target="_blank" rel="noopener">
   Code
 </a>
+
+
 
 
   
@@ -474,20 +459,22 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
 
 
 
+
+
+
+
+
           </div>
         </div>
       </div>
       <div class="col-sm-1"></div>
     </div>
     <div class="visible-xs space-below"></div>
-    
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      <p><img src="https://caterinaurban.github.io/img/lyra.png" alt="Lyra" /></p>
-
-    </div>
+    <div class="article-style"><p><img src="https://caterinaurban.github.io/img/lyra.png" alt="Lyra" /></p>
+</div>
 
     
 
@@ -585,18 +572,6 @@ In this talk we will take you sightseeing through the architecture of Lyra, a st
       <script>hljs.initHighlightingOnLoad();</script>
     
 
-    
-    
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        CommonHTML: { linebreaks: { automatic: true } },
-        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
-        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
-        messageStyle: 'none'
-      });
-    </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous"></script>
     
     
 

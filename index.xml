@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What Programs Want: Automatic Inference of Input Data Specifications</title>
+      <link>https://caterinaurban.github.io/publication/shape/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/shape/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Guided Tour of a Static Analyzer for Data Science Software</title>
@@ -234,16 +244,6 @@ Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/cav2018a.png&#34; alt=&#34;cav2018a&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/typpete.png&#34; alt=&#34;Typpete&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Permission Inference for Array Programs</title>
-      <link>https://caterinaurban.github.io/publication/cav2018b/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/cav2018b/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/cav2018b.png&#34; alt=&#34;cav2018b&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
