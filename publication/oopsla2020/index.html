@@ -17,9 +17,12 @@
       
     
   
-  <meta name="description" content="Recently, there is growing concern that machine-learning models, which currently assist or even automate decision making, reproduce, and in the worst case reinforce, bias of the training data. The development of tools and techniques for certifying fairness of these models or describing their biased behavior is, therefore, critical. In this paper, we propose a *perfectly parallel* static analysis for certifying *causal fairness* of feed-forward neural networks used for classification of tabular data. When certification succeeds, our approach provides definite guarantees, otherwise, it describes and quantifies the biased behavior. We design the analysis to be *sound*, in 
-practice also *exact*, and configurable in terms of scalability and precision, thereby
-enabling *pay-as-you-go certification*. We implement our approach in an open-source tool and demonstrate its effectiveness on models trained with popular datasets.
+  <meta name="description" content="Recently, there is growing concern that machine-learned software, which currently assists or even automates decision making, reproduces, and in the worst case reinforces, bias present in the training data. 
+The development of tools and techniques for certifying fairness of this software or
+describing its biases is, therefore, critical. In this paper, we propose a *perfectly parallel* static analysis for certifying *fairness* of feed-forward neural networks used for classification of tabular data. 
+When certification succeeds, our approach provides definite guarantees, otherwise, it describes and quantifies the biased input space regions.
+We design the analysis to be *sound*, in practice also *exact*, and configurable in terms of scalability and precision, thereby enabling *pay-as-you-go certification*. 
+We implement our approach in an open-source tool called Libra and demonstrate its effectiveness on neural networks trained on popular datasets.
 ">
 
   
@@ -100,10 +103,13 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
   
   <meta property="og:site_name" content="Caterina Urban">
   <meta property="og:url" content="https://caterinaurban.github.io/publication/oopsla2020/">
-  <meta property="og:title" content="Perfectly Parallel Causal-Fairness Certification of Neural Networks | Caterina Urban">
-  <meta property="og:description" content="Recently, there is growing concern that machine-learning models, which currently assist or even automate decision making, reproduce, and in the worst case reinforce, bias of the training data. The development of tools and techniques for certifying fairness of these models or describing their biased behavior is, therefore, critical. In this paper, we propose a *perfectly parallel* static analysis for certifying *causal fairness* of feed-forward neural networks used for classification of tabular data. When certification succeeds, our approach provides definite guarantees, otherwise, it describes and quantifies the biased behavior. We design the analysis to be *sound*, in 
-practice also *exact*, and configurable in terms of scalability and precision, thereby
-enabling *pay-as-you-go certification*. We implement our approach in an open-source tool and demonstrate its effectiveness on models trained with popular datasets.
+  <meta property="og:title" content="Perfectly Parallel Fairness Certification of Neural Networks | Caterina Urban">
+  <meta property="og:description" content="Recently, there is growing concern that machine-learned software, which currently assists or even automates decision making, reproduces, and in the worst case reinforces, bias present in the training data. 
+The development of tools and techniques for certifying fairness of this software or
+describing its biases is, therefore, critical. In this paper, we propose a *perfectly parallel* static analysis for certifying *fairness* of feed-forward neural networks used for classification of tabular data. 
+When certification succeeds, our approach provides definite guarantees, otherwise, it describes and quantifies the biased input space regions.
+We design the analysis to be *sound*, in practice also *exact*, and configurable in terms of scalability and precision, thereby enabling *pay-as-you-go certification*. 
+We implement our approach in an open-source tool called Libra and demonstrate its effectiveness on neural networks trained on popular datasets.
 "><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
   <meta property="og:locale" content="en-us">
   
@@ -150,8 +156,8 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
     "articleSection" : "publication",
-    "name" : "Perfectly Parallel Causal-Fairness Certification of Neural Networks",
-    "headline" : "Perfectly Parallel Causal-Fairness Certification of Neural Networks",
+    "name" : "Perfectly Parallel Fairness Certification of Neural Networks",
+    "headline" : "Perfectly Parallel Fairness Certification of Neural Networks",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -168,7 +174,7 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
 }
 </script>
 
-  <title>Perfectly Parallel Causal-Fairness Certification of Neural Networks | Caterina Urban</title>
+  <title>Perfectly Parallel Fairness Certification of Neural Networks | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -373,7 +379,7 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
 
 
   <div class="article-container">
-    <h1 itemprop="name">Perfectly Parallel Causal-Fairness Certification of Neural Networks</h1>
+    <h1 itemprop="name">Perfectly Parallel Fairness Certification of Neural Networks</h1>
     <span class="pub-authors" itemprop="author">
       
       <strong>Caterina Urban</strong>, Maria Christakis, Valentin Wüstholz, Fuyuan Zhang
@@ -388,9 +394,12 @@ enabling *pay-as-you-go certification*. We implement our approach in an open-sou
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Recently, there is growing concern that machine-learning models, which currently assist or even automate decision making, reproduce, and in the worst case reinforce, bias of the training data. The development of tools and techniques for certifying fairness of these models or describing their biased behavior is, therefore, critical. In this paper, we propose a <em>perfectly parallel</em> static analysis for certifying <em>causal fairness</em> of feed-forward neural networks used for classification of tabular data. When certification succeeds, our approach provides definite guarantees, otherwise, it describes and quantifies the biased behavior. We design the analysis to be <em>sound</em>, in
-practice also <em>exact</em>, and configurable in terms of scalability and precision, thereby
-enabling <em>pay-as-you-go certification</em>. We implement our approach in an open-source tool and demonstrate its effectiveness on models trained with popular datasets.</p>
+    <p class="pub-abstract" itemprop="text">Recently, there is growing concern that machine-learned software, which currently assists or even automates decision making, reproduces, and in the worst case reinforces, bias present in the training data.
+The development of tools and techniques for certifying fairness of this software or
+describing its biases is, therefore, critical. In this paper, we propose a <em>perfectly parallel</em> static analysis for certifying <em>fairness</em> of feed-forward neural networks used for classification of tabular data.
+When certification succeeds, our approach provides definite guarantees, otherwise, it describes and quantifies the biased input space regions.
+We design the analysis to be <em>sound</em>, in practice also <em>exact</em>, and configurable in terms of scalability and precision, thereby enabling <em>pay-as-you-go certification</em>.
+We implement our approach in an open-source tool called Libra and demonstrate its effectiveness on neural networks trained on popular datasets.</p>
     
 
     
