@@ -18,16 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/home/about/</guid>
-      <description>**[I am looking for motivated PhD students and interns in the scope of the Lyra research project!](project/lyra/index.html#available-projects)** --- I am a member of the INRIA research team ANTIQUE (ANalyse StaTIQUE). Previously, I was a postdoctoral researcher at the Chair of Programming Methodology, led by Peter Müller at ETH Zurich. I completed my Ph.D. in Computer Science, working under the joint supervision of Radhia Cousot and Antoine Miné at École Normale Supérieure.</description>
-    </item>
-    
-    <item>
-      <title>Research Projects</title>
-      <link>https://caterinaurban.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/home/projects/</guid>
-      <description></description>
+      <description>I am a member of the INRIA research team ANTIQUE (ANalise StaTIQUE). Previously, I was a postdoctoral researcher at the Chair of Programming Methodology, led by Peter Müller at ETH Zurich. I completed my Ph.D. in Computer Science, working under the joint supervision of Radhia Cousot and Antoine Miné at École Normale Supérieure. I hold a Bachelor’s and a Master’s degree in Computer Science, both received with full marks and honors (summa cum laude) from the Università degli Studi di Udine.</description>
     </item>
     
     <item>
@@ -36,6 +27,15 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Projects</title>
+      <link>https://caterinaurban.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/home/projects/</guid>
       <description></description>
     </item>
     
@@ -49,15 +49,6 @@
     </item>
     
     <item>
-      <title>Recent Talks</title>
-      <link>https://caterinaurban.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recent Posts</title>
       <link>https://caterinaurban.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
@@ -67,21 +58,21 @@
     </item>
     
     <item>
+      <title>Recent Talks</title>
+      <link>https://caterinaurban.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Students</title>
       <link>https://caterinaurban.github.io/home/students/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/home/students/</guid>
-      <description> PhD Students  Denis Mazzucato (Oct 2020 -)  ENS Paris-Saclay, France (M1) * **Marco Zanella** (May - Aug 2020) University of Padova, Italy (PhD) -- Former Students  Serge Durand (M1 Internship: Jun - Aug 2020) ENS Paris-Saclay, France Marco Zanella (PhD Internship: May - Aug 2020) University of Padova, Italy  </description>
-    </item>
-    
-    <item>
-      <title>Tags</title>
-      <link>https://caterinaurban.github.io/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/home/tags/</guid>
-      <description></description>
+      <description> Current Students  Denis Mazzucato (PhD, École Normale Supérieure: Oct 2020 -)  Former Students  Serge Durand (M1 Internship, École Normale Supérieure: Jun - Aug 2020) ENS Paris-Saclay, France Marco Zanella (PhD Internship, École Normale Supérieure: May - Aug 2020) Università degli Studi di Padova, Italy Radwa Sherif Abdelbar (Bachelor&amp;rsquo;s Thesis, ETH Zurich: Mar - Aug 2018) German University in Cairo, Egypt Lowis Engel (Master&amp;rsquo;s Thesis, ETH Zurich: Feb - Aug 2018) ETH Zurich, Switzerland Madelin Schumacher (Master&amp;rsquo;s Thesis, ETH Zurich: Sep 2017 - Mar 2018) ETH Zurich, Switzerland Samuel Ueltschi (Master&amp;rsquo;s Thesis, ETH Zurich: Mar - Sep 2017) ETH Zurich, Switzerland Mostafa Hassan (Bachelor&amp;rsquo;s Thesis, ETH Zurich: Mar - Aug 2017) German University in Cairo, Egypt Simon Wehrli (Master&amp;rsquo;s Thesis, ETH Zurich: Feb - Aug 2017) ETH Zurich, Switzerland Flurin Rindisbacher (Master&amp;rsquo;s Thesis, ETH Zurich: Mar - Aug 2017) ETH Zurich, Switzerland Severin Münger (Master&amp;rsquo;s Thesis, ETH Zurich: Sep 2016 - Mar 2017) ETH Zurich, Switzerland Nathanaël Courant (L3 Internship, ETH Zurich: Jun - Jul 2016) École Normale Supérieure, France Lukas Neukom (Master&amp;rsquo;s Thesis, ETH Zurich: Mar - Sep 2016) ETH Zurich, Switzerland Seraiah Walter (Master&amp;rsquo;s Thesis, ETH Zurich: Feb - Aug 2016) ETH Zurich, Switzerland  </description>
     </item>
     
     <item>
@@ -91,6 +82,15 @@
       
       <guid>https://caterinaurban.github.io/home/teaching/</guid>
       <description> Year 2020-2021  Abstract Interpretation: Application to Verification and Static Analysis M2, Master Parisien de Recherche en Informatique (MPRI), Université de Paris  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://caterinaurban.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/home/tags/</guid>
+      <description></description>
     </item>
     
     <item>

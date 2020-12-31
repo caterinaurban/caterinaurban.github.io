@@ -13,18 +13,36 @@
     
     
     <item>
+      <title>Static Analysis for Data Science</title>
+      <link>https://caterinaurban.github.io/talk/inserm2020/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/inserm2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Guided Tour of a Static Analyzer for Data Science Software</title>
       <link>https://caterinaurban.github.io/talk/dsv2020/</link>
-      <pubDate>Mon, 06 Jul 2020 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/dsv2020/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Formal Methods for Robust Artificial Intelligence: State of the Art</title>
+      <link>https://caterinaurban.github.io/talk/lorentz2020a/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/lorentz2020a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/inria2020/</link>
-      <pubDate>Fri, 29 May 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inria2020/</guid>
       <description></description>
@@ -32,8 +50,17 @@
     
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
+      <link>https://caterinaurban.github.io/talk/lorentz2020b/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/lorentz2020b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/irif2020/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/irif2020/</guid>
       <description></description>
@@ -42,7 +69,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/tau2020/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/tau2020/</guid>
       <description></description>
@@ -51,7 +78,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/thales2020/</link>
-      <pubDate>Thu, 09 Jan 2020 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/thales2020/</guid>
       <description></description>
@@ -185,10 +212,10 @@
     
     <item>
       <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
-      <link>https://caterinaurban.github.io/talk/qmul2014/</link>
+      <link>https://caterinaurban.github.io/talk/quml2014/</link>
       <pubDate>Wed, 01 Oct 2014 00:00:00 +0200</pubDate>
       
-      <guid>https://caterinaurban.github.io/talk/qmul2014/</guid>
+      <guid>https://caterinaurban.github.io/talk/quml2014/</guid>
       <description></description>
     </item>
     

@@ -6,8 +6,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Static Analysis for Data Science</title>
+      <link>https://caterinaurban.github.io/talk/inserm2020/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/inserm2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/inserm2020.pdf&#34; alt=&#34;inserm2020&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
@@ -20,19 +32,9 @@
     </item>
     
     <item>
-      <title>What Programs Want: Automatic Inference of Input Data Specifications</title>
-      <link>https://caterinaurban.github.io/publication/shape/</link>
-      <pubDate>Tue, 21 Jul 2020 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/shape/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A Guided Tour of a Static Analyzer for Data Science Software</title>
       <link>https://caterinaurban.github.io/talk/dsv2020/</link>
-      <pubDate>Mon, 06 Jul 2020 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/dsv2020/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
@@ -40,9 +42,29 @@
     </item>
     
     <item>
+      <title>What Programs Want: Automatic Inference of Input Data Specifications</title>
+      <link>https://caterinaurban.github.io/publication/shape/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/shape/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Formal Methods for Robust Artificial Intelligence: State of the Art</title>
+      <link>https://caterinaurban.github.io/talk/lorentz2020a/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/lorentz2020a/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lorentz2020.pdf&#34; alt=&#34;lorentz2020&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/inria2020/</link>
-      <pubDate>Fri, 29 May 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inria2020/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -51,8 +73,20 @@
     
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
+      <link>https://caterinaurban.github.io/talk/lorentz2020b/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/lorentz2020b/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/oopsla2020.pdf&#34; alt=&#34;oopsla2020&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/irif2020/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/irif2020/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -62,7 +96,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/tau2020/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/tau2020/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -72,7 +106,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/thales2020/</link>
-      <pubDate>Thu, 09 Jan 2020 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/thales2020/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -82,12 +116,10 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/publication/fairness/</link>
-      <pubDate>Fri, 22 Nov 2019 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/fairness/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/fairness.png&#34; alt=&#34;fairness&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -97,7 +129,7 @@
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/sas2019/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.di.ens.fr/~urban/SAS2019.gif&#34; alt=&#34;SAS2019&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.di.ens.fr/~urban/SAS2019.gif&#34; alt=&#34;sas2019&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
@@ -106,7 +138,7 @@
     <item>
       <title>Static Analysis of Data Science Software</title>
       <link>https://caterinaurban.github.io/publication/sas2019/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sas2019/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
@@ -131,117 +163,27 @@
       <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/project/function/</guid>
-      <description>&lt;p&gt;Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug&lt;sup&gt;&lt;a href=&#34;http://techcrunch.com/2008/12/31/zune-bug-explained-in-detail/&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt; and the Microsoft Azure Storage service interruption&lt;sup&gt;&lt;a href=&#34;http://azure.microsoft.com/blog/2014/11/19/update-on-azure-storage-
-service- interruption/&#34; target=&#34;_blank&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;. Termination bugs can also be exploited in denial-of-service attacks&lt;sup&gt;&lt;a href=&#34;http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1890&#34; target=&#34;_blank&#34;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. Therefore, proving program termination is important for ensuring software reliability.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug&lt;sup&gt;&lt;a href=&#34;http://techcrunch.com/2008/12/31/zune-bug-explained-in-detail/&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt; and the Microsoft Azure Storage service interruption&lt;sup&gt;&lt;a href=&#34;http://azure.microsoft.com/blog/2014/11/19/update-on-azure-storage-service-interruption/&#34; target=&#34;_blank&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;. Termination bugs can also be exploited in denial-of-service attacks&lt;sup&gt;&lt;a href=&#34;http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1890&#34; target=&#34;_blank&#34;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. Therefore, proving program termination is important for ensuring software reliability.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The traditional method for proving termination is based on the synthesis of a &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;ranking function&lt;/strong&gt;&lt;/span&gt;, a well-founded metric which strictly decreases during the program execution. The goal of the project was the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination (and other liveness properties) by means of abstract interpretation. The static analyzer is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/function&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Libra</title>
-      <link>https://caterinaurban.github.io/project/libra/</link>
-      <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/project/libra/</guid>
-      <description>&lt;p&gt;Nowadays we are witnessing widespread adoption of decision-making software with far-reaching societal impact, e.g., in fiels such as social welfare, criminal justice, and even health care.
-It is not difficult to envision that in the future most of the decisions in society will be delegated to software.
-As decision-making software becomes more and more widespread, a number of recent cases have evidenced the importance of ensuring &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;software fairness&lt;/strong&gt;&lt;/span&gt;&lt;sup&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-019-03228-6&#34; target=&#34;_blank&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.
-&lt;figure&gt;
-  &lt;img src=&#34;https://caterinaurban.github.io/img/bias.png&#34;&gt;
-  &lt;figcaption&gt;&lt;center&gt;Even software products that we regularly use are biased!&lt;/center&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-Going forward, decision-making software will be subject to more and more legal regulations as well as administrative audits.&lt;/p&gt;
-
-&lt;!---
-However, programming errors are not the only concern. A number of recent cases have evidenced the importance of ensuring **data privacy**&lt;sup&gt;[[3]](https://www.nytimes.com/2012/02/19/magazine/shopping- habits.html)&lt;/sup&gt; as well as **software fairness and non-discrimination**&lt;sup&gt;[[4]](https://www.nytimes.com/2017/10/26/opinion/algorithm- compas- sentencing- bias.html)&lt;/sup&gt;. Going forward, decision-making software will be subject to more and more legal regulations (e.g., the European General Data Protection Regulation adopted in 2016) as well as administrative audits.
----&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The goal of the Libra research project is to meet these needs and develop &lt;strong&gt;new analyses and tools to&lt;/strong&gt; reason about and &lt;strong&gt;certify fairness&lt;/strong&gt; of decision-making software.&lt;/p&gt;
-
-&lt;p&gt;A prototype static analyzer for certifying fairness of feed-forward neural networks used for classification of tabular data is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/Libra&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!---
-## Available Projects
-
-#### PhD (more topics to be announced)
-
-* [Formal Verification of Functional Correctness Properties of Neural Networks](/files/ai_ai.pdf)&lt;br /&gt;
-Application at: https://jobs.inria.fr/public/classic/fr/offres/2019-01367
-
-#### M2 Research Internships
-
-* [Algorithmic Fairness Static Analysis for Neural Networks](/files/fairness.pdf)&lt;br /&gt;
-* [A General Framework for Input Data Uage Static Analysis](/files/usage.pdf)&lt;br /&gt;
----&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lyra</title>
-      <link>https://caterinaurban.github.io/project/lyra/</link>
-      <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/project/lyra/</guid>
-      <description>
-
-&lt;p&gt;Nowadays, thanks to advances in machine learning and the availability of massive amounts of data, computer software plays an increasingly important role in assisting or even autonomously making decisions with far-reaching societal impact, e.g., in fields such as social welfare, criminal justice, and even health care.&lt;/p&gt;
-
-&lt;p&gt;As data science software becomes more and more widespread, we become increasingly vulnerable to &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;programming errors&lt;/strong&gt;&lt;/span&gt;. In particular, programming errors that do not cause failures can have serious consequences since code that produces an erroneous but plausible result gives no indication that something went wrong. In financial applications, flawed code can cause losses of billions of dollars&lt;sup&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/2012_JPMorgan_Chase_trading_loss&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. In medical applications, programming errors are deadly&lt;sup&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Therac-25&#34; target=&#34;_blank&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;However, programming errors are not the only concern. A number of recent cases have evidenced the importance of ensuring &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;data privacy&lt;/strong&gt;&lt;/span&gt;&lt;sup&gt;&lt;a href=&#34;https://www.nytimes.com/2012/02/19/magazine/shopping- habits.html&#34; target=&#34;_blank&#34;&gt;[3]&lt;/a&gt;&lt;/sup&gt; as well as &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;software fairness&lt;/strong&gt;&lt;/span&gt;&lt;sup&gt;&lt;a href=&#34;https://www.nytimes.com/2017/10/26/opinion/algorithm- compas- sentencing- bias.html&#34; target=&#34;_blank&#34;&gt;[4]&lt;/a&gt;&lt;/sup&gt;. Going forward, data science software will be subject to more and more legal regulations (e.g., the European General Data Protection Regulation adopted in 2016) as well as administrative audits.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Lyra research project is a long-term research effort to enhance the &lt;em&gt;understanding&lt;/em&gt; and &lt;em&gt;reliabilty&lt;/em&gt; of data science software. It aims ad developing &lt;strong&gt;new &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;accessible&lt;/em&gt; analyses and tools&lt;/strong&gt; to reason about and provide rigorous guarantees of the behavior of data analytics, big data, machine learning, and deep learning applications. For this purpose, we are currently targeting &lt;strong&gt;Python&lt;/strong&gt;, one of the most popular programming languages for data science. A prototype static analyzer is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/Lyra&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!---
-## Available Projects
-
-#### PhD (more topics to be announced)
-
-* [Formal Verification of Functional Correctness Properties of Neural Networks](/files/ai_ai.pdf)&lt;br /&gt;
-Application at: https://jobs.inria.fr/public/classic/fr/offres/2019-01367
-
-#### M2 Research Internships
-
-* [Algorithmic Fairness Static Analysis for Neural Networks](/files/fairness.pdf)&lt;br /&gt;
-* [A General Framework for Input Data Uage Static Analysis](/files/usage.pdf)&lt;br /&gt;
----&gt;
 
 &lt;h2 id=&#34;completed-projects&#34;&gt;Completed Projects&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Radwa Sherif Abdelbar&lt;br /&gt;
-&lt;a href=&#34;https://www.ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Radwa_Abdelbar_BA_report.pdf&#34; target=&#34;_blank&#34;&gt;Automated Checking of Implicit Assumptions on Textual Data&lt;/a&gt;&lt;br /&gt;
-Bachelor&amp;rsquo;s Thesis, ETH Zurich, SS 2018&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Lowis Engel&lt;br /&gt;
-&lt;a href=&#34;https://www.ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Lowis_Engel_BA_report.pdf&#34; target=&#34;_blank&#34;&gt;Usage Analysis of Data Stored in Map Data Structures&lt;/a&gt;&lt;br /&gt;
-Bachelor&amp;rsquo;s Thesis, SS 2018&lt;/li&gt;
-&lt;li&gt;Madelin Schumacher&lt;br /&gt;
-&lt;a href=&#34;https://www.ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Madelin_Schumacher_MA_report.pdf&#34; target=&#34;_blank&#34;&gt;Automated Generation of Data Quality Checks&lt;/a&gt;&lt;br /&gt;
-Master&amp;rsquo;s Thesis, AS 2017&lt;/li&gt;
-&lt;li&gt;Simon Wehrli&lt;br /&gt;
-&lt;a href=&#34;https://www.ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Simon_Wehrli_MA_report.pdf&#34; target=&#34;_blank&#34;&gt;Static Program Analysis of Data Usage Properties&lt;/a&gt;&lt;br /&gt;
-Master&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
-&lt;li&gt;Mostafa Hassan&lt;br /&gt;
-&lt;a href=&#34;https://www.ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Mostafa_Hassan_BA_report.pdf&#34; target=&#34;_blank&#34;&gt;Static Type Inference for Python&lt;/a&gt;&lt;br /&gt;
-Bachelor&amp;rsquo;s Thesis, SS 2017&lt;/li&gt;
+&lt;li&gt;Samuel Ueltschi&lt;br /&gt;
+&lt;a href=&#34;https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Samuel_Ueltschi_MA_report.pdf&#34; target=&#34;_blank&#34;&gt;Proving Temporal Properties by Abstract Interpretation&lt;/a&gt;&lt;br /&gt;
+Master&amp;rsquo;s Thesis, ETH Zurich, SS 2017&lt;/li&gt;
+&lt;li&gt;Nathanaël Courant&lt;br /&gt;
+&lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;Precise Widenings for Proving Termination by Abstract Interpretation&lt;/span&gt;&lt;br /&gt;
+L3 Internship, ETH Zurich, 2016&lt;/li&gt;
+&lt;li&gt;Lukas Neukom&lt;br /&gt;
+&lt;a href=&#34;https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Lukas_Neukom_MA_report.pdf&#34; target=&#34;_blank&#34;&gt;Termination Analysis of Heap-Manipulating Programs by Abstract Interpretation&lt;/a&gt;&lt;br /&gt;
+Master&amp;rsquo;s Thesis, ETH Zurich, SS 2016&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Abstract Interpretation of CTL Properties</title>
-      <link>https://caterinaurban.github.io/publication/sas2018/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/sas2018/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
