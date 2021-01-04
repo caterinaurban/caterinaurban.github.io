@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fair Training of Decision Tree Classifiers</title>
+      <link>https://caterinaurban.github.io/publication/fatt/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/fatt/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Static Analysis for Data Science</title>
@@ -158,36 +168,6 @@
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/GSSI2019.pdf&#34; alt=&#34;GSSI2019&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>FuncTion</title>
-      <link>https://caterinaurban.github.io/project/function/</link>
-      <pubDate>Wed, 17 Oct 2018 17:19:55 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/project/function/</guid>
-      <description>
-
-&lt;p&gt;Programming errors which cause non-termination can compromise software systems by making them irresponsive. Notorious examples are the Microsoft Zune Z2K bug&lt;sup&gt;&lt;a href=&#34;http://techcrunch.com/2008/12/31/zune-bug-explained-in-detail/&#34; target=&#34;_blank&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt; and the Microsoft Azure Storage service interruption&lt;sup&gt;&lt;a href=&#34;http://azure.microsoft.com/blog/2014/11/19/update-on-azure-storage-service-interruption/&#34; target=&#34;_blank&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;. Termination bugs can also be exploited in denial-of-service attacks&lt;sup&gt;&lt;a href=&#34;http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1890&#34; target=&#34;_blank&#34;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. Therefore, proving program termination is important for ensuring software reliability.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The traditional method for proving termination is based on the synthesis of a &lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;&lt;strong&gt;ranking function&lt;/strong&gt;&lt;/span&gt;, a well-founded metric which strictly decreases during the program execution. The goal of the project was the development of a static analyzer which automatically infers ranking functions and sufficient precondition for program termination (and other liveness properties) by means of abstract interpretation. The static analyzer is open-source and available on &lt;a href=&#34;https://github.com/caterinaurban/function&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;completed-projects&#34;&gt;Completed Projects&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Samuel Ueltschi&lt;br /&gt;
-&lt;a href=&#34;https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Samuel_Ueltschi_MA_report.pdf&#34; target=&#34;_blank&#34;&gt;Proving Temporal Properties by Abstract Interpretation&lt;/a&gt;&lt;br /&gt;
-Master&amp;rsquo;s Thesis, ETH Zurich, SS 2017&lt;/li&gt;
-&lt;li&gt;Nathanaël Courant&lt;br /&gt;
-&lt;span style=&#34;color:rgb(254, 200, 21)&#34;&gt;Precise Widenings for Proving Termination by Abstract Interpretation&lt;/span&gt;&lt;br /&gt;
-L3 Internship, ETH Zurich, 2016&lt;/li&gt;
-&lt;li&gt;Lukas Neukom&lt;br /&gt;
-&lt;a href=&#34;https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Lukas_Neukom_MA_report.pdf&#34; target=&#34;_blank&#34;&gt;Termination Analysis of Heap-Manipulating Programs by Abstract Interpretation&lt;/a&gt;&lt;br /&gt;
-Master&amp;rsquo;s Thesis, ETH Zurich, SS 2016&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
