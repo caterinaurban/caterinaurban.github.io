@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Formal Methods for Robust Artificial Intelligence: State of the Art</title>
+      <link>https://caterinaurban.github.io/talk/airbus2021/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/airbus2021/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Fair Training of Decision Tree Classifiers</title>
@@ -65,10 +75,10 @@
     
     <item>
       <title>Formal Methods for Robust Artificial Intelligence: State of the Art</title>
-      <link>https://caterinaurban.github.io/talk/lorentz2020a/</link>
+      <link>https://caterinaurban.github.io/talk/lorentz2021a/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
       
-      <guid>https://caterinaurban.github.io/talk/lorentz2020a/</guid>
+      <guid>https://caterinaurban.github.io/talk/lorentz2021a/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ayXLWs4G4RU&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
@@ -87,10 +97,10 @@
     
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
-      <link>https://caterinaurban.github.io/talk/lorentz2020b/</link>
+      <link>https://caterinaurban.github.io/talk/lorentz2021b/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
       
-      <guid>https://caterinaurban.github.io/talk/lorentz2020b/</guid>
+      <guid>https://caterinaurban.github.io/talk/lorentz2021b/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6o9yiBjQWCY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -156,18 +166,6 @@
       
       <guid>https://caterinaurban.github.io/publication/sas2019/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What Programs Want: Automatic Inference of Input Data Specifications</title>
-      <link>https://caterinaurban.github.io/talk/gssi2019/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/gssi2019/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/GSSI2019.pdf&#34; alt=&#34;GSSI2019&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
