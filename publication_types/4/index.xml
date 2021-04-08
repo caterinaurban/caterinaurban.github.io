@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 06 Apr 2021 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Review of Formal Methods applied to Machine Learning</title>
+      <link>https://caterinaurban.github.io/publication/survey/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/survey/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fair Training of Decision Tree Classifiers</title>

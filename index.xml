@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 06 Apr 2021 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Review of Formal Methods applied to Machine Learning</title>
+      <link>https://caterinaurban.github.io/publication/survey/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/survey/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Formal Methods for Robust Artificial Intelligence: State of the Art</title>
@@ -154,18 +164,6 @@
       
       <guid>https://caterinaurban.github.io/publication/fairness/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Static Analysis of Data Science Software</title>
-      <link>https://caterinaurban.github.io/talk/sas2019/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/sas2019/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.di.ens.fr/~urban/SAS2019.gif&#34; alt=&#34;sas2019&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
