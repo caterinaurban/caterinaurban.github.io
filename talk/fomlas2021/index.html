@@ -17,12 +17,13 @@
       
     
   
-  <meta name="description" content="We review state-of-the-art formal methods applied to the emerging field of the verification of machine learning systems. Formal methods can provide rigorous correctness guarantees on hardware and software systems. Thanks to the avail- ability of mature tools, their use is well established in the industry, and in particular to check safety-critical applications as they undergo a stringent certification process. As machine learning is becoming more popular, machine-learned components are now considered for inclusion in critical systems. This raises the question of their safety and their verification. Yet, established formal methods are limited to classic, i.e. non machine-learned software. Applying formal methods to verify systems that include machine learning has only been considered recently and poses novel challenges in soundness, precision, and scalability.
-We first recall established formal methods and their current use in an exemplar safety-critical field, avionic software, with a focus on abstract interpretation based techniques as they provide a high level of scalability. This provides a golden standard and sets high expectations for machine learning verification. We then provide a comprehensive and detailed review of the formal methods developed so far for machine learning, highlighting their strengths and limitations. The large majority of them verify trained neural networks and employ either SMT, optimization, or abstract interpretation techniques. We also discuss methods for support vector machines and decision tree ensembles, as well as methods targeting training and data preparation, which are critical but often neglected aspects of machine learn- ing. Finally, we offer perspectives for future research directions towards the formal verification of machine learning systems.
+  <meta name="description" content="Nowadays, machine learning software is increasing used for assisting or even automating decisions with socio-economic impact. In April 2021, the European Commission proposed a first legal framework on machine learning software – the Artificial Intelligence Act — which imposes strict requirements to minimize the risk of discriminatory outcomes. In this context, methods and tools for formally certifying fairness or detecting bias are extremely valuable.
+
+In this talk, we will be cooking together a static analysis for certifying fairness of neural network classifiers. We will get familiar with the basic recipe for abstract interpretation-based static analyses. We will then gather and put together the best ingredients to achieve an optimal trade-off between precision and scalability. 
 ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication/survey/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/fomlas2021/">
 
   
 
@@ -90,7 +91,7 @@ We first recall established formal methods and their current use in an exemplar 
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/publication/survey/">
+  <link rel="canonical" href="https://caterinaurban.github.io/talk/fomlas2021/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -98,16 +99,17 @@ We first recall established formal methods and their current use in an exemplar 
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/publication/survey/">
-  <meta property="og:title" content="A Review of Formal Methods applied to Machine Learning | Caterina Urban">
-  <meta property="og:description" content="We review state-of-the-art formal methods applied to the emerging field of the verification of machine learning systems. Formal methods can provide rigorous correctness guarantees on hardware and software systems. Thanks to the avail- ability of mature tools, their use is well established in the industry, and in particular to check safety-critical applications as they undergo a stringent certification process. As machine learning is becoming more popular, machine-learned components are now considered for inclusion in critical systems. This raises the question of their safety and their verification. Yet, established formal methods are limited to classic, i.e. non machine-learned software. Applying formal methods to verify systems that include machine learning has only been considered recently and poses novel challenges in soundness, precision, and scalability.
-We first recall established formal methods and their current use in an exemplar safety-critical field, avionic software, with a focus on abstract interpretation based techniques as they provide a high level of scalability. This provides a golden standard and sets high expectations for machine learning verification. We then provide a comprehensive and detailed review of the formal methods developed so far for machine learning, highlighting their strengths and limitations. The large majority of them verify trained neural networks and employ either SMT, optimization, or abstract interpretation techniques. We also discuss methods for support vector machines and decision tree ensembles, as well as methods targeting training and data preparation, which are critical but often neglected aspects of machine learn- ing. Finally, we offer perspectives for future research directions towards the formal verification of machine learning systems.
-"><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
+  <meta property="og:url" content="https://caterinaurban.github.io/talk/fomlas2021/">
+  <meta property="og:title" content="An Abstract Interpretation Recipe for Machine Learning Fairness | Caterina Urban">
+  <meta property="og:description" content="Nowadays, machine learning software is increasing used for assisting or even automating decisions with socio-economic impact. In April 2021, the European Commission proposed a first legal framework on machine learning software – the Artificial Intelligence Act — which imposes strict requirements to minimize the risk of discriminatory outcomes. In this context, methods and tools for formally certifying fairness or detecting bias are extremely valuable.
+
+In this talk, we will be cooking together a static analysis for certifying fairness of neural network classifiers. We will get familiar with the basic recipe for abstract interpretation-based static analyses. We will then gather and put together the best ingredients to achieve an optimal trade-off between precision and scalability. 
+">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2021-04-06T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2020-07-20T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2021-04-08T23:03:56&#43;02:00">
+  <meta property="article:modified_time" content="2020-07-20T00:00:00&#43;02:00">
   
 
   
@@ -147,9 +149,9 @@ We first recall established formal methods and their current use in an exemplar 
          "@type": "WebPage",
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
-    "articleSection" : "publication",
-    "name" : "A Review of Formal Methods applied to Machine Learning",
-    "headline" : "A Review of Formal Methods applied to Machine Learning",
+    "articleSection" : "talk",
+    "name" : "An Abstract Interpretation Recipe for Machine Learning Fairness",
+    "headline" : "An Abstract Interpretation Recipe for Machine Learning Fairness",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -157,16 +159,16 @@ We first recall established formal methods and their current use in an exemplar 
     "publisher": "",
     "accountablePerson" : "",
     "copyrightHolder" : "",
-    "copyrightYear" : "2021",
-    "datePublished": "2021-04-06 00:00:00 \x2b0200 CEST",
-    "dateModified" : "2021-04-06 00:00:00 \x2b0200 CEST",
-    "url" : "https:\/\/caterinaurban.github.io\/publication\/survey\/",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-07-20 00:00:00 \x2b0200 CEST",
+    "dateModified" : "2020-07-20 00:00:00 \x2b0200 CEST",
+    "url" : "https:\/\/caterinaurban.github.io\/talk\/fomlas2021\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>A Review of Formal Methods applied to Machine Learning | Caterina Urban</title>
+  <title>An Abstract Interpretation Recipe for Machine Learning Fairness | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -356,72 +358,30 @@ We first recall established formal methods and their current use in an exemplar 
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="pub" itemscope itemtype="http://schema.org/Event">
 
   
-<div class="article-header">
-  
-  
-    <img src="https://caterinaurban.github.io/img/headers/neurons.png" class="article-banner" itemprop="image">
-  
-
-  
-</div>
-
 
 
   <div class="article-container">
-    <h1 itemprop="name">A Review of Formal Methods applied to Machine Learning</h1>
-    <span class="pub-authors" itemprop="author">
-      
-      <span style="color:rgb(254, 200, 21)"><strong>Caterina Urban</strong></span>, Antoine Miné
-      
-    </span>
-    <span class="pull-right">
-      
 
-    </span>
+    <div class="pub-title">
+      <h1 itemprop="name">An Abstract Interpretation Recipe for Machine Learning Fairness</h1>
+      <span class="pub-authors" itemprop="author">
+        
+      </span>
+      <span class="pull-right">
+        
 
-    
-
-    
-    <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We review state-of-the-art formal methods applied to the emerging field of the verification of machine learning systems. Formal methods can provide rigorous correctness guarantees on hardware and software systems. Thanks to the avail- ability of mature tools, their use is well established in the industry, and in particular to check safety-critical applications as they undergo a stringent certification process. As machine learning is becoming more popular, machine-learned components are now considered for inclusion in critical systems. This raises the question of their safety and their verification. Yet, established formal methods are limited to classic, i.e. non machine-learned software. Applying formal methods to verify systems that include machine learning has only been considered recently and poses novel challenges in soundness, precision, and scalability.
-We first recall established formal methods and their current use in an exemplar safety-critical field, avionic software, with a focus on abstract interpretation based techniques as they provide a high level of scalability. This provides a golden standard and sets high expectations for machine learning verification. We then provide a comprehensive and detailed review of the formal methods developed so far for machine learning, highlighting their strengths and limitations. The large majority of them verify trained neural networks and employ either SMT, optimization, or abstract interpretation techniques. We also discuss methods for support vector machines and decision tree ensembles, as well as methods targeting training and data preparation, which are critical but often neglected aspects of machine learn- ing. Finally, we offer perspectives for future research directions towards the formal verification of machine learning systems.</p>
-    
-
-    
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
-          <div class="col-xs-12 col-sm-9">
-            
-            <a href="https://caterinaurban.github.io/publication/#4">
-              Technical Report
-            </a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
+      </span>
     </div>
-    <div class="visible-xs space-below"></div>
-    
 
     
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">CoRR abs/2104.02466</div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
+      <h3>Abstract</h3>
+      <p class="pub-abstract" itemprop="text"><p>Nowadays, machine learning software is increasing used for assisting or even automating decisions with socio-economic impact. In April 2021, the European Commission proposed a first legal framework on machine learning software – the Artificial Intelligence Act — which imposes strict requirements to minimize the risk of discriminatory outcomes. In this context, methods and tools for formally certifying fairness or detecting bias are extremely valuable.</p>
+
+<p>In this talk, we will be cooking together a static analysis for certifying fairness of neural network classifiers. We will get familiar with the basic recipe for abstract interpretation-based static analyses. We will then gather and put together the best ingredients to achieve an optimal trade-off between precision and scalability.</p>
+</p>
     
 
     <div class="row">
@@ -430,7 +390,13 @@ We first recall established formal methods and their current use in an exemplar 
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            2021
+            
+            Sunday, July 18, 2021
+            <div class="talk-time">
+              
+			    
+              
+            </div>
           </div>
         </div>
       </div>
@@ -438,6 +404,37 @@ We first recall established formal methods and their current use in an exemplar 
     </div>
     <div class="visible-xs space-below"></div>
 
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
+          <div class="col-xs-12 col-sm-9">
+            <a href="https://fomlas2021.wixsite.com/fomlas2021" target="_blank" rel="noopener">
+            4th Workshop on Formal Methods for ML-Enabled Autonomous Systems (FoMLAS 2021)
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
+          <div class="col-xs-12 col-sm-9">🇺🇸 Los Angeles, USA (remote)</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
     <div class="row" style="padding-top: 10px">
       <div class="col-sm-1"></div>
       <div class="col-sm-10">
@@ -450,36 +447,19 @@ We first recall established formal methods and their current use in an exemplar 
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/survey.pdf" target="_blank" rel="noopener">
-  PDF
+
+
+<a class="btn btn-primary btn-outline" href="https://github.com/caterinaurban/Libra">
+  Code
 </a>
 
 
-
-
-
-
-
-
   
-  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/lyra/">
+  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/libra/">
     Project
   </a>
   
 
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2104.02466" target="_blank" rel="noopener">
-  arXiv
-</a>
-
-<a class="btn btn-primary btn-outline" href="https://hal.archives-ouvertes.fr/hal-03192255" target="_blank" rel="noopener">
-  HAL
-</a>
 
 
 
@@ -489,11 +469,14 @@ We first recall established formal methods and their current use in an exemplar 
       <div class="col-sm-1"></div>
     </div>
     <div class="visible-xs space-below"></div>
+    
 
     <div class="space-below"></div>
 
-    <div class="article-style"><p><img src="https://caterinaurban.github.io/img/libra.png" alt="Libra" /></p>
-</div>
+    <div class="article-style">
+      <p><img src="https://caterinaurban.github.io/img/libra.png" alt="Lyra" /></p>
+
+    </div>
 
     
 
@@ -591,6 +574,18 @@ We first recall established formal methods and their current use in an exemplar 
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous"></script>
     
     
 
