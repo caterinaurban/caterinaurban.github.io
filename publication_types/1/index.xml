@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fairness-Aware Training of Decision Trees by Abstract Interpretation</title>
+      <link>https://caterinaurban.github.io/publication/cikm2021/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/cikm2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Reduced Products of Abstract Domains for Fairness Certification of Neural Networks</title>
