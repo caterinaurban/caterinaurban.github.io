@@ -17,10 +17,12 @@
       
     
   
-  <meta name="description" content="Aujourd&#39;hui, les logiciels appris par machine (notamment les réseaux de neurones) jouent un rôle de plus en plus important dans l&#39;assistance voire l&#39;exécution autonome de tâches, même dans des scénarios critiques pour la sécurité. Dans cette exposée, je vais vous donner un aperçu de comment dans l&#39;équipe ANTIQUE (en collaboration avec Fujitsu) nous utilisons l&#39;interprétation abstraite pour certifier automatiquement que les réseaux de neurones se comportent bien en toutes circonstances. Qu&#39;est-ce que c&#39;est l&#39;interprétation abstraite ?! Pas de soucis, je vais vous montrer que nous faisons tous de l&#39;interprétation abstraite tous les jours dans notre quotidien !">
+  <meta name="description" content="Big data analytics has revolutionized the world of software development in the past decade. Every day, data scientists write computer programs to clean, manipulate, and visualize data, in order to help us make data-driven decisions. As we rely more and more on data analytics software, we become increasingly vulnerable to programming or technical mistakes. Mistakes that do not cause software failures can have serious consequences, since they give no indication that something went wrong. A simple technical mistake made during data processing caused nearly 16,000 cases of Covid-19 between September 25th and October 2nd, 2020 to go unreported from official figures in the UK. As a consequence, Public Health England was unable to send out the relevant contact-tracing alerts. Mistakes in safety-critical applications can be deadly.
+In this talk, I will present ongoing work to develop an abstract interpretation-based static analysis framework for data scientists. In particular, I will focus on an analysis that infers necessary conditions on the structure and values of the data read by a data analytics program. The analysis builds on a family of underlying abstract domains, extended to indirectly reason about the input data rather than simply reasoning about the program variables. The choice of these abstract domains is a parameter of the analysis. We describe various instances built from existing abstract domains. We then demonstrate the potential of the approach on a number of representative examples and discuss ongoing efforts to target data analytics using Jupyter notebooks.
+">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/inria2022/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/ini2022/">
 
   
 
@@ -88,7 +90,7 @@
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/talk/inria2022/">
+  <link rel="canonical" href="https://caterinaurban.github.io/talk/ini2022/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -96,14 +98,16 @@
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/talk/inria2022/">
-  <meta property="og:title" content="🇫🇷 Interprétation Abstraite des Réseaux de Neurones | Caterina Urban">
-  <meta property="og:description" content="Aujourd&#39;hui, les logiciels appris par machine (notamment les réseaux de neurones) jouent un rôle de plus en plus important dans l&#39;assistance voire l&#39;exécution autonome de tâches, même dans des scénarios critiques pour la sécurité. Dans cette exposée, je vais vous donner un aperçu de comment dans l&#39;équipe ANTIQUE (en collaboration avec Fujitsu) nous utilisons l&#39;interprétation abstraite pour certifier automatiquement que les réseaux de neurones se comportent bien en toutes circonstances. Qu&#39;est-ce que c&#39;est l&#39;interprétation abstraite ?! Pas de soucis, je vais vous montrer que nous faisons tous de l&#39;interprétation abstraite tous les jours dans notre quotidien !"><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
+  <meta property="og:url" content="https://caterinaurban.github.io/talk/ini2022/">
+  <meta property="og:title" content="Static Analysis for Data Scientists | Caterina Urban">
+  <meta property="og:description" content="Big data analytics has revolutionized the world of software development in the past decade. Every day, data scientists write computer programs to clean, manipulate, and visualize data, in order to help us make data-driven decisions. As we rely more and more on data analytics software, we become increasingly vulnerable to programming or technical mistakes. Mistakes that do not cause software failures can have serious consequences, since they give no indication that something went wrong. A simple technical mistake made during data processing caused nearly 16,000 cases of Covid-19 between September 25th and October 2nd, 2020 to go unreported from official figures in the UK. As a consequence, Public Health England was unable to send out the relevant contact-tracing alerts. Mistakes in safety-critical applications can be deadly.
+In this talk, I will present ongoing work to develop an abstract interpretation-based static analysis framework for data scientists. In particular, I will focus on an analysis that infers necessary conditions on the structure and values of the data read by a data analytics program. The analysis builds on a family of underlying abstract domains, extended to indirectly reason about the input data rather than simply reasoning about the program variables. The choice of these abstract domains is a parameter of the analysis. We describe various instances built from existing abstract domains. We then demonstrate the potential of the approach on a number of representative examples and discuss ongoing efforts to target data analytics using Jupyter notebooks.
+">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2022-04-26T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2022-05-30T17:24:30&#43;02:00">
+  <meta property="article:modified_time" content="2022-04-26T00:00:00&#43;02:00">
   
 
   
@@ -144,8 +148,8 @@
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
     "articleSection" : "talk",
-    "name" : "🇫🇷 Interprétation Abstraite des Réseaux de Neurones",
-    "headline" : "🇫🇷 Interprétation Abstraite des Réseaux de Neurones",
+    "name" : "Static Analysis for Data Scientists",
+    "headline" : "Static Analysis for Data Scientists",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -156,13 +160,13 @@
     "copyrightYear" : "2022",
     "datePublished": "2022-04-26 00:00:00 \x2b0200 CEST",
     "dateModified" : "2022-04-26 00:00:00 \x2b0200 CEST",
-    "url" : "https:\/\/caterinaurban.github.io\/talk\/inria2022\/",
+    "url" : "https:\/\/caterinaurban.github.io\/talk\/ini2022\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>🇫🇷 Interprétation Abstraite des Réseaux de Neurones | Caterina Urban</title>
+  <title>Static Analysis for Data Scientists | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -355,21 +359,12 @@
 <div class="pub" itemscope itemtype="http://schema.org/Event">
 
   
-<div class="article-header">
-  
-  
-    <img src="https://caterinaurban.github.io/img/headers/neurons.png" class="article-banner" itemprop="image">
-  
-
-  
-</div>
-
 
 
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">🇫🇷 Interprétation Abstraite des Réseaux de Neurones</h1>
+      <h1 itemprop="name">Static Analysis for Data Scientists</h1>
       <span class="pub-authors" itemprop="author">
         
       </span>
@@ -381,7 +376,8 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">Aujourd&rsquo;hui, les logiciels appris par machine (notamment les réseaux de neurones) jouent un rôle de plus en plus important dans l&rsquo;assistance voire l&rsquo;exécution autonome de tâches, même dans des scénarios critiques pour la sécurité. Dans cette exposée, je vais vous donner un aperçu de comment dans l&rsquo;équipe ANTIQUE (en collaboration avec Fujitsu) nous utilisons l&rsquo;interprétation abstraite pour certifier automatiquement que les réseaux de neurones se comportent bien en toutes circonstances. Qu&rsquo;est-ce que c&rsquo;est l&rsquo;interprétation abstraite ?! Pas de soucis, je vais vous montrer que nous faisons tous de l&rsquo;interprétation abstraite tous les jours dans notre quotidien !</p>
+      <p class="pub-abstract" itemprop="text">Big data analytics has revolutionized the world of software development in the past decade. Every day, data scientists write computer programs to clean, manipulate, and visualize data, in order to help us make data-driven decisions. As we rely more and more on data analytics software, we become increasingly vulnerable to programming or technical mistakes. Mistakes that do not cause software failures can have serious consequences, since they give no indication that something went wrong. A simple technical mistake made during data processing caused nearly 16,000 cases of Covid-19 between September 25th and October 2nd, 2020 to go unreported from official figures in the UK. As a consequence, Public Health England was unable to send out the relevant contact-tracing alerts. Mistakes in safety-critical applications can be deadly.
+In this talk, I will present ongoing work to develop an abstract interpretation-based static analysis framework for data scientists. In particular, I will focus on an analysis that infers necessary conditions on the structure and values of the data read by a data analytics program. The analysis builds on a family of underlying abstract domains, extended to indirectly reason about the input data rather than simply reasoning about the program variables. The choice of these abstract domains is a parameter of the analysis. We describe various instances built from existing abstract domains. We then demonstrate the potential of the approach on a number of representative examples and discuss ongoing efforts to target data analytics using Jupyter notebooks.</p>
     
 
     <div class="row">
@@ -391,13 +387,13 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
             
-            Thursday, May 12, 2022
+            Friday, July 8, 2022
             <div class="talk-time">
               
 			    
-                1:45 PM
+                1:30 PM
                 
-                  &mdash; 2:15 PM
+                  &mdash; 2:30 PM
 				
                 
               
@@ -415,9 +411,9 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
           <div class="col-xs-12 col-sm-9">
-            
-            La Demi-Heure de Science
-            
+            <a href="https://www.newton.ac.uk/event/vs2w01/" target="_blank" rel="noopener">
+            Isaac Newton Institute Workshop “Vistas in Verified Software”
+            </a>
           </div>
         </div>
       </div>
@@ -431,7 +427,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">🇫🇷 INRIA Paris, France</div>
+          <div class="col-xs-12 col-sm-9">🇬🇧 Cambridge, UK (remote)</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -452,12 +448,14 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/inria2022.pdf">
-  Slides
-</a>
 
 
 
+  
+  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/lyra/">
+    Project
+  </a>
+  
 
 
 
@@ -473,7 +471,7 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      <p><img src="https://caterinaurban.github.io/img/whoopie.png" alt="Whoopie" /></p>
+      <p><img src="https://caterinaurban.github.io/img/lyra.png" alt="Lyra" /></p>
 
     </div>
 
