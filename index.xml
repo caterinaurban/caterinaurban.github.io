@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ReCIPH: Relational Coefficients for Input Partitioning Heuristic</title>
+      <link>https://caterinaurban.github.io/publication/wfvml2022/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/wfvml2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Static Analysis for Data Scientists</title>
@@ -154,16 +164,6 @@
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/f8Cjpt-rzxE?start=4374&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An Abstract Interpretation Recipe for Machine Learning Fairness</title>
-      <link>https://caterinaurban.github.io/talk/fomlas2021/</link>
-      <pubDate>Mon, 20 Jul 2020 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/fomlas2021/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
