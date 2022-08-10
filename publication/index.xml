@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Verifying Attention Robustness of Deep Neural Networks against Semantic Perturbations</title>
       <link>https://caterinaurban.github.io/publication/gbs/</link>
-      <pubDate>Tue, 19 Jul 2022 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/gbs/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>ReCIPH: Relational Coefficients for Input Partitioning Heuristic</title>
       <link>https://caterinaurban.github.io/publication/wfvml2022/</link>
-      <pubDate>Fri, 08 Jul 2022 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/wfvml2022/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Fairness-Aware Training of Decision Trees by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/publication/cikm2021/</link>
-      <pubDate>Sun, 08 Aug 2021 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cikm2021/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Reduced Products of Abstract Domains for Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/publication/sas2021/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sas2021/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>A Review of Formal Methods applied to Machine Learning</title>
       <link>https://caterinaurban.github.io/publication/survey/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/survey/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Fair Training of Decision Tree Classifiers</title>
       <link>https://caterinaurban.github.io/publication/fatt/</link>
-      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/fatt/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/publication/oopsla2020/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/oopsla2020/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>What Programs Want: Automatic Inference of Input Data Specifications</title>
       <link>https://caterinaurban.github.io/publication/shape/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/shape/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/publication/fairness/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/fairness/</guid>
       <description></description>
@@ -96,7 +96,7 @@
     <item>
       <title>Static Analysis of Data Science Software</title>
       <link>https://caterinaurban.github.io/publication/sas2019/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sas2019/</guid>
       <description></description>
@@ -105,7 +105,7 @@
     <item>
       <title>Abstract Interpretation of CTL Properties</title>
       <link>https://caterinaurban.github.io/publication/sas2018/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sas2018/</guid>
       <description></description>
@@ -114,7 +114,7 @@
     <item>
       <title>MaxSMT-Based Type Inference for Python 3</title>
       <link>https://caterinaurban.github.io/publication/cav2018a/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cav2018a/</guid>
       <description></description>
@@ -123,7 +123,7 @@
     <item>
       <title>Permission Inference for Array Programs</title>
       <link>https://caterinaurban.github.io/publication/cav2018b/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cav2018b/</guid>
       <description></description>
@@ -132,7 +132,7 @@
     <item>
       <title>An Abstract Interpretation Framework for Input Data Usage</title>
       <link>https://caterinaurban.github.io/publication/esop2018/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/esop2018/</guid>
       <description></description>
@@ -141,7 +141,7 @@
     <item>
       <title>Abstract Interpretation as Automated Deduction</title>
       <link>https://caterinaurban.github.io/publication/jar2017/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/jar2017/</guid>
       <description></description>
@@ -150,7 +150,7 @@
     <item>
       <title>Precise Widening Operators for Proving Termination by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/publication/tacas2017/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/tacas2017/</guid>
       <description></description>
@@ -159,7 +159,7 @@
     <item>
       <title>Inference of Ranking Functions for Proving Temporal Properties by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/publication/comlan2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/comlan2017/</guid>
       <description></description>
@@ -168,7 +168,7 @@
     <item>
       <title>Büchi, Lindenbaum, Tarski: A Program Analysis Appetizer</title>
       <link>https://caterinaurban.github.io/publication/ijcai2016/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/ijcai2016/</guid>
       <description></description>
@@ -177,7 +177,7 @@
     <item>
       <title>Synthesizing Ranking Functions from Bits and Pieces</title>
       <link>https://caterinaurban.github.io/publication/tacas2016/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/tacas2016/</guid>
       <description></description>
@@ -186,7 +186,7 @@
     <item>
       <title>Abstract Interpretation as Automated Deduction</title>
       <link>https://caterinaurban.github.io/publication/cade2015/</link>
-      <pubDate>Sat, 01 Aug 2015 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cade2015/</guid>
       <description></description>
@@ -195,7 +195,7 @@
     <item>
       <title>Static Analysis by Abstract Interpretation of Functional Temporal Properties of Programs</title>
       <link>https://caterinaurban.github.io/publication/phd2015/</link>
-      <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/phd2015/</guid>
       <description>PhD Advisors  Radhia Cousot
@@ -212,7 +212,7 @@ Verimag, Grenoble, France Manuel Hermenegildo</description>
     <item>
       <title>Conflict-Driven Conditional Termination</title>
       <link>https://caterinaurban.github.io/publication/cav2015/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cav2015/</guid>
       <description></description>
@@ -221,7 +221,7 @@ Verimag, Grenoble, France Manuel Hermenegildo</description>
     <item>
       <title>FuncTion: An Abstract Domain Functor for Termination (Competition Contribution)</title>
       <link>https://caterinaurban.github.io/publication/sv-comp2015/</link>
-      <pubDate>Wed, 01 Apr 2015 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sv-comp2015/</guid>
       <description></description>
@@ -230,7 +230,7 @@ Verimag, Grenoble, France Manuel Hermenegildo</description>
     <item>
       <title>Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/publication/vmcai2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/vmcai2015/</guid>
       <description></description>
@@ -239,7 +239,7 @@ Verimag, Grenoble, France Manuel Hermenegildo</description>
     <item>
       <title>A Decision Tree Abstract Domain for Proving Conditional Termination</title>
       <link>https://caterinaurban.github.io/publication/sas2014/</link>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sas2014/</guid>
       <description></description>
@@ -248,7 +248,7 @@ Verimag, Grenoble, France Manuel Hermenegildo</description>
     <item>
       <title>To Infinity... and Beyond!</title>
       <link>https://caterinaurban.github.io/publication/wst2014/</link>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/wst2014/</guid>
       <description></description>
@@ -257,7 +257,7 @@ Verimag, Grenoble, France Manuel Hermenegildo</description>
     <item>
       <title>An Abstract Domain to Infer Ordinal-Valued Ranking Functions</title>
       <link>https://caterinaurban.github.io/publication/esop2014/</link>
-      <pubDate>Tue, 01 Apr 2014 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/esop2014/</guid>
       <description></description>
@@ -266,7 +266,7 @@ Verimag, Grenoble, France Manuel Hermenegildo</description>
     <item>
       <title>Piecewise-Defined Ranking Functions</title>
       <link>https://caterinaurban.github.io/publication/wst2013/</link>
-      <pubDate>Thu, 01 Aug 2013 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/wst2013/</guid>
       <description></description>
@@ -275,7 +275,7 @@ Verimag, Grenoble, France Manuel Hermenegildo</description>
     <item>
       <title>The Abstract Domain of Segmented Ranking Functions</title>
       <link>https://caterinaurban.github.io/publication/sas2013/</link>
-      <pubDate>Sat, 01 Jun 2013 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sas2013/</guid>
       <description></description>
@@ -284,7 +284,7 @@ Verimag, Grenoble, France Manuel Hermenegildo</description>
     <item>
       <title>Formal Analysis of Facebook Connect Single Sign-On Authentication Protocol</title>
       <link>https://caterinaurban.github.io/publication/sofsem2011/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sofsem2011/</guid>
       <description></description>

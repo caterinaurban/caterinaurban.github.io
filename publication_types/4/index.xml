@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0300</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Verifying Attention Robustness of Deep Neural Networks against Semantic Perturbations</title>
       <link>https://caterinaurban.github.io/publication/gbs/</link>
-      <pubDate>Tue, 19 Jul 2022 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/gbs/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>A Review of Formal Methods applied to Machine Learning</title>
       <link>https://caterinaurban.github.io/publication/survey/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/survey/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Fair Training of Decision Tree Classifiers</title>
       <link>https://caterinaurban.github.io/publication/fatt/</link>
-      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/fatt/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>What Programs Want: Automatic Inference of Input Data Specifications</title>
       <link>https://caterinaurban.github.io/publication/shape/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/shape/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/publication/fairness/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/fairness/</guid>
       <description></description>

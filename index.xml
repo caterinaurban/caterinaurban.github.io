@@ -6,13 +6,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0300</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Verifying Attention Robustness of Deep Neural Networks against Semantic Perturbations</title>
       <link>https://caterinaurban.github.io/publication/gbs/</link>
-      <pubDate>Tue, 19 Jul 2022 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/gbs/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -22,7 +22,7 @@
     <item>
       <title>ReCIPH: Relational Coefficients for Input Partitioning Heuristic</title>
       <link>https://caterinaurban.github.io/publication/wfvml2022/</link>
-      <pubDate>Fri, 08 Jul 2022 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/wfvml2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -32,7 +32,7 @@
     <item>
       <title>Static Analysis for Data Scientists</title>
       <link>https://caterinaurban.github.io/talk/ini2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/ini2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
@@ -42,7 +42,7 @@
     <item>
       <title>Static Analysis for Data Scientists</title>
       <link>https://caterinaurban.github.io/talk/soap2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/soap2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
@@ -52,7 +52,7 @@
     <item>
       <title>Static Analysis for Data Scientists</title>
       <link>https://caterinaurban.github.io/talk/venice2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/venice2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/patrick2022.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -64,7 +64,7 @@
     <item>
       <title>🇫🇷 Interprétation Abstraite des Réseaux de Neurones</title>
       <link>https://caterinaurban.github.io/talk/inria2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inria2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
@@ -74,7 +74,7 @@
     <item>
       <title>An Abstract Interpretation Recipe for Machine Learning Fairness</title>
       <link>https://caterinaurban.github.io/talk/cea2021/</link>
-      <pubDate>Mon, 04 Oct 2021 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/cea2021/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
@@ -84,7 +84,7 @@
     <item>
       <title>An Abstract Interpretation Recipe for Machine Learning Fairness</title>
       <link>https://caterinaurban.github.io/talk/gtverif2021/</link>
-      <pubDate>Mon, 04 Oct 2021 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/gtverif2021/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
@@ -94,7 +94,7 @@
     <item>
       <title>Fairness-Aware Training of Decision Trees by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/publication/cikm2021/</link>
-      <pubDate>Sun, 08 Aug 2021 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/cikm2021/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -104,7 +104,7 @@
     <item>
       <title>Reduced Products of Abstract Domains for Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/publication/sas2021/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sas2021/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -114,7 +114,7 @@
     <item>
       <title>A Review of Formal Methods applied to Machine Learning</title>
       <link>https://caterinaurban.github.io/publication/survey/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/survey/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -124,7 +124,7 @@
     <item>
       <title>Formal Methods for Robust Artificial Intelligence: State of the Art</title>
       <link>https://caterinaurban.github.io/talk/airbus2021/</link>
-      <pubDate>Fri, 05 Feb 2021 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/airbus2021/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
@@ -134,7 +134,7 @@
     <item>
       <title>Fair Training of Decision Tree Classifiers</title>
       <link>https://caterinaurban.github.io/publication/fatt/</link>
-      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/fatt/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
@@ -144,7 +144,7 @@
     <item>
       <title>Static Analysis for Data Science</title>
       <link>https://caterinaurban.github.io/talk/inserm2020/</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inserm2020/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/inserm2020.pdf&#34; alt=&#34;inserm2020&#34; /&gt;&lt;/p&gt;
@@ -156,7 +156,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/publication/oopsla2020/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0300</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/oopsla2020/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6o9yiBjQWCY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
