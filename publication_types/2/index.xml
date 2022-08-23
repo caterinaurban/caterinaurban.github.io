@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Abstract Interpretation as Automated Deduction</title>
       <link>https://caterinaurban.github.io/publication/jar2017/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/jar2017/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Inference of Ranking Functions for Proving Temporal Properties by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/publication/comlan2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/comlan2017/</guid>
       <description></description>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Static Analysis for Data Scientists</title>
       <link>https://caterinaurban.github.io/talk/ini2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/ini2022/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Static Analysis for Data Scientists</title>
       <link>https://caterinaurban.github.io/talk/soap2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/soap2022/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Static Analysis for Data Scientists</title>
       <link>https://caterinaurban.github.io/talk/venice2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/venice2022/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>🇫🇷 Interprétation Abstraite des Réseaux de Neurones</title>
       <link>https://caterinaurban.github.io/talk/inria2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inria2022/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>An Abstract Interpretation Recipe for Machine Learning Fairness</title>
       <link>https://caterinaurban.github.io/talk/cea2021/</link>
-      <pubDate>Mon, 04 Oct 2021 00:00:00 +0300</pubDate>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/cea2021/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>An Abstract Interpretation Recipe for Machine Learning Fairness</title>
       <link>https://caterinaurban.github.io/talk/gtverif2021/</link>
-      <pubDate>Mon, 04 Oct 2021 00:00:00 +0300</pubDate>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/gtverif2021/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Formal Methods for Robust Artificial Intelligence: State of the Art</title>
       <link>https://caterinaurban.github.io/talk/airbus2021/</link>
-      <pubDate>Fri, 05 Feb 2021 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/airbus2021/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>Static Analysis for Data Science</title>
       <link>https://caterinaurban.github.io/talk/inserm2020/</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inserm2020/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>A Guided Tour of a Static Analyzer for Data Science Software</title>
       <link>https://caterinaurban.github.io/talk/dsv2020/</link>
-      <pubDate>Mon, 20 Jul 2020 00:00:00 +0300</pubDate>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/dsv2020/</guid>
       <description></description>
@@ -96,7 +96,7 @@
     <item>
       <title>An Abstract Interpretation Recipe for Machine Learning Fairness</title>
       <link>https://caterinaurban.github.io/talk/fomlas2021/</link>
-      <pubDate>Mon, 20 Jul 2020 00:00:00 +0300</pubDate>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/fomlas2021/</guid>
       <description></description>
@@ -105,7 +105,7 @@
     <item>
       <title>Formal Methods for Robust Artificial Intelligence: State of the Art</title>
       <link>https://caterinaurban.github.io/talk/lorentz2021a/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0300</pubDate>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/lorentz2021a/</guid>
       <description></description>
@@ -114,7 +114,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/inria2020/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0300</pubDate>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inria2020/</guid>
       <description></description>
@@ -123,7 +123,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/lorentz2021b/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0300</pubDate>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/lorentz2021b/</guid>
       <description></description>
@@ -132,7 +132,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/irif2020/</link>
-      <pubDate>Wed, 03 Jun 2020 00:00:00 +0300</pubDate>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/irif2020/</guid>
       <description></description>
@@ -141,7 +141,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/ens2021/</link>
-      <pubDate>Sun, 24 May 2020 00:00:00 +0300</pubDate>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/ens2021/</guid>
       <description></description>
@@ -150,7 +150,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/tau2020/</link>
-      <pubDate>Sun, 24 May 2020 00:00:00 +0300</pubDate>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/tau2020/</guid>
       <description></description>
@@ -159,7 +159,7 @@
     <item>
       <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
       <link>https://caterinaurban.github.io/talk/thales2020/</link>
-      <pubDate>Fri, 15 May 2020 00:00:00 +0300</pubDate>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/thales2020/</guid>
       <description></description>
@@ -168,7 +168,7 @@
     <item>
       <title>Static Analysis of Data Science Software</title>
       <link>https://caterinaurban.github.io/talk/sas2019/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/sas2019/</guid>
       <description></description>
@@ -177,7 +177,7 @@
     <item>
       <title>What Programs Want: Automatic Inference of Input Data Specifications</title>
       <link>https://caterinaurban.github.io/talk/gssi2019/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0300</pubDate>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/gssi2019/</guid>
       <description></description>
@@ -186,7 +186,7 @@
     <item>
       <title>Static Program Analysis for a Software-Driven Society</title>
       <link>https://caterinaurban.github.io/talk/epfl2018/</link>
-      <pubDate>Mon, 26 Mar 2018 00:00:00 +0300</pubDate>
+      <pubDate>Mon, 26 Mar 2018 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/epfl2018/</guid>
       <description></description>
@@ -195,7 +195,7 @@
     <item>
       <title>Static Program Analysis for a Software-Driven Society</title>
       <link>https://caterinaurban.github.io/talk/stevens2018/</link>
-      <pubDate>Thu, 22 Mar 2018 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/stevens2018/</guid>
       <description></description>
@@ -204,7 +204,7 @@
     <item>
       <title>Static Program Analysis for a Software-Driven Society</title>
       <link>https://caterinaurban.github.io/talk/mpisws2018/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/mpisws2018/</guid>
       <description></description>
@@ -213,7 +213,7 @@
     <item>
       <title>An Abstract Interpretation Framework for Input Data Usage</title>
       <link>https://caterinaurban.github.io/talk/shonan2017b/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0300</pubDate>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/shonan2017b/</guid>
       <description></description>
@@ -222,7 +222,7 @@
     <item>
       <title>An Abstract Interpretation Framework for Input Data Usage</title>
       <link>https://caterinaurban.github.io/talk/shonan2017a/</link>
-      <pubDate>Tue, 12 Sep 2017 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/shonan2017a/</guid>
       <description></description>
@@ -231,7 +231,7 @@
     <item>
       <title>Synthesizing Ranking Functions from Bits and Pieces</title>
       <link>https://caterinaurban.github.io/talk/upmc2017/</link>
-      <pubDate>Thu, 26 Jan 2017 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 26 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/upmc2017/</guid>
       <description></description>
@@ -240,7 +240,7 @@
     <item>
       <title>Bringing Abstract Interpretation To Termination And Beyond</title>
       <link>https://caterinaurban.github.io/talk/dagstuhl16201/</link>
-      <pubDate>Thu, 19 May 2016 00:00:00 +0300</pubDate>
+      <pubDate>Thu, 19 May 2016 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/dagstuhl16201/</guid>
       <description></description>
@@ -249,7 +249,7 @@
     <item>
       <title>Data Usage across the Machine Learning Pipeline</title>
       <link>https://caterinaurban.github.io/talk/dagstuhl22291/</link>
-      <pubDate>Thu, 19 May 2016 00:00:00 +0300</pubDate>
+      <pubDate>Thu, 19 May 2016 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/dagstuhl22291/</guid>
       <description></description>
@@ -258,7 +258,7 @@
     <item>
       <title>🇫🇷 Analyse Statique par Interprétation Abstraite de Propriétés Temporelles des Programmes</title>
       <link>https://caterinaurban.github.io/talk/sif2016/</link>
-      <pubDate>Thu, 28 Jan 2016 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/sif2016/</guid>
       <description></description>
@@ -267,7 +267,7 @@
     <item>
       <title>Abstract Interpretation as Automated Deduction</title>
       <link>https://caterinaurban.github.io/talk/tuwien2015/</link>
-      <pubDate>Fri, 14 Aug 2015 00:00:00 +0300</pubDate>
+      <pubDate>Fri, 14 Aug 2015 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/tuwien2015/</guid>
       <description></description>
@@ -276,7 +276,7 @@
     <item>
       <title>Counterexample-Guided Inference of Ranking Functions</title>
       <link>https://caterinaurban.github.io/talk/sri2015/</link>
-      <pubDate>Thu, 30 Jul 2015 00:00:00 +0300</pubDate>
+      <pubDate>Thu, 30 Jul 2015 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/sri2015/</guid>
       <description></description>
@@ -285,7 +285,7 @@
     <item>
       <title>Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/talk/uniud2014/</link>
-      <pubDate>Thu, 18 Dec 2014 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 18 Dec 2014 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/uniud2014/</guid>
       <description></description>
@@ -294,7 +294,7 @@
     <item>
       <title>Proving Guarantee and Recurrence Temporal Properties by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/talk/eth2014/</link>
-      <pubDate>Mon, 03 Nov 2014 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/eth2014/</guid>
       <description></description>
@@ -303,7 +303,7 @@
     <item>
       <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/talk/quml2014/</link>
-      <pubDate>Wed, 01 Oct 2014 00:00:00 +0300</pubDate>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/quml2014/</guid>
       <description></description>
@@ -312,7 +312,7 @@
     <item>
       <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/talk/dagstuhl14352/</link>
-      <pubDate>Tue, 26 Aug 2014 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/dagstuhl14352/</guid>
       <description></description>
@@ -321,7 +321,7 @@
     <item>
       <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/talk/ucl2014/</link>
-      <pubDate>Wed, 18 Jun 2014 00:00:00 +0300</pubDate>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/ucl2014/</guid>
       <description></description>
@@ -330,7 +330,7 @@
     <item>
       <title>An Abstract Domain to Infer Ordinal-Valued Ranking Functions</title>
       <link>https://caterinaurban.github.io/talk/inria2014b/</link>
-      <pubDate>Wed, 28 May 2014 00:00:00 +0300</pubDate>
+      <pubDate>Wed, 28 May 2014 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inria2014b/</guid>
       <description></description>
@@ -339,7 +339,7 @@
     <item>
       <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/talk/inria2014a/</link>
-      <pubDate>Tue, 18 Mar 2014 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 18 Mar 2014 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/inria2014a/</guid>
       <description></description>
@@ -348,7 +348,7 @@
     <item>
       <title>Automatic Inference of Ranking Functions by Abstract Interpretation</title>
       <link>https://caterinaurban.github.io/talk/ibm2014/</link>
-      <pubDate>Thu, 16 Jan 2014 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 16 Jan 2014 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/ibm2014/</guid>
       <description></description>
@@ -357,7 +357,7 @@
     <item>
       <title>The Abstract Domain of Piecewise-Defined Ranking Functions</title>
       <link>https://caterinaurban.github.io/talk/avdcps2013/</link>
-      <pubDate>Sat, 23 Nov 2013 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 23 Nov 2013 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/avdcps2013/</guid>
       <description></description>
@@ -366,7 +366,7 @@
     <item>
       <title>The Abstract Domain of Piecewise-Defined Ranking Functions</title>
       <link>https://caterinaurban.github.io/talk/ecnu2013/</link>
-      <pubDate>Sat, 23 Nov 2013 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 23 Nov 2013 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/ecnu2013/</guid>
       <description></description>
@@ -375,7 +375,7 @@
     <item>
       <title>The Abstract Domain of Segmented Ranking Functions</title>
       <link>https://caterinaurban.github.io/talk/uniud2013/</link>
-      <pubDate>Mon, 25 Mar 2013 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/uniud2013/</guid>
       <description></description>
