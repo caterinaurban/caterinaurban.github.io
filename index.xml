@@ -11,6 +11,16 @@
     
     <item>
       <title>Verifying Attention Robustness of Deep Neural Networks against Semantic Perturbations</title>
+      <link>https://caterinaurban.github.io/publication/apsec2022/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/apsec2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Verifying Attention Robustness of Deep Neural Networks against Semantic Perturbations</title>
       <link>https://caterinaurban.github.io/publication/gbs/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0200</pubDate>
       
@@ -150,18 +160,6 @@
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/inserm2020.pdf&#34; alt=&#34;inserm2020&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Perfectly Parallel Fairness Certification of Neural Networks</title>
-      <link>https://caterinaurban.github.io/publication/oopsla2020/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/oopsla2020/</guid>
-      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6o9yiBjQWCY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
