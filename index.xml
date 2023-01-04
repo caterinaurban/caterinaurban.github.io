@@ -6,8 +6,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 25 Oct 2022 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jan 2023 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Interpretability-Aware Verification of Machine Learning Software</title>
+      <link>https://caterinaurban.github.io/talk/irill2022/</link>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/irill2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Abstract Interpretation-Based Data Leakage Static Analysis</title>
+      <link>https://caterinaurban.github.io/publication/leakage/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/leakage/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Abstract Interpretation-Based Feature Importance for SVMs</title>
@@ -137,26 +157,6 @@
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/survey/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Formal Methods for Robust Artificial Intelligence: State of the Art</title>
-      <link>https://caterinaurban.github.io/talk/airbus2021/</link>
-      <pubDate>Fri, 05 Feb 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/airbus2021/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fair Training of Decision Tree Classifiers</title>
-      <link>https://caterinaurban.github.io/publication/fatt/</link>
-      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/fatt/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>

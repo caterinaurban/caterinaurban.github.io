@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -15,11 +13,16 @@
   
   
   
-  <meta name="description" content="  Research Scientist (Chargé de Recherche)
-  ">
+    
+      
+    
+  
+  <meta name="description" content="Data leakage is a well-known problem in machine learning. Data leakage occurs when information from outside the training dataset is used to create a model. This phenomenon renders a model excessively optimistic or even useless in the real world since the model tends to leverage greatly on the unfairly acquired information. To date, detection of data leakages occurs post-mortem using run-time methods. However, due to the insidious nature of data leakage, it may not be apparent to a data scientist that a data leakage has occurred in the first place. For this reason, it is advantageous to detect data leakages as early as possible in the development life cycle.
+In this paper, we propose a novel static analysis to detect several instances of data leakages during development time. We define our analysis using the framework of abstract interpretation: we define a concrete semantics that is sound and complete, from which we derive a sound and computable abstract semantics. We implement our static analysis inside the open-source NBLyzer static analysis framework and demonstrate its utility by evaluating its performance and precision on over 2000 Kaggle competition notebooks.
+">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication_types/4/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication/leakage/">
 
   
 
@@ -79,15 +82,15 @@
   
 
   
-  <link rel="alternate" href="https://caterinaurban.github.io/publication_types/4/index.xml" type="application/rss+xml" title="Caterina Urban">
-  <link rel="feed" href="https://caterinaurban.github.io/publication_types/4/index.xml" type="application/rss+xml" title="Caterina Urban">
+  <link rel="alternate" href="https://caterinaurban.github.io/index.xml" type="application/rss+xml" title="Caterina Urban">
+  <link rel="feed" href="https://caterinaurban.github.io/index.xml" type="application/rss+xml" title="Caterina Urban">
   
 
   <link rel="manifest" href="https://caterinaurban.github.io/site.webmanifest">
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/publication_types/4/">
+  <link rel="canonical" href="https://caterinaurban.github.io/publication/leakage/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -95,13 +98,16 @@
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/publication_types/4/">
-  <meta property="og:title" content="4 | Caterina Urban">
-  <meta property="og:description" content="  Research Scientist (Chargé de Recherche)
-  ">
+  <meta property="og:url" content="https://caterinaurban.github.io/publication/leakage/">
+  <meta property="og:title" content="Abstract Interpretation-Based Data Leakage Static Analysis | Caterina Urban">
+  <meta property="og:description" content="Data leakage is a well-known problem in machine learning. Data leakage occurs when information from outside the training dataset is used to create a model. This phenomenon renders a model excessively optimistic or even useless in the real world since the model tends to leverage greatly on the unfairly acquired information. To date, detection of data leakages occurs post-mortem using run-time methods. However, due to the insidious nature of data leakage, it may not be apparent to a data scientist that a data leakage has occurred in the first place. For this reason, it is advantageous to detect data leakages as early as possible in the development life cycle.
+In this paper, we propose a novel static analysis to detect several instances of data leakages during development time. We define our analysis using the framework of abstract interpretation: we define a concrete semantics that is sound and complete, from which we derive a sound and computable abstract semantics. We implement our static analysis inside the open-source NBLyzer static analysis framework and demonstrate its utility by evaluating its performance and precision on over 2000 Kaggle competition notebooks.
+"><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2022-11-29T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2022-11-29T00:00:00&#43;01:00">
+  
+  <meta property="article:modified_time" content="2022-11-29T00:00:00&#43;01:00">
   
 
   
@@ -141,9 +147,9 @@
          "@type": "WebPage",
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
-    "articleSection" : "publication_types",
-    "name" : "4",
-    "headline" : "4",
+    "articleSection" : "publication",
+    "name" : "Abstract Interpretation-Based Data Leakage Static Analysis",
+    "headline" : "Abstract Interpretation-Based Data Leakage Static Analysis",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -154,13 +160,13 @@
     "copyrightYear" : "2022",
     "datePublished": "2022-11-29 00:00:00 \x2b0100 CET",
     "dateModified" : "2022-11-29 00:00:00 \x2b0100 CET",
-    "url" : "https:\/\/caterinaurban.github.io\/publication_types\/4\/",
+    "url" : "https:\/\/caterinaurban.github.io\/publication\/leakage\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>4 | Caterina Urban</title>
+  <title>Abstract Interpretation-Based Data Leakage Static Analysis | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -350,72 +356,152 @@
   </div>
 </nav>
 
-
-
-
-
-<div class="universal-wrapper">
-
-  <h1>4</h1>
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-
+<div class="article-header">
   
   
-  <div>
-    <h2><a href="https://caterinaurban.github.io/publication/leakage/">Abstract Interpretation-Based Data Leakage Static Analysis</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://caterinaurban.github.io/publication/afi/">Abstract Interpretation-Based Feature Importance for SVMs</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://caterinaurban.github.io/publication/gbs/">Verifying Attention Robustness of Deep Neural Networks against Semantic Perturbations</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://caterinaurban.github.io/publication/survey/">A Review of Formal Methods applied to Machine Learning</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://caterinaurban.github.io/publication/fatt/">Fair Training of Decision Tree Classifiers</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://caterinaurban.github.io/publication/shape/">What Programs Want: Automatic Inference of Input Data Specifications</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://caterinaurban.github.io/publication/fairness/">Perfectly Parallel Fairness Certification of Neural Networks</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
+    <img src="https://caterinaurban.github.io/img/headers/neurons.png" class="article-banner" itemprop="image">
   
 
   
-
-
 </div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Abstract Interpretation-Based Data Leakage Static Analysis</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      Filip Drobnjaković, Pavle Subotić, <span style="color:rgb(254, 200, 21)"><strong>Caterina Urban</strong></span>
+      
+    </span>
+    <span class="pull-right">
+      
+
+    </span>
+
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Data leakage is a well-known problem in machine learning. Data leakage occurs when information from outside the training dataset is used to create a model. This phenomenon renders a model excessively optimistic or even useless in the real world since the model tends to leverage greatly on the unfairly acquired information. To date, detection of data leakages occurs post-mortem using run-time methods. However, due to the insidious nature of data leakage, it may not be apparent to a data scientist that a data leakage has occurred in the first place. For this reason, it is advantageous to detect data leakages as early as possible in the development life cycle.
+In this paper, we propose a novel static analysis to detect several instances of data leakages during development time. We define our analysis using the framework of abstract interpretation: we define a concrete semantics that is sound and complete, from which we derive a sound and computable abstract semantics. We implement our static analysis inside the open-source NBLyzer static analysis framework and demonstrate its utility by evaluating its performance and precision on over 2000 Kaggle competition notebooks.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a href="https://caterinaurban.github.io/publication/#4">
+              Technical Report
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">CoRR abs/2211.16073</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            2022
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/leakage.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/sedano/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2211.16073" target="_blank" rel="noopener">
+  arXiv
+</a>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><p><img src="https://caterinaurban.github.io/img/lyra.png" alt="Lyra" /></p>
+</div>
+
+    
+
+
+
+
+
+  </div>
+</div>
+
+
+
 <footer class="site-footer">
   <div class="container">
 
@@ -509,6 +595,4 @@
 
   </body>
 </html>
-
-
 
