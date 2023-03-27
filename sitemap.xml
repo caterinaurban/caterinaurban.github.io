@@ -4,8 +4,8 @@
     
     <url>
     
-      <loc>https://caterinaurban.github.io/</loc>
-      <lastmod>2023-01-04T00:00:00+01:00</lastmod>
+      <loc>https://caterinaurban.github.io/publication_types/1/</loc>
+      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -14,8 +14,55 @@
     
     <url>
     
+      <loc>https://caterinaurban.github.io/</loc>
+      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/talk/cea2023/</loc>
+      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/talk/spin2023/</loc>
+      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/</loc>
+      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication/nfm2023/</loc>
+      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://caterinaurban.github.io/talk/irill2022/</loc>
-      <lastmod>2023-01-04T00:00:00+01:00</lastmod>
+      <lastmod>2023-01-04T16:45:26+01:00</lastmod>
     </url>
     
   
@@ -24,7 +71,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication_types/4/</loc>
-      <lastmod>2022-11-29T00:00:00+01:00</lastmod>
+      <lastmod>2023-01-04T16:45:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -34,17 +81,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication/leakage/</loc>
-      <lastmod>2022-11-29T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication_types/</loc>
-      <lastmod>2022-11-29T00:00:00+01:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2023-01-04T16:45:26+01:00</lastmod>
     </url>
     
   
@@ -145,16 +182,6 @@
     
       <loc>https://caterinaurban.github.io/talk/gtverif2021/</loc>
       <lastmod>2021-11-17T15:24:16+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication_types/1/</loc>
-      <lastmod>2022-07-08T15:39:28+02:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -379,7 +406,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/project/</loc>
-      <lastmod>2022-09-14T16:45:33+02:00</lastmod>
+      <lastmod>2023-01-04T16:45:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -389,7 +416,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/project/sedano/</loc>
-      <lastmod>2022-09-14T16:45:33+02:00</lastmod>
+      <lastmod>2023-01-04T16:45:26+01:00</lastmod>
     </url>
     
   

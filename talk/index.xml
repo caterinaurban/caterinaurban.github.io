@@ -6,11 +6,29 @@
     <description>Recent content in Invited Talks on Caterina Urban</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
+    <copyright>&amp;copy; 2019-2023</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interpretability-Aware Verification of Machine Learning Software</title>
+      <link>https://caterinaurban.github.io/talk/cea2023/</link>
+      <pubDate>Mon, 27 Mar 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/cea2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpretability-Aware Verification of Machine Learning Software</title>
+      <link>https://caterinaurban.github.io/talk/spin2023/</link>
+      <pubDate>Mon, 27 Mar 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/spin2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Interpretability-Aware Verification of Machine Learning Software</title>
