@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Fri, 01 Aug 2014 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Static Analysis of Data Transformations in Jupyter Notebooks</title>
+      <link>https://caterinaurban.github.io/publication/soap2023/</link>
+      <pubDate>Fri, 28 Apr 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/soap2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>To Infinity... and Beyond!</title>

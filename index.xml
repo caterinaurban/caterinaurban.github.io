@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Mon, 27 Mar 2023 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Static Analysis of Data Transformations in Jupyter Notebooks</title>
+      <link>https://caterinaurban.github.io/publication/soap2023/</link>
+      <pubDate>Fri, 28 Apr 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/soap2023/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Interpretability-Aware Verification of Machine Learning Software</title>
@@ -55,7 +65,7 @@
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/leakage/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -147,16 +157,6 @@
       <pubDate>Mon, 04 Oct 2021 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/cea2021/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An Abstract Interpretation Recipe for Machine Learning Fairness</title>
-      <link>https://caterinaurban.github.io/talk/gtverif2021/</link>
-      <pubDate>Mon, 04 Oct 2021 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/gtverif2021/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>

@@ -4,8 +4,8 @@
     
     <url>
     
-      <loc>https://caterinaurban.github.io/publication_types/1/</loc>
-      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
+      <loc>https://caterinaurban.github.io/publication_types/7/</loc>
+      <lastmod>2023-04-28T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -15,7 +15,36 @@
     <url>
     
       <loc>https://caterinaurban.github.io/</loc>
-      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
+      <lastmod>2023-04-28T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/</loc>
+      <lastmod>2023-04-28T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication/soap2023/</loc>
+      <lastmod>2023-04-28T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication_types/1/</loc>
+      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -25,7 +54,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/talk/cea2023/</loc>
-      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
+      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
     </url>
     
   
@@ -34,17 +63,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/talk/spin2023/</loc>
-      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication_types/</loc>
-      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
     </url>
     
   
@@ -53,7 +72,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication/nfm2023/</loc>
-      <lastmod>2023-03-27T00:00:00+02:00</lastmod>
+      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
     </url>
     
   
@@ -71,7 +90,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication_types/4/</loc>
-      <lastmod>2023-01-04T16:45:26+01:00</lastmod>
+      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -99,7 +118,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication_types/8/</loc>
-      <lastmod>2022-10-25T16:31:50+02:00</lastmod>
+      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -109,7 +128,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication/apsec2022/</loc>
-      <lastmod>2022-10-25T16:31:50+02:00</lastmod>
+      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
     </url>
     
   
@@ -118,7 +137,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication/gbs/</loc>
-      <lastmod>2022-10-25T16:31:50+02:00</lastmod>
+      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
     </url>
     
   
@@ -734,16 +753,6 @@
     
       <loc>https://caterinaurban.github.io/talk/dagstuhl14352/</loc>
       <lastmod>2020-12-30T20:32:03+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication_types/7/</loc>
-      <lastmod>2020-12-30T12:17:39+01:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
