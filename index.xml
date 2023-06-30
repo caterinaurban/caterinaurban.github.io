@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jun 2023 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Formal Framework to Measure the Incompleteness of Abstract Interpretations</title>
+      <link>https://caterinaurban.github.io/publication/sas2023/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/sas2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Static Analysis of Data Transformations in Jupyter Notebooks</title>
@@ -148,16 +157,6 @@
       
       <guid>https://caterinaurban.github.io/talk/inria2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An Abstract Interpretation Recipe for Machine Learning Fairness</title>
-      <link>https://caterinaurban.github.io/talk/cea2021/</link>
-      <pubDate>Mon, 04 Oct 2021 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/cea2021/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
