@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>Static Analysis for Data Scientists</title>
+      <link>https://caterinaurban.github.io/publication/csv2023/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/csv2023/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Static Analysis of Data Transformations in Jupyter Notebooks</title>
       <link>https://caterinaurban.github.io/publication/soap2023/</link>
       <pubDate>Fri, 28 Apr 2023 00:00:00 +0200</pubDate>
@@ -147,16 +157,6 @@
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/patrick2022.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>🇫🇷 Interprétation Abstraite des Réseaux de Neurones</title>
-      <link>https://caterinaurban.github.io/talk/inria2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/inria2022/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
