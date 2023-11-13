@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>SAIF</title>
+      <link>https://caterinaurban.github.io/project/saif/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://caterinaurban.github.io/project/saif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Formal Framework to Measure the Incompleteness of Abstract Interpretations</title>
       <link>https://caterinaurban.github.io/publication/sas2023/</link>
       <pubDate>Thu, 29 Jun 2023 00:00:00 +0200</pubDate>
@@ -144,16 +153,6 @@
       
       <guid>https://caterinaurban.github.io/publication/wfvml2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Static Analysis for Data Scientists</title>
-      <link>https://caterinaurban.github.io/talk/ini2022/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/ini2022/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
