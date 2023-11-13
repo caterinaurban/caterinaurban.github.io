@@ -17,11 +17,11 @@
       
     
   
-  <meta name="description" content="We present Libra, an open-source abstract interpretation-based static analyzer for certifying fairness of ReLU neural network classifiers for tabular data. Libra combines a sound forward pre-analysis with an exact backward analysis that leverages the polyhedra abstract domain to provide definite fairness guarantees when possible, and to otherwise quantify and describe the biased input space regions. The analysis is configurable in terms of scalability and precision. We equipped Libra with new abstract domains to use in the pre-analysis, including a generic reduced product domain construction, as well as search heuristics to find the best analysis configuration. We additionally set up the backward analysis to allow further parallelization. Our experimental evaluation demonstrates the effectiveness of the approach on neural networks trained on a popular dataset in the fairness literature.
+  <meta name="description" content="It is widely known that the precision of a program analyzer is closely related to intensional program properties, namely, properties concerning how the program is written. This explains, for instance, the interest in code obfuscation techniques, namely, tools explicitly designed to degrade the results of program analysis by operating syntactic program transformations. Less is known about a possible relation between what the program extensionally computes, namely, its input-output relation, and the precision of a program analyzer. In this paper we explore this potential connection in an effort to isolate program fragments that can be precisely analyzed by abstract interpretation, namely, programs for which there exists a complete abstract interpretation. In the field of static inference of numeric invariants, this happens for programs, or parts of programs, that manifest a monotone (either non-decreasing or non-increasing) behavior. We first formalize the notion of program monotonicity with respect to a given input and a set of numerical variables of interest. A sound proof system is then introduced with judgments specifying whether a program is monotone relatively to a set of variables and a set of inputs. The interest in monotonicity is justified because we prove that the family of monotone programs admits a complete abstract interpretation over a specific class of non-trivial numerical abstractions and inputs. This class includes all non-relational abstract domains that refine interval analysis (i.e., at least as precise as the intervals abstraction) and that satisfy a topological convexity hypothesis.
 ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication/sas2021/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication/popl2024/">
 
   
 
@@ -89,7 +89,7 @@
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/publication/sas2021/">
+  <link rel="canonical" href="https://caterinaurban.github.io/publication/popl2024/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -97,15 +97,15 @@
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/publication/sas2021/">
-  <meta property="og:title" content="Reduced Products of Abstract Domains for Fairness Certification of Neural Networks | Caterina Urban">
-  <meta property="og:description" content="We present Libra, an open-source abstract interpretation-based static analyzer for certifying fairness of ReLU neural network classifiers for tabular data. Libra combines a sound forward pre-analysis with an exact backward analysis that leverages the polyhedra abstract domain to provide definite fairness guarantees when possible, and to otherwise quantify and describe the biased input space regions. The analysis is configurable in terms of scalability and precision. We equipped Libra with new abstract domains to use in the pre-analysis, including a generic reduced product domain construction, as well as search heuristics to find the best analysis configuration. We additionally set up the backward analysis to allow further parallelization. Our experimental evaluation demonstrates the effectiveness of the approach on neural networks trained on a popular dataset in the fairness literature.
-"><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
+  <meta property="og:url" content="https://caterinaurban.github.io/publication/popl2024/">
+  <meta property="og:title" content="Monotonicity and the Precision of Program Analysis | Caterina Urban">
+  <meta property="og:description" content="It is widely known that the precision of a program analyzer is closely related to intensional program properties, namely, properties concerning how the program is written. This explains, for instance, the interest in code obfuscation techniques, namely, tools explicitly designed to degrade the results of program analysis by operating syntactic program transformations. Less is known about a possible relation between what the program extensionally computes, namely, its input-output relation, and the precision of a program analyzer. In this paper we explore this potential connection in an effort to isolate program fragments that can be precisely analyzed by abstract interpretation, namely, programs for which there exists a complete abstract interpretation. In the field of static inference of numeric invariants, this happens for programs, or parts of programs, that manifest a monotone (either non-decreasing or non-increasing) behavior. We first formalize the notion of program monotonicity with respect to a given input and a set of numerical variables of interest. A sound proof system is then introduced with judgments specifying whether a program is monotone relatively to a set of variables and a set of inputs. The interest in monotonicity is justified because we prove that the family of monotone programs admits a complete abstract interpretation over a specific class of non-trivial numerical abstractions and inputs. This class includes all non-relational abstract domains that refine interval analysis (i.e., at least as precise as the intervals abstraction) and that satisfy a topological convexity hypothesis.
+">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2021-07-04T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2024-01-17T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2023-10-27T12:30:45&#43;02:00">
+  <meta property="article:modified_time" content="2024-01-17T00:00:00&#43;01:00">
   
 
   
@@ -120,8 +120,8 @@
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
     "articleSection" : "publication",
-    "name" : "Reduced Products of Abstract Domains for Fairness Certification of Neural Networks",
-    "headline" : "Reduced Products of Abstract Domains for Fairness Certification of Neural Networks",
+    "name" : "Monotonicity and the Precision of Program Analysis",
+    "headline" : "Monotonicity and the Precision of Program Analysis",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -129,16 +129,16 @@
     "publisher": "",
     "accountablePerson" : "",
     "copyrightHolder" : "",
-    "copyrightYear" : "2021",
-    "datePublished": "2021-07-04 00:00:00 \x2b0200 CEST",
-    "dateModified" : "2021-07-04 00:00:00 \x2b0200 CEST",
-    "url" : "https:\/\/caterinaurban.github.io\/publication\/sas2021\/",
+    "copyrightYear" : "2024",
+    "datePublished": "2024-01-17 00:00:00 \x2b0100 CET",
+    "dateModified" : "2024-01-17 00:00:00 \x2b0100 CET",
+    "url" : "https:\/\/caterinaurban.github.io\/publication\/popl2024\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>Reduced Products of Abstract Domains for Fairness Certification of Neural Networks | Caterina Urban</title>
+  <title>Monotonicity and the Precision of Program Analysis | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -331,22 +331,13 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-<div class="article-header">
-  
-  
-    <img src="https://caterinaurban.github.io/img/headers/neurons.png" class="article-banner" itemprop="image">
-  
-
-  
-</div>
-
 
 
   <div class="article-container">
-    <h1 itemprop="name">Reduced Products of Abstract Domains for Fairness Certification of Neural Networks</h1>
+    <h1 itemprop="name">Monotonicity and the Precision of Program Analysis</h1>
     <span class="pub-authors" itemprop="author">
       
-      Denis Mazzucato, <span style="color:rgb(254, 200, 21)"><strong>Caterina Urban</strong></span>
+      Marco Campion, Mila Dalla Preda, Roberto Giacobazzi, <span style="color:rgb(254, 200, 21)"><strong>Caterina Urban</strong></span>
       
     </span>
     <span class="pull-right">
@@ -358,7 +349,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present Libra, an open-source abstract interpretation-based static analyzer for certifying fairness of ReLU neural network classifiers for tabular data. Libra combines a sound forward pre-analysis with an exact backward analysis that leverages the polyhedra abstract domain to provide definite fairness guarantees when possible, and to otherwise quantify and describe the biased input space regions. The analysis is configurable in terms of scalability and precision. We equipped Libra with new abstract domains to use in the pre-analysis, including a generic reduced product domain construction, as well as search heuristics to find the best analysis configuration. We additionally set up the backward analysis to allow further parallelization. Our experimental evaluation demonstrates the effectiveness of the approach on neural networks trained on a popular dataset in the fairness literature.</p>
+    <p class="pub-abstract" itemprop="text">It is widely known that the precision of a program analyzer is closely related to intensional program properties, namely, properties concerning how the program is written. This explains, for instance, the interest in code obfuscation techniques, namely, tools explicitly designed to degrade the results of program analysis by operating syntactic program transformations. Less is known about a possible relation between what the program extensionally computes, namely, its input-output relation, and the precision of a program analyzer. In this paper we explore this potential connection in an effort to isolate program fragments that can be precisely analyzed by abstract interpretation, namely, programs for which there exists a complete abstract interpretation. In the field of static inference of numeric invariants, this happens for programs, or parts of programs, that manifest a monotone (either non-decreasing or non-increasing) behavior. We first formalize the notion of program monotonicity with respect to a given input and a set of numerical variables of interest. A sound proof system is then introduced with judgments specifying whether a program is monotone relatively to a set of variables and a set of inputs. The interest in monotonicity is justified because we prove that the family of monotone programs admits a complete abstract interpretation over a specific class of non-trivial numerical abstractions and inputs. This class includes all non-relational abstract domains that refine interval analysis (i.e., at least as precise as the intervals abstraction) and that satisfy a topological convexity hypothesis.</p>
     
 
     
@@ -387,7 +378,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In Proc. <a href="https://conf.researchr.org/home/sas-2021" target="_blank">28th International Static Analysis Symposium (SAS 2021)</a><br/>Acceptance: 55%<br/><em>Awarded the Validated, Extensible, and Available Artifact Evaluation Badges</em></div>
+          <div class="col-xs-12 col-sm-9">In Proc. <a href="https://popl24.sigplan.org" target="_blank">51st Symposium on Principles of Programming Languages (POPL 2024)</a></div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -401,7 +392,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            2021
+            2024
           </div>
         </div>
       </div>
@@ -421,52 +412,18 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/sas2021.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/caterinaurban/Libra" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
 
-  
-  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/libra/">
-    Project
-  </a>
-  
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/sas2021slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=cczBNGdhyCk" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-<a class="btn btn-primary btn-outline" href="http://doi.org/10.5281/zenodo.4737450" target="_blank" rel="noopener">
-  Artifact
-</a>
-
-<a class="btn btn-primary btn-outline" href="https://hal.inria.fr/hal-03348036" target="_blank" rel="noopener">
-  HAL
-</a>
-
-<a class="btn btn-primary btn-outline" href="https://link.springer.com/chapter/10.1007/978-3-030-88806-0_15" target="_blank" rel="noopener">
-  Springer
-</a>
 
 
 
@@ -479,8 +436,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><p><img src="https://caterinaurban.github.io/img/libra.png" alt="Libra" /></p>
-</div>
+    <div class="article-style"></div>
 
     
 
