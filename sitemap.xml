@@ -5,7 +5,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication_types/1/</loc>
-      <lastmod>2023-11-13T17:27:03+01:00</lastmod>
+      <lastmod>2024-03-12T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -15,17 +15,8 @@
     <url>
     
       <loc>https://caterinaurban.github.io/</loc>
-      <lastmod>2023-11-13T17:27:03+01:00</lastmod>
+      <lastmod>2024-03-12T00:00:00+01:00</lastmod>
       <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://caterinaurban.github.io/publication/popl2024/</loc>
-      <lastmod>2023-11-13T16:52:55+01:00</lastmod>
     </url>
     
   
@@ -34,7 +25,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication_types/</loc>
-      <lastmod>2023-11-13T17:27:03+01:00</lastmod>
+      <lastmod>2024-03-12T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -43,8 +34,35 @@
     
     <url>
     
+      <loc>https://caterinaurban.github.io/publication/nfm2024/</loc>
+      <lastmod>2024-03-12T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/publication/popl2024/</loc>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://caterinaurban.github.io/publication/vmcai2024/</loc>
-      <lastmod>2023-11-13T17:27:03+01:00</lastmod>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/project/forml/</loc>
+      <lastmod>2023-10-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -72,7 +90,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication/sas2023/</loc>
-      <lastmod>2023-10-27T12:30:45+02:00</lastmod>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
     </url>
     
   
@@ -81,7 +99,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication_types/6/</loc>
-      <lastmod>2023-10-26T17:06:26+02:00</lastmod>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -91,7 +109,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication/csv2023/</loc>
-      <lastmod>2023-10-26T17:06:26+02:00</lastmod>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
     </url>
     
   
@@ -100,7 +118,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication_types/7/</loc>
-      <lastmod>2023-11-13T17:27:03+01:00</lastmod>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -110,7 +128,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication/soap2023/</loc>
-      <lastmod>2023-10-26T17:06:26+02:00</lastmod>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
     </url>
     
   
@@ -137,7 +155,16 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication/nfm2023/</loc>
-      <lastmod>2023-11-13T17:27:03+01:00</lastmod>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://caterinaurban.github.io/talk/quarkslab2024/</loc>
+      <lastmod>2023-03-12T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -183,7 +210,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication_types/8/</loc>
-      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -193,7 +220,7 @@
     <url>
     
       <loc>https://caterinaurban.github.io/publication/apsec2022/</loc>
-      <lastmod>2023-03-27T12:26:03+02:00</lastmod>
+      <lastmod>2024-01-08T11:31:33+01:00</lastmod>
     </url>
     
   

@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>ForML</title>
+      <link>https://caterinaurban.github.io/project/forml/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://caterinaurban.github.io/project/forml/</guid>
+      <description>The ForML project investigates the use of abstract interpretation and counterexample-guided abstraction refinement with the purpose of efficiently answering queries about semantic properties of machine learning models such as robustness, fairness, and explainability. We also aim to formally verify existing and novel algorithms for answering such queries, and to derive certified implementations.</description>
+    </item>
+    
+    <item>
       <title>SAIF</title>
       <link>https://caterinaurban.github.io/project/saif/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>

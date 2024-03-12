@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Quantitative Input Usage Static Analysis</title>
+      <link>https://caterinaurban.github.io/publication/nfm2024/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/nfm2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Monotonicity and the Precision of Program Analysis</title>
@@ -26,6 +35,15 @@
       <guid>https://caterinaurban.github.io/publication/vmcai2024/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>ForML</title>
+      <link>https://caterinaurban.github.io/project/forml/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://caterinaurban.github.io/project/forml/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -97,6 +115,16 @@
     </item>
     
     <item>
+      <title>Machine Learning Interpretability and Verification</title>
+      <link>https://caterinaurban.github.io/talk/quarkslab2024/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/quarkslab2024/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Interpretability-Aware Verification of Machine Learning Software</title>
       <link>https://caterinaurban.github.io/talk/irill2022/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0100</pubDate>
@@ -122,36 +150,6 @@
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/afi/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Verifying Attention Robustness of Deep Neural Networks against Semantic Perturbations</title>
-      <link>https://caterinaurban.github.io/publication/apsec2022/</link>
-      <pubDate>Mon, 24 Oct 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/apsec2022/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Verifying Attention Robustness of Deep Neural Networks against Semantic Perturbations</title>
-      <link>https://caterinaurban.github.io/publication/gbs/</link>
-      <pubDate>Wed, 13 Jul 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/gbs/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ReCIPH: Relational Coefficients for Input Partitioning Heuristic</title>
-      <link>https://caterinaurban.github.io/publication/wfvml2022/</link>
-      <pubDate>Fri, 08 Jul 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/wfvml2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
