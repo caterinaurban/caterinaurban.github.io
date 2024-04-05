@@ -116,6 +116,16 @@
     
     <item>
       <title>Machine Learning Interpretability and Verification</title>
+      <link>https://caterinaurban.github.io/talk/fac2024/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/fac2024/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/forml.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Interpretability and Verification</title>
       <link>https://caterinaurban.github.io/talk/quarkslab2024/</link>
       <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
       
@@ -141,16 +151,6 @@
       
       <guid>https://caterinaurban.github.io/publication/leakage/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Abstract Interpretation-Based Feature Importance for SVMs</title>
-      <link>https://caterinaurban.github.io/publication/afi/</link>
-      <pubDate>Tue, 25 Oct 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/afi/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

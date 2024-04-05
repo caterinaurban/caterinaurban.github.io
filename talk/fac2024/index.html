@@ -17,10 +17,13 @@
       
     
   
-  <meta name="description" content="The goal of SAIF is to use the vast knowledge accumulated over decades in formal methods to rethink them and address the novel safety concerns raised by machine learning-based systems. Through the synergy of a diverse consortium with complementary expertise, we aim to bring society closer to a state where it can benefit from achievements in machine learning without suffering undue consequences.">
+  <meta name="description" content="Machine learning (ML) software is increasingly being employed in high stakes or sensitive applications. This brings forth important challenges related to safety, privacy, and non-discrimination. As a consequence, research in ML verification rapidly gained popularity and demand for interpretable ML models is more and more pronounced. 
+Interpretability and verification are typically seen as orthogonal concerns. Research in ML interpretability is predominantly carried out in the ML community, while research in ML verification is almost exclusively carried out in the formal methods community, without much communication and exchanges between these research areas.
+In this talk, we advocate for closing this gap by highlighting the synergies between interpretability and verification in ML software. We will survey our recent and ongoing work, and discuss research questions and avenues for future work in this context.
+">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/project/saif/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/fac2024/">
 
   
 
@@ -88,7 +91,7 @@
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/project/saif/">
+  <link rel="canonical" href="https://caterinaurban.github.io/talk/fac2024/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -96,14 +99,17 @@
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/project/saif/">
-  <meta property="og:title" content="SAIF | Caterina Urban">
-  <meta property="og:description" content="The goal of SAIF is to use the vast knowledge accumulated over decades in formal methods to rethink them and address the novel safety concerns raised by machine learning-based systems. Through the synergy of a diverse consortium with complementary expertise, we aim to bring society closer to a state where it can benefit from achievements in machine learning without suffering undue consequences.">
+  <meta property="og:url" content="https://caterinaurban.github.io/talk/fac2024/">
+  <meta property="og:title" content="Machine Learning Interpretability and Verification | Caterina Urban">
+  <meta property="og:description" content="Machine learning (ML) software is increasingly being employed in high stakes or sensitive applications. This brings forth important challenges related to safety, privacy, and non-discrimination. As a consequence, research in ML verification rapidly gained popularity and demand for interpretable ML models is more and more pronounced. 
+Interpretability and verification are typically seen as orthogonal concerns. Research in ML interpretability is predominantly carried out in the ML community, while research in ML verification is almost exclusively carried out in the formal methods community, without much communication and exchanges between these research areas.
+In this talk, we advocate for closing this gap by highlighting the synergies between interpretability and verification in ML software. We will survey our recent and ongoing work, and discuss research questions and avenues for future work in this context.
+">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2023-10-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2023-03-12T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2023-11-13T17:16:00&#43;01:00">
+  <meta property="article:modified_time" content="2023-03-12T00:00:00&#43;01:00">
   
 
   
@@ -117,10 +123,10 @@
          "@type": "WebPage",
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
-    "articleSection" : "project",
-    "name" : "SAIF",
-    "headline" : "SAIF",
-    "description" : "The goal of SAIF is to use the vast knowledge accumulated over decades in formal methods to rethink them and address the novel safety concerns raised by machine learning-based systems. Through the synergy of a diverse consortium with complementary expertise, we aim to bring society closer to a state where it can benefit from achievements in machine learning without suffering undue consequences.",
+    "articleSection" : "talk",
+    "name" : "Machine Learning Interpretability and Verification",
+    "headline" : "Machine Learning Interpretability and Verification",
+    "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
     "creator" : "",
@@ -128,15 +134,15 @@
     "accountablePerson" : "",
     "copyrightHolder" : "",
     "copyrightYear" : "2023",
-    "datePublished": "2023-10-01 00:00:00 \x2b0000 \x2b0000",
-    "dateModified" : "2023-10-01 00:00:00 \x2b0000 \x2b0000",
-    "url" : "https:\/\/caterinaurban.github.io\/project\/saif\/",
+    "datePublished": "2023-03-12 00:00:00 \x2b0100 CET",
+    "dateModified" : "2023-03-12 00:00:00 \x2b0100 CET",
+    "url" : "https:\/\/caterinaurban.github.io\/talk\/fac2024\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>SAIF | Caterina Urban</title>
+  <title>Machine Learning Interpretability and Verification | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -326,8 +332,7 @@
   </div>
 </nav>
 
-
-<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+<div class="pub" itemscope itemtype="http://schema.org/Event">
 
   
 
@@ -335,8 +340,10 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">SAIF</h1>
-      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <h1 itemprop="name">Machine Learning Interpretability and Verification</h1>
+      <span class="pub-authors" itemprop="author">
+        
+      </span>
       <span class="pull-right">
         
 
@@ -344,11 +351,113 @@
     </div>
 
     
-    <a class="btn btn-primary btn-outline" href="https://project.inria.fr/saif/" target="_blank" rel="noopener">Go to Project Site</a>
+      <h3>Abstract</h3>
+      <p class="pub-abstract" itemprop="text">Machine learning (ML) software is increasingly being employed in high stakes or sensitive applications. This brings forth important challenges related to safety, privacy, and non-discrimination. As a consequence, research in ML verification rapidly gained popularity and demand for interpretable ML models is more and more pronounced.
+Interpretability and verification are typically seen as orthogonal concerns. Research in ML interpretability is predominantly carried out in the ML community, while research in ML verification is almost exclusively carried out in the formal methods community, without much communication and exchanges between these research areas.
+In this talk, we advocate for closing this gap by highlighting the synergies between interpretability and verification in ML software. We will survey our recent and ongoing work, and discuss research questions and avenues for future work in this context.</p>
     
 
-    <div class="article-style" itemprop="articleBody">
-      
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            
+            Thursday, April 4, 2024
+            <div class="talk-time">
+              
+			    
+                9:30 AM
+                
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
+          <div class="col-xs-12 col-sm-9">
+            <a href="https://projects.laas.fr/IFSE/FAC/#:~:text=La%20XXIX%c2%b0%20%c3%a9dition%20des,Universit%c3%a9%20Toulouse%20III%2C%20Paul%20Sabatier." target="_blank" rel="noopener">
+            Journées FAC 2024
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
+          <div class="col-xs-12 col-sm-9">🇫🇷 Toulouse, France</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/fac2024.pdf">
+  Slides
+</a>
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/saif/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/forml/">
+    Project
+  </a>
+  
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <p><img src="https://caterinaurban.github.io/img/forml.png" alt="Whoopie" /></p>
+
     </div>
 
     
@@ -357,119 +466,8 @@
 
 
 
-    
-    
-    
-
-    
-      
-      
-      
-      
-
-      
-      
-      
-      
-        <h2>Talks</h2>
-        
-          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
-  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="https://caterinaurban.github.io/talk/fac2024/">Machine Learning Interpretability and Verification</a></span>
-  <div itemprop="startDate">
-    
-    Thursday, April 4, 2024
-    
-	  
-        9:30 AM
-      
-    
-  </div>
-  <div class="talk-metadata">
-    
-            Journées FAC 2024, 🇫🇷 Toulouse, France
-	
-  </div>
-  <div class="talk-links">
-    
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/pdf/fac2024.pdf">
-  Slides
-</a>
-
-
-
-
-  
-  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/saif/">
-    Project
-  </a>
-  
-
-  
-  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/forml/">
-    Project
-  </a>
-  
-
-
-
   </div>
 </div>
-
-        
-          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
-  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="https://caterinaurban.github.io/talk/quarkslab2024/">Machine Learning Interpretability and Verification</a></span>
-  <div itemprop="startDate">
-    
-    Friday, March 29, 2024
-    
-	  
-        2:00 PM
-      
-    
-  </div>
-  <div class="talk-metadata">
-    
-			🇫🇷 Quarkslab, France
-    
-  </div>
-  <div class="talk-links">
-    
-
-
-
-
-
-
-
-  
-  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/saif/">
-    Project
-  </a>
-  
-
-  
-  <a class="btn btn-primary btn-outline btn-xs" href="https://caterinaurban.github.io/project/forml/">
-    Project
-  </a>
-  
-
-
-
-  </div>
-</div>
-
-        
-      
-    
-
-  </div>
-</article>
 
 
 
@@ -558,6 +556,18 @@
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous"></script>
     
     
 
