@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>An Abstract Interpretation-Based Data Leakage Static Analysis</title>
+      <link>https://caterinaurban.github.io/publication/tase2024/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/tase2024/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Quantitative Input Usage Static Analysis</title>
@@ -141,16 +151,6 @@
       
       <guid>https://caterinaurban.github.io/talk/irill2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Abstract Interpretation-Based Data Leakage Static Analysis</title>
-      <link>https://caterinaurban.github.io/publication/leakage/</link>
-      <pubDate>Tue, 29 Nov 2022 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/leakage/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
