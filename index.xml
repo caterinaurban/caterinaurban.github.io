@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>Automatic Detection of Vulnerable Variables for CTL Properties of Programs</title>
+      <link>https://caterinaurban.github.io/publication/lpar2024/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/lpar2024/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Quantitative Input Usage Static Analysis</title>
       <link>https://caterinaurban.github.io/publication/nfm2024/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0100</pubDate>
@@ -140,16 +150,6 @@
       <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/quarkslab2024/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Interpretability-Aware Verification of Machine Learning Software</title>
-      <link>https://caterinaurban.github.io/talk/irill2022/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/irill2022/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
