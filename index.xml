@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Towards a High Level Linter for Data Science</title>
+      <link>https://caterinaurban.github.io/publication/nsad2024/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/nsad2024/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Quantitative Static Timing Analysis</title>
@@ -15,6 +25,15 @@
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/sas2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abstract Interpretation</title>
+      <link>https://caterinaurban.github.io/talk/ur2024/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/ur2024/</guid>
       <description></description>
     </item>
     
@@ -130,26 +149,6 @@
       
       <guid>https://caterinaurban.github.io/talk/spin2023/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Verifying Attention Robustness of Deep Neural Networks against Semantic Perturbations</title>
-      <link>https://caterinaurban.github.io/publication/nfm2023/</link>
-      <pubDate>Mon, 27 Mar 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/nfm2023/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Machine Learning Interpretability and Verification</title>
-      <link>https://caterinaurban.github.io/talk/fac2024/</link>
-      <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/fac2024/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/forml.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
