@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Abstract Interpretation-Based Certification of Hyperproperties for High-Stakes Machine Learning Software</title>
+      <link>https://caterinaurban.github.io/talk/sas2024/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/sas2024/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Towards a High Level Linter for Data Science</title>
@@ -138,16 +148,6 @@
       <pubDate>Mon, 27 Mar 2023 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/cea2023/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Interpretability-Aware Verification of Machine Learning Software</title>
-      <link>https://caterinaurban.github.io/talk/spin2023/</link>
-      <pubDate>Mon, 27 Mar 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/spin2023/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
