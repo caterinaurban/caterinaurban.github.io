@@ -10,11 +10,41 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Abstract Domains for Machine Learning Verification</title>
+      <link>https://caterinaurban.github.io/talk/nsad2024/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/nsad2024/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Abstract Interpretation-Based Certification of Hyperproperties for High-Stakes Machine Learning Software</title>
       <link>https://caterinaurban.github.io/talk/sas2024/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/sas2024/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Formal Methods for Machine Learning</title>
+      <link>https://caterinaurban.github.io/talk/informatics2024/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/informatics2024/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On Using Certified Training towards Empirical Robustness</title>
+      <link>https://caterinaurban.github.io/publication/expibp-forwabs/</link>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/expibp-forwabs/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
@@ -120,36 +150,6 @@
       
       <guid>https://caterinaurban.github.io/publication/sas2023/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Static Analysis for Data Scientists</title>
-      <link>https://caterinaurban.github.io/publication/csv2023/</link>
-      <pubDate>Tue, 06 Jun 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/csv2023/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/lyra.png&#34; alt=&#34;Lyra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Static Analysis of Data Transformations in Jupyter Notebooks</title>
-      <link>https://caterinaurban.github.io/publication/soap2023/</link>
-      <pubDate>Fri, 28 Apr 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/soap2023/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Interpretability-Aware Verification of Machine Learning Software</title>
-      <link>https://caterinaurban.github.io/talk/cea2023/</link>
-      <pubDate>Mon, 27 Mar 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/cea2023/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>
