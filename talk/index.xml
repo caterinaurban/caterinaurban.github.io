@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Static Analysis Methods for Neural Networks</title>
+      <link>https://caterinaurban.github.io/talk/dagstuhl25061/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/dagstuhl25061/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>(Hyper)Safety Certification of Neural Network Surrogates for Aircraft Braking Distance Estimation</title>
+      <link>https://caterinaurban.github.io/talk/airbus2025/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/airbus2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Abstract Domains for Machine Learning Verification</title>
       <link>https://caterinaurban.github.io/talk/nsad2024/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0200</pubDate>

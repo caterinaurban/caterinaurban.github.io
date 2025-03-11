@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Towards a High Level Linter for Data Science</title>
+      <link>https://caterinaurban.github.io/publication/nsad2024/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/nsad2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Static Analysis of Data Transformations in Jupyter Notebooks</title>
@@ -18,6 +27,15 @@
       <pubDate>Fri, 28 Apr 2023 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication/soap2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReCIPH: Relational Coefficients for Input Partitioning Heuristic</title>
+      <link>https://caterinaurban.github.io/publication/wfvml2022/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/wfvml2022/</guid>
       <description></description>
     </item>
     

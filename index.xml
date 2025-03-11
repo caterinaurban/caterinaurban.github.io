@@ -6,8 +6,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Static Analysis Methods for Neural Networks</title>
+      <link>https://caterinaurban.github.io/talk/dagstuhl25061/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/dagstuhl25061/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/dagstuhl25061.jpg&#34; alt=&#34;dagstuhl25061&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On Using Certified Training towards Empirical Robustness</title>
+      <link>https://caterinaurban.github.io/publication/tmlr2025/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/tmlr2025/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>(Hyper)Safety Certification of Neural Network Surrogates for Aircraft Braking Distance Estimation</title>
+      <link>https://caterinaurban.github.io/talk/airbus2025/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/airbus2025/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Abstract Domains for Machine Learning Verification</title>
@@ -123,33 +155,6 @@
       <guid>https://caterinaurban.github.io/publication/vmcai2024/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>ForML</title>
-      <link>https://caterinaurban.github.io/project/forml/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://caterinaurban.github.io/project/forml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SAIF</title>
-      <link>https://caterinaurban.github.io/project/saif/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://caterinaurban.github.io/project/saif/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Formal Framework to Measure the Incompleteness of Abstract Interpretations</title>
-      <link>https://caterinaurban.github.io/publication/sas2023/</link>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/sas2023/</guid>
-      <description></description>
     </item>
     
   </channel>
