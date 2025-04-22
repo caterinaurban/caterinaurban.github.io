@@ -6,8 +6,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Termination Resilience Static Analysis</title>
+      <link>https://caterinaurban.github.io/talk/unipr2025/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/unipr2025/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Abstract Lipschitz Continuity</title>
+      <link>https://caterinaurban.github.io/publication/alc/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/alc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Static Analysis Methods for Neural Networks</title>
@@ -136,25 +155,6 @@
       
       <guid>https://caterinaurban.github.io/publication/nfm2024/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Monotonicity and the Precision of Program Analysis</title>
-      <link>https://caterinaurban.github.io/publication/popl2024/</link>
-      <pubDate>Wed, 17 Jan 2024 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/popl2024/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Abstract Interpretation-Based Feature Importance for Support Vector Machines</title>
-      <link>https://caterinaurban.github.io/publication/vmcai2024/</link>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/vmcai2024/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>

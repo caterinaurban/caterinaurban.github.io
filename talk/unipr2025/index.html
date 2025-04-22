@@ -17,10 +17,13 @@
       
     
   
-  <meta name="description" content="Formal methods provide rigorous guarantees of correctness for both hardware and software systems. Their use is well established in industry, notably to certify safety of critical applications subject to stringent certification processes. With the rising prominence of machine learning, the integration of machine-learned components into critical systems presents novel challenges for formal methods. This talk is a tutorial on the use of abstract interpretation-based static analysis techniques for the certification of (hyper)safety properties of machine learning models. As a running example, we focus on the use case of neural network surrogates for aircraft braking distance estimation. We will present several (combinations of) abstractions, highlighting their strengths and limitations, through the lens of different (hyper)safety properties. We will additionally survey the application of these abstractions towards the additional goal of enhancing machine learning explainability. We will conclude with perspectives on possible future research directions in this rapidly evolving field.">
+  <meta name="description" content="Software bugs vary significantly in their severity and impact. While some bugs may be minor inconveniences that cause small glitches or inefficiencies, others pose much greater risks — especially those that can be exploited by an external adversary (e.g., attacker, scheduler, etc.). Recognizing and prioritizing such critical vulnerabilities is essential for maintaining software safety and security. While they might not always present the immediate dangers of security vulnerabilities, bugs that cause non-termination can be weaponized by a malicious actor to be equally critical software issues. These bugs lock software into an endless cycle of execution leading to system slowdowns, resource exhaustion, and denial-of-service conditions. Identifying and fixing these bugs is essential to ensuring the reliability of software systems, especially in environments where performance and availability are crucial.
+In this talk, we formally introduce the Robust Non-Termination program vulnerability, to characterize programs for which there exists an externally-controlled input value that forces their execution into an infinite loop, independently of the values of other uncontrolled variables (e.g., random seeds, etc.).
+We design an abstract interpretation-based static analysis framework to prove Termination Resilience — the absence of Robust Non-Termination vulnerabilities. Our framework is a more expressive semantic generalization of Cousot and Cousot’s idea of computing a ranking function by abstract interpretation. Specifically, we extend their semantic definitions to handle both demonic and angelic non-determinism, distinguishing cases where the program execution is influenced by externally-controlled inputs from those where it is not. We derive a sound static analysis for Termination Resilience by building upon Urban and Miné’s decision tree abstract domain, enhancing it with novel and non-trivial transformer operators to effectively manage the distinction between controlled and uncontrolled program variables. Our static analysis automatically infers sufficient preconditions that ensure Termination Resilience for a program. The analysis is evaluated on benchmarks from the International Competition on Software Verification (SV-COMP), demonstrating its practical effectiveness for verifying Termination Resilience, and detecting Robust Non-Termination vulnerabilities.
+">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/airbus2025/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/talk/unipr2025/">
 
   
 
@@ -88,7 +91,7 @@
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/talk/airbus2025/">
+  <link rel="canonical" href="https://caterinaurban.github.io/talk/unipr2025/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -96,14 +99,17 @@
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/talk/airbus2025/">
-  <meta property="og:title" content="(Hyper)Safety Certification of Neural Network Surrogates for Aircraft Braking Distance Estimation | Caterina Urban">
-  <meta property="og:description" content="Formal methods provide rigorous guarantees of correctness for both hardware and software systems. Their use is well established in industry, notably to certify safety of critical applications subject to stringent certification processes. With the rising prominence of machine learning, the integration of machine-learned components into critical systems presents novel challenges for formal methods. This talk is a tutorial on the use of abstract interpretation-based static analysis techniques for the certification of (hyper)safety properties of machine learning models. As a running example, we focus on the use case of neural network surrogates for aircraft braking distance estimation. We will present several (combinations of) abstractions, highlighting their strengths and limitations, through the lens of different (hyper)safety properties. We will additionally survey the application of these abstractions towards the additional goal of enhancing machine learning explainability. We will conclude with perspectives on possible future research directions in this rapidly evolving field."><meta property="og:image" content="https://caterinaurban.github.io/img/headers/neurons.png">
+  <meta property="og:url" content="https://caterinaurban.github.io/talk/unipr2025/">
+  <meta property="og:title" content="Termination Resilience Static Analysis | Caterina Urban">
+  <meta property="og:description" content="Software bugs vary significantly in their severity and impact. While some bugs may be minor inconveniences that cause small glitches or inefficiencies, others pose much greater risks — especially those that can be exploited by an external adversary (e.g., attacker, scheduler, etc.). Recognizing and prioritizing such critical vulnerabilities is essential for maintaining software safety and security. While they might not always present the immediate dangers of security vulnerabilities, bugs that cause non-termination can be weaponized by a malicious actor to be equally critical software issues. These bugs lock software into an endless cycle of execution leading to system slowdowns, resource exhaustion, and denial-of-service conditions. Identifying and fixing these bugs is essential to ensuring the reliability of software systems, especially in environments where performance and availability are crucial.
+In this talk, we formally introduce the Robust Non-Termination program vulnerability, to characterize programs for which there exists an externally-controlled input value that forces their execution into an infinite loop, independently of the values of other uncontrolled variables (e.g., random seeds, etc.).
+We design an abstract interpretation-based static analysis framework to prove Termination Resilience — the absence of Robust Non-Termination vulnerabilities. Our framework is a more expressive semantic generalization of Cousot and Cousot’s idea of computing a ranking function by abstract interpretation. Specifically, we extend their semantic definitions to handle both demonic and angelic non-determinism, distinguishing cases where the program execution is influenced by externally-controlled inputs from those where it is not. We derive a sound static analysis for Termination Resilience by building upon Urban and Miné’s decision tree abstract domain, enhancing it with novel and non-trivial transformer operators to effectively manage the distinction between controlled and uncontrolled program variables. Our static analysis automatically infers sufficient preconditions that ensure Termination Resilience for a program. The analysis is evaluated on benchmarks from the International Competition on Software Verification (SV-COMP), demonstrating its practical effectiveness for verifying Termination Resilience, and detecting Robust Non-Termination vulnerabilities.
+"><meta property="og:image" content="https://caterinaurban.github.io/img/headers/collatz.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2025-02-11T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2025-06-03T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2025-03-11T16:47:19&#43;01:00">
+  <meta property="article:modified_time" content="2025-06-03T00:00:00&#43;02:00">
   
 
   
@@ -118,8 +124,8 @@
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
     "articleSection" : "talk",
-    "name" : "(Hyper)Safety Certification of Neural Network Surrogates for Aircraft Braking Distance Estimation",
-    "headline" : "(Hyper)Safety Certification of Neural Network Surrogates for Aircraft Braking Distance Estimation",
+    "name" : "Termination Resilience Static Analysis",
+    "headline" : "Termination Resilience Static Analysis",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -128,15 +134,15 @@
     "accountablePerson" : "",
     "copyrightHolder" : "",
     "copyrightYear" : "2025",
-    "datePublished": "2025-02-11 00:00:00 \x2b0100 CET",
-    "dateModified" : "2025-02-11 00:00:00 \x2b0100 CET",
-    "url" : "https:\/\/caterinaurban.github.io\/talk\/airbus2025\/",
+    "datePublished": "2025-06-03 00:00:00 \x2b0200 CEST",
+    "dateModified" : "2025-06-03 00:00:00 \x2b0200 CEST",
+    "url" : "https:\/\/caterinaurban.github.io\/talk\/unipr2025\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>(Hyper)Safety Certification of Neural Network Surrogates for Aircraft Braking Distance Estimation | Caterina Urban</title>
+  <title>Termination Resilience Static Analysis | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -332,7 +338,7 @@
 <div class="article-header">
   
   
-    <img src="https://caterinaurban.github.io/img/headers/neurons.png" class="article-banner" itemprop="image">
+    <img src="https://caterinaurban.github.io/img/headers/collatz.png" class="article-banner" itemprop="image">
   
 
   
@@ -343,7 +349,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">(Hyper)Safety Certification of Neural Network Surrogates for Aircraft Braking Distance Estimation</h1>
+      <h1 itemprop="name">Termination Resilience Static Analysis</h1>
       <span class="pub-authors" itemprop="author">
         
       </span>
@@ -355,7 +361,9 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">Formal methods provide rigorous guarantees of correctness for both hardware and software systems. Their use is well established in industry, notably to certify safety of critical applications subject to stringent certification processes. With the rising prominence of machine learning, the integration of machine-learned components into critical systems presents novel challenges for formal methods. This talk is a tutorial on the use of abstract interpretation-based static analysis techniques for the certification of (hyper)safety properties of machine learning models. As a running example, we focus on the use case of neural network surrogates for aircraft braking distance estimation. We will present several (combinations of) abstractions, highlighting their strengths and limitations, through the lens of different (hyper)safety properties. We will additionally survey the application of these abstractions towards the additional goal of enhancing machine learning explainability. We will conclude with perspectives on possible future research directions in this rapidly evolving field.</p>
+      <p class="pub-abstract" itemprop="text">Software bugs vary significantly in their severity and impact. While some bugs may be minor inconveniences that cause small glitches or inefficiencies, others pose much greater risks — especially those that can be exploited by an external adversary (e.g., attacker, scheduler, etc.). Recognizing and prioritizing such critical vulnerabilities is essential for maintaining software safety and security. While they might not always present the immediate dangers of security vulnerabilities, bugs that cause non-termination can be weaponized by a malicious actor to be equally critical software issues. These bugs lock software into an endless cycle of execution leading to system slowdowns, resource exhaustion, and denial-of-service conditions. Identifying and fixing these bugs is essential to ensuring the reliability of software systems, especially in environments where performance and availability are crucial.
+In this talk, we formally introduce the Robust Non-Termination program vulnerability, to characterize programs for which there exists an externally-controlled input value that forces their execution into an infinite loop, independently of the values of other uncontrolled variables (e.g., random seeds, etc.).
+We design an abstract interpretation-based static analysis framework to prove Termination Resilience — the absence of Robust Non-Termination vulnerabilities. Our framework is a more expressive semantic generalization of Cousot and Cousot’s idea of computing a ranking function by abstract interpretation. Specifically, we extend their semantic definitions to handle both demonic and angelic non-determinism, distinguishing cases where the program execution is influenced by externally-controlled inputs from those where it is not. We derive a sound static analysis for Termination Resilience by building upon Urban and Miné’s decision tree abstract domain, enhancing it with novel and non-trivial transformer operators to effectively manage the distinction between controlled and uncontrolled program variables. Our static analysis automatically infers sufficient preconditions that ensure Termination Resilience for a program. The analysis is evaluated on benchmarks from the International Competition on Software Verification (SV-COMP), demonstrating its practical effectiveness for verifying Termination Resilience, and detecting Robust Non-Termination vulnerabilities.</p>
     
 
     <div class="row">
@@ -365,13 +373,10 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
             
-            Tuesday, February 11, 2025
+            Tuesday, June 3, 2025
             <div class="talk-time">
               
 			    
-                1:30 PM
-                
-                
               
             </div>
           </div>
@@ -388,7 +393,7 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
           <div class="col-xs-12 col-sm-9">
             
-            Tech Talk: Formal Verification of AI
+            
             
           </div>
         </div>
@@ -403,7 +408,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">🇫🇷 Airbus, France</div>
+          <div class="col-xs-12 col-sm-9">🇮🇹 Università degli Studi di Parma, Italy</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -424,15 +429,11 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/airbus2025.pdf">
-  Slides
-</a>
-
 
 
 
   
-  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/libra/">
+  <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/project/function/">
     Project
   </a>
   
@@ -451,7 +452,7 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      <p><img src="https://caterinaurban.github.io/img/libra.png" alt="Libra" /></p>
+      <p><img src="https://caterinaurban.github.io/img/function.png" alt="FuncTion" /></p>
 
     </div>
 
