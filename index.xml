@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>Static Analysis by Abstract Interpretation Against Data Leakage in Machine Learning</title>
+      <link>https://caterinaurban.github.io/publication/scp2025/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/scp2025/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Abstract Lipschitz Continuity</title>
       <link>https://caterinaurban.github.io/publication/alc/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0200</pubDate>
@@ -146,15 +156,6 @@
       <guid>https://caterinaurban.github.io/publication/lpar2024/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Quantitative Input Usage Static Analysis</title>
-      <link>https://caterinaurban.github.io/publication/nfm2024/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/nfm2024/</guid>
-      <description></description>
     </item>
     
   </channel>

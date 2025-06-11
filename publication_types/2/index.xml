@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 May 2025 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Static Analysis by Abstract Interpretation Against Data Leakage in Machine Learning</title>
+      <link>https://caterinaurban.github.io/publication/scp2025/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/scp2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On Using Certified Training towards Empirical Robustness</title>
