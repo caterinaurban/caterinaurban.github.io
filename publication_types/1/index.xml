@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Relating Distances and Abstractions: An Abstract Interpretation Perspective</title>
+      <link>https://caterinaurban.github.io/publication/sas2025/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/sas2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing Pyra: A High Level Linter for Data Science</title>
+      <link>https://caterinaurban.github.io/publication/ecmlpkdd2025/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/ecmlpkdd2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Quantitative Static Timing Analysis</title>
