@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hallucination-Resilient LLM-Driven Sound and Tunable Static Analysis</title>
+      <link>https://caterinaurban.github.io/publication/lmpl2025/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/lmpl2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Towards a High Level Linter for Data Science</title>
