@@ -6,8 +6,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Static Analyses for the Properties, Programs, and People of Tomorrow</title>
+      <link>https://caterinaurban.github.io/publication/hdr2025/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/hdr2025/</guid>
+      <description>
+
+&lt;h4 id=&#34;reviewers&#34;&gt;Reviewers&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://perso.univ-perp.fr/matthieu.martel/&#34; target=&#34;_blank&#34;&gt;Matthieu Martel&lt;/a&gt;&lt;br /&gt;
+Université de Perpignan, Perpignan, France&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.stevens.edu/profile/dnaumann&#34; target=&#34;_blank&#34;&gt;David Naumann&lt;/a&gt;&lt;br /&gt;
+Stevens Institute of Technology, Hoboken, USA&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cylab.cmu.edu/directory/bios/pasareanu-corina.html&#34; target=&#34;_blank&#34;&gt;Corina Păsăreanu&lt;/a&gt;&lt;br /&gt;
+Carnegie Mellon University Silicon Valley, Moffett Field, USA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;jury&#34;&gt;Jury&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://people.irisa.fr/Sandrine.Blazy/&#34; target=&#34;_blank&#34;&gt;Sandrine Blazy&lt;/a&gt; (President)&lt;br /&gt;
+Université de Rennes, Rennes, France&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cs.nyu.edu/~pcousot/&#34; target=&#34;_blank&#34;&gt;Patrick Cousot&lt;/a&gt;&lt;br /&gt;
+New York University, New York, USA&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://laure.gonnord.org/pro/&#34; target=&#34;_blank&#34;&gt;Laure Gonnord&lt;/a&gt;&lt;br /&gt;
+Grenoble INP - UGA, Valence, France&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jpmarquessilva.github.io&#34; target=&#34;_blank&#34;&gt;João Marques Silva&lt;/a&gt;&lt;br /&gt;
+ICREA &amp;amp; University of Lleida, Lleida, Spain&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www-apr.lip6.fr/~mine/&#34; target=&#34;_blank&#34;&gt;Antoine Miné&lt;/a&gt;&lt;br /&gt;
+Sorbonne Université, Paris, France&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.di.ens.fr/~rival/&#34; target=&#34;_blank&#34;&gt;Xavier Rival&lt;/a&gt;&lt;br /&gt;
+Inria &amp;amp; École Normale Supérieure | Université PSL, Paris, France&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://janvitek.org&#34; target=&#34;_blank&#34;&gt;Jan Vitek&lt;/a&gt;&lt;br /&gt;
+Northeastern University, Boston, USA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/hdr2025.png&#34; alt=&#34;hdr2025&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Termination Resilience Static Analysis</title>
+      <link>https://caterinaurban.github.io/talk/fbk2025/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/fbk2025/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hallucination-Resilient LLM-Driven Sound and Tunable Static Analysis</title>
@@ -137,26 +191,6 @@
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/talk/sas2024/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Formal Methods for Machine Learning</title>
-      <link>https://caterinaurban.github.io/talk/informatics2024/</link>
-      <pubDate>Sun, 20 Oct 2024 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/informatics2024/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>On Using Certified Training towards Empirical Robustness</title>
-      <link>https://caterinaurban.github.io/publication/expibp-forwabs/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/expibp-forwabs/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
 </description>
     </item>

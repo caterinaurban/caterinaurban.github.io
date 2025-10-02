@@ -13,6 +13,23 @@
     
     
     <item>
+      <title>Static Analyses for the Properties, Programs, and People of Tomorrow</title>
+      <link>https://caterinaurban.github.io/publication/hdr2025/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/hdr2025/</guid>
+      <description>Reviewers  Matthieu Martel
+Université de Perpignan, Perpignan, France David Naumann
+Stevens Institute of Technology, Hoboken, USA Corina Păsăreanu
+Carnegie Mellon University Silicon Valley, Moffett Field, USA  Jury  Sandrine Blazy (President)
+Université de Rennes, Rennes, France Patrick Cousot
+New York University, New York, USA Laure Gonnord
+Grenoble INP - UGA, Valence, France João Marques Silva
+ICREA &amp;amp; University of Lleida, Lleida, Spain Antoine Miné
+Sorbonne Université, Paris, France Xavier Rival</description>
+    </item>
+    
+    <item>
       <title>Hallucination-Resilient LLM-Driven Sound and Tunable Static Analysis</title>
       <link>https://caterinaurban.github.io/publication/lmpl2025/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0200</pubDate>
@@ -394,7 +411,7 @@ IMDEA Software Institute &amp;amp; Technical University of Madrid, Madrid, Spain
 University of Colorado Boulder, Boulder, USA
  Andreas Podelski
 University of Freiburg, Freiburg, Germany  Jury  Patrick Cousot
-New York University, New York, USA Nicolas Halbwachs
+New York University, New York, USA Nicolas Halbwachs (President)
 Verimag, Grenoble, France Manuel Hermenegildo</description>
     </item>
     
