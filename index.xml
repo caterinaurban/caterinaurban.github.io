@@ -6,8 +6,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Termination Resilience Static Analysis</title>
+      <link>https://caterinaurban.github.io/publication/vmcai2026/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/vmcai2026/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Faster Verified Explanations for Neural Networks</title>
+      <link>https://caterinaurban.github.io/publication/favex/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/favex/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Static Analyses for the Properties, Programs, and People of Tomorrow</title>
@@ -172,26 +192,6 @@ Northeastern University, Boston, USA&lt;/li&gt;
       
       <guid>https://caterinaurban.github.io/talk/airbus2025/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/libra.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Abstract Domains for Machine Learning Verification</title>
-      <link>https://caterinaurban.github.io/talk/nsad2024/</link>
-      <pubDate>Sun, 20 Oct 2024 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/nsad2024/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Abstract Interpretation-Based Certification of Hyperproperties for High-Stakes Machine Learning Software</title>
-      <link>https://caterinaurban.github.io/talk/sas2024/</link>
-      <pubDate>Sun, 20 Oct 2024 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/sas2024/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

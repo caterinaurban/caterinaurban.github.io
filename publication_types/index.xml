@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1</title>
+      <link>https://caterinaurban.github.io/publication_types/1/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>https://caterinaurban.github.io/publication_types/4/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication_types/4/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>0</title>
@@ -31,29 +49,11 @@
     </item>
     
     <item>
-      <title>1</title>
-      <link>https://caterinaurban.github.io/publication_types/1/</link>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication_types/1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>2</title>
       <link>https://caterinaurban.github.io/publication_types/2/</link>
       <pubDate>Fri, 30 May 2025 00:00:00 +0200</pubDate>
       
       <guid>https://caterinaurban.github.io/publication_types/2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>4</title>
-      <link>https://caterinaurban.github.io/publication_types/4/</link>
-      <pubDate>Fri, 18 Apr 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication_types/4/</guid>
       <description></description>
     </item>
     

@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Termination Resilience Static Analysis</title>
+      <link>https://caterinaurban.github.io/publication/vmcai2026/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/vmcai2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faster Verified Explanations for Neural Networks</title>
+      <link>https://caterinaurban.github.io/publication/favex/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/favex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Static Analyses for the Properties, Programs, and People of Tomorrow</title>
       <link>https://caterinaurban.github.io/publication/hdr2025/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
