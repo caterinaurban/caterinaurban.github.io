@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Logic for the Imprecision of Abstract Interpretations</title>
+      <link>https://caterinaurban.github.io/publication/popl2026/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/popl2026/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Termination Resilience Static Analysis</title>
