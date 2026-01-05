@@ -17,11 +17,11 @@
       
     
   
-  <meta name="description" content="In numerical analysis, error propagation refers to how small inaccuracies in input data or intermediate computations accumulate and affect the final result, typically governed by the stability and sensitivity of the algorithm with respect to some perturbations. The definition of a similar concept in approximated program analysis is still a challenge. In abstract interpretation, inaccuracy arises from the abstraction itself, and the propagation of this error is dictated by the abstract interpreter. In most cases, such imprecision is inevitable. In this paper we introduce a logic for deriving (upper) bounds on the inaccuracy of an abstract interpretation. We are able to derive a function that bounds the imprecision of the result of an abstract interpreter from the imprecision of its input data. When this holds we have what we call partial local completeness of the abstract interpreter, a weaker form of completeness known in the literature. To this end, we introduce the notion of a generator for a property represented in the abstract domain. Generators allow us to restrict the search space when verifying whether the bounding function holds for a given program and input. We then introduce a program logic, called Error Propagation Logic (EPL), for propagating the error bounds produced by an abstract interpretation. This logic is a combination of correctness and incorrectness logics and a logic for program 𝜔-continuity that is also introduced in this paper.
+  <meta name="description" content="We introduce Abstract Lipschitz Continuity (ALC), an extensional (i.e., input/output) property that ensures proportionally bounded differences in the semantic approximations of the output of a function (e.g., a program semantics) when the semantic approximations of the input differ slightly. ALC explicitly discerns between two complementary notions of approximation: quantitative differences, expressed via pre-metrics, and qualitative (or semantic) differences, captured through upper closure operators. This explicit separation of approximations has two main advantages. First, it enables ALC to be related to other important extensional program properties, including partial abstract non-interference in language-based security, partial completeness in abstract interpretation, and abstract robustness in machine learning. Second, ALC enables reasoning about its validity for programs through inductive reasoning on their syntax and on the chosen semantic abstractions. To this end, we propose a sound deductive system, parameterized by the quantitative and semantic approximations of interest, for proving ALC of programs. This proof system makes explicit the assumptions required for ALC, thereby ensuring a compositional proof approach.
 ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication/popl2026/">
+  <link rel="alternate" hreflang="en-us" href="https://caterinaurban.github.io/publication/fossacs2026/">
 
   
 
@@ -89,7 +89,7 @@
   <link rel="icon" type="image/png" href="https://caterinaurban.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://caterinaurban.github.io/img/icon-192.png">
 
-  <link rel="canonical" href="https://caterinaurban.github.io/publication/popl2026/">
+  <link rel="canonical" href="https://caterinaurban.github.io/publication/fossacs2026/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -97,15 +97,15 @@
   <meta property="twitter:creator" content="@https://twitter.com/caterinaurban">
   
   <meta property="og:site_name" content="Caterina Urban">
-  <meta property="og:url" content="https://caterinaurban.github.io/publication/popl2026/">
-  <meta property="og:title" content="A Logic for the Imprecision of Abstract Interpretations | Caterina Urban">
-  <meta property="og:description" content="In numerical analysis, error propagation refers to how small inaccuracies in input data or intermediate computations accumulate and affect the final result, typically governed by the stability and sensitivity of the algorithm with respect to some perturbations. The definition of a similar concept in approximated program analysis is still a challenge. In abstract interpretation, inaccuracy arises from the abstraction itself, and the propagation of this error is dictated by the abstract interpreter. In most cases, such imprecision is inevitable. In this paper we introduce a logic for deriving (upper) bounds on the inaccuracy of an abstract interpretation. We are able to derive a function that bounds the imprecision of the result of an abstract interpreter from the imprecision of its input data. When this holds we have what we call partial local completeness of the abstract interpreter, a weaker form of completeness known in the literature. To this end, we introduce the notion of a generator for a property represented in the abstract domain. Generators allow us to restrict the search space when verifying whether the bounding function holds for a given program and input. We then introduce a program logic, called Error Propagation Logic (EPL), for propagating the error bounds produced by an abstract interpretation. This logic is a combination of correctness and incorrectness logics and a logic for program 𝜔-continuity that is also introduced in this paper.
+  <meta property="og:url" content="https://caterinaurban.github.io/publication/fossacs2026/">
+  <meta property="og:title" content="Abstract Lipschitz Continuity: Combining Semantic and Quantitative Approximations | Caterina Urban">
+  <meta property="og:description" content="We introduce Abstract Lipschitz Continuity (ALC), an extensional (i.e., input/output) property that ensures proportionally bounded differences in the semantic approximations of the output of a function (e.g., a program semantics) when the semantic approximations of the input differ slightly. ALC explicitly discerns between two complementary notions of approximation: quantitative differences, expressed via pre-metrics, and qualitative (or semantic) differences, captured through upper closure operators. This explicit separation of approximations has two main advantages. First, it enables ALC to be related to other important extensional program properties, including partial abstract non-interference in language-based security, partial completeness in abstract interpretation, and abstract robustness in machine learning. Second, ALC enables reasoning about its validity for programs through inductive reasoning on their syntax and on the chosen semantic abstractions. To this end, we propose a sound deductive system, parameterized by the quantitative and semantic approximations of interest, for proving ALC of programs. This proof system makes explicit the assumptions required for ALC, thereby ensuring a compositional proof approach.
 ">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2026-01-15T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2026-04-11T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2025-12-13T10:43:30&#43;01:00">
+  <meta property="article:modified_time" content="2026-04-11T00:00:00&#43;02:00">
   
 
   
@@ -120,8 +120,8 @@
          "@id": "https:\/\/caterinaurban.github.io\/"
     },
     "articleSection" : "publication",
-    "name" : "A Logic for the Imprecision of Abstract Interpretations",
-    "headline" : "A Logic for the Imprecision of Abstract Interpretations",
+    "name" : "Abstract Lipschitz Continuity: Combining Semantic and Quantitative Approximations",
+    "headline" : "Abstract Lipschitz Continuity: Combining Semantic and Quantitative Approximations",
     "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
@@ -130,15 +130,15 @@
     "accountablePerson" : "",
     "copyrightHolder" : "",
     "copyrightYear" : "2026",
-    "datePublished": "2026-01-15 00:00:00 \x2b0100 CET",
-    "dateModified" : "2026-01-15 00:00:00 \x2b0100 CET",
-    "url" : "https:\/\/caterinaurban.github.io\/publication\/popl2026\/",
+    "datePublished": "2026-04-11 00:00:00 \x2b0200 CEST",
+    "dateModified" : "2026-04-11 00:00:00 \x2b0200 CEST",
+    "url" : "https:\/\/caterinaurban.github.io\/publication\/fossacs2026\/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>A Logic for the Imprecision of Abstract Interpretations | Caterina Urban</title>
+  <title>Abstract Lipschitz Continuity: Combining Semantic and Quantitative Approximations | Caterina Urban</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -334,10 +334,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">A Logic for the Imprecision of Abstract Interpretations</h1>
+    <h1 itemprop="name">Abstract Lipschitz Continuity: Combining Semantic and Quantitative Approximations</h1>
     <span class="pub-authors" itemprop="author">
       
-      Marco Campion, Mila Dalla Preda, Roberto Giacobazzi, <span style="color:rgb(254, 200, 21)"><strong>Caterina Urban</strong></span>
+      Marco Campion, Isabella Mastroeni, Michele Pasqua, <span style="color:rgb(254, 200, 21)"><strong>Caterina Urban</strong></span>
       
     </span>
     <span class="pull-right">
@@ -349,7 +349,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">In numerical analysis, error propagation refers to how small inaccuracies in input data or intermediate computations accumulate and affect the final result, typically governed by the stability and sensitivity of the algorithm with respect to some perturbations. The definition of a similar concept in approximated program analysis is still a challenge. In abstract interpretation, inaccuracy arises from the abstraction itself, and the propagation of this error is dictated by the abstract interpreter. In most cases, such imprecision is inevitable. In this paper we introduce a logic for deriving (upper) bounds on the inaccuracy of an abstract interpretation. We are able to derive a function that bounds the imprecision of the result of an abstract interpreter from the imprecision of its input data. When this holds we have what we call partial local completeness of the abstract interpreter, a weaker form of completeness known in the literature. To this end, we introduce the notion of a generator for a property represented in the abstract domain. Generators allow us to restrict the search space when verifying whether the bounding function holds for a given program and input. We then introduce a program logic, called Error Propagation Logic (EPL), for propagating the error bounds produced by an abstract interpretation. This logic is a combination of correctness and incorrectness logics and a logic for program 𝜔-continuity that is also introduced in this paper.</p>
+    <p class="pub-abstract" itemprop="text">We introduce Abstract Lipschitz Continuity (ALC), an extensional (i.e., input/output) property that ensures proportionally bounded differences in the semantic approximations of the output of a function (e.g., a program semantics) when the semantic approximations of the input differ slightly. ALC explicitly discerns between two complementary notions of approximation: quantitative differences, expressed via pre-metrics, and qualitative (or semantic) differences, captured through upper closure operators. This explicit separation of approximations has two main advantages. First, it enables ALC to be related to other important extensional program properties, including partial abstract non-interference in language-based security, partial completeness in abstract interpretation, and abstract robustness in machine learning. Second, ALC enables reasoning about its validity for programs through inductive reasoning on their syntax and on the chosen semantic abstractions. To this end, we propose a sound deductive system, parameterized by the quantitative and semantic approximations of interest, for proving ALC of programs. This proof system makes explicit the assumptions required for ALC, thereby ensuring a compositional proof approach.</p>
     
 
     
@@ -378,7 +378,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In Proc. <a href="https://popl26.sigplan.org" target="_blank">53rd Symposium on Principles of Programming Languages (POPL 2024)</a></div>
+          <div class="col-xs-12 col-sm-9">In Proc. <a href="https://etaps.org/2026/conferences/fossacs/" target="_blank">29th Conference on Foundations of Software Science and Computation Structures (FoSSaCS 2026)</a></div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -412,7 +412,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/popl2026.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/pdf/fossacs2026.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -429,12 +429,12 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://hal.science/hal-05402142" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/" target="_blank" rel="noopener">
   HAL
 </a>
 
 <a class="btn btn-primary btn-outline" href="https://caterinaurban.github.io/" target="_blank" rel="noopener">
-  ACM
+  Springer
 </a>
 
 

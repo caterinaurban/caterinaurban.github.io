@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Abstract Lipschitz Continuity: Combining Semantic and Quantitative Approximations</title>
+      <link>https://caterinaurban.github.io/publication/fossacs2026/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/fossacs2026/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Logic for the Imprecision of Abstract Interpretations</title>
