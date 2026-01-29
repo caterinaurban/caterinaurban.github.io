@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Fri, 30 May 2025 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://caterinaurban.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pyra: A High Level Linter for Data Science Software</title>
+      <link>https://caterinaurban.github.io/publication/kbd2026/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/kbd2026/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Static Analysis by Abstract Interpretation Against Data Leakage in Machine Learning</title>

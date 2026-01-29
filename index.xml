@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ReFuncTion: Conditional Termination by Abstract Interpretation of Numerical C Programs (Competition Contribution)</title>
+      <link>https://caterinaurban.github.io/publication/sv-comp2026/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/sv-comp2026/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Abstract Lipschitz Continuity: Combining Semantic and Quantitative Approximations</title>
@@ -16,6 +26,16 @@
       
       <guid>https://caterinaurban.github.io/publication/fossacs2026/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Pyra: A High Level Linter for Data Science Software</title>
+      <link>https://caterinaurban.github.io/publication/kbd2026/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://caterinaurban.github.io/publication/kbd2026/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -169,27 +189,6 @@ Northeastern University, Boston, USA&lt;/li&gt;
       
       <guid>https://caterinaurban.github.io/publication/scp2025/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Abstract Lipschitz Continuity</title>
-      <link>https://caterinaurban.github.io/publication/alc/</link>
-      <pubDate>Fri, 18 Apr 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/alc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Static Analysis Methods for Neural Networks</title>
-      <link>https://caterinaurban.github.io/talk/dagstuhl25061/</link>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/dagstuhl25061/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/dagstuhl25061.jpg&#34; alt=&#34;dagstuhl25061&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Libra&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
