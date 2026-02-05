@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>What I Got Right, What I Got Wrong, and What Happened Anyway: Lessons from My Path</title>
+      <link>https://caterinaurban.github.io/talk/emw2026/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/emw2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pyra: A High Level Linter for Data Science Software</title>
       <link>https://caterinaurban.github.io/publication/kbs2026/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0100</pubDate>
@@ -179,16 +188,6 @@ Northeastern University, Boston, USA&lt;/li&gt;
       
       <guid>https://caterinaurban.github.io/talk/unipr2025/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Static Analysis by Abstract Interpretation Against Data Leakage in Machine Learning</title>
-      <link>https://caterinaurban.github.io/publication/scp2025/</link>
-      <pubDate>Fri, 30 May 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/scp2025/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
