@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Termination Resilience Static Analysis</title>
+      <link>https://caterinaurban.github.io/talk/ifipwg1.92.152026/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/ifipwg1.92.152026/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ReFuncTion: Conditional Termination by Abstract Interpretation of Numerical C Programs (Competition Contribution)</title>
@@ -178,16 +188,6 @@ Northeastern University, Boston, USA&lt;/li&gt;
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/dagstuhl25242.jpg&#34; alt=&#34;dagstuhl25242&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Termination Resilience Static Analysis</title>
-      <link>https://caterinaurban.github.io/talk/unipr2025/</link>
-      <pubDate>Tue, 03 Jun 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/unipr2025/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
