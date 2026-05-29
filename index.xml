@@ -6,8 +6,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019-2023</copyright>
-    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Verified Explanations for Neural Networks</title>
+      <link>https://caterinaurban.github.io/talk/ar4space2026/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/ar4space2026/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What I Got Right, What I Got Wrong, and What Happened Anyway: Lessons from My Path</title>
+      <link>https://caterinaurban.github.io/talk/floc2026/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/floc2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Termination Resilience Static Analysis</title>
+      <link>https://caterinaurban.github.io/talk/helmutfest2026/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/helmutfest2026/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What I Got Right, What I Got Wrong, and What Happened Anyway: Lessons from My Path</title>
+      <link>https://caterinaurban.github.io/talk/ecoop2026/</link>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/ecoop2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verified Explanations for Neural Networks</title>
+      <link>https://caterinaurban.github.io/talk/lund2026/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/lund2026/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Verified Explanations for Neural Networks</title>
+      <link>https://caterinaurban.github.io/talk/labri2026/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://caterinaurban.github.io/talk/labri2026/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Faster Verified Explanations for Neural Networks</title>
@@ -60,6 +118,15 @@
     </item>
     
     <item>
+      <title>ProML</title>
+      <link>https://caterinaurban.github.io/project/proml/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://caterinaurban.github.io/project/proml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pyra: A High Level Linter for Data Science Software</title>
       <link>https://caterinaurban.github.io/publication/kbs2026/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0100</pubDate>
@@ -85,109 +152,6 @@
       
       <guid>https://caterinaurban.github.io/publication/vmcai2026/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Faster Verified Explanations for Neural Networks</title>
-      <link>https://caterinaurban.github.io/publication/favex/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0100</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/favex/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Static Analyses for the Properties, Programs, and People of Tomorrow</title>
-      <link>https://caterinaurban.github.io/publication/hdr2025/</link>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/hdr2025/</guid>
-      <description>
-
-&lt;h4 id=&#34;reviewers&#34;&gt;Reviewers&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://perso.univ-perp.fr/matthieu.martel/&#34; target=&#34;_blank&#34;&gt;Matthieu Martel&lt;/a&gt;&lt;br /&gt;
-Université de Perpignan, Perpignan, France&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.stevens.edu/profile/dnaumann&#34; target=&#34;_blank&#34;&gt;David Naumann&lt;/a&gt;&lt;br /&gt;
-Stevens Institute of Technology, Hoboken, USA&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cylab.cmu.edu/directory/bios/pasareanu-corina.html&#34; target=&#34;_blank&#34;&gt;Corina Păsăreanu&lt;/a&gt;&lt;br /&gt;
-Carnegie Mellon University Silicon Valley, Moffett Field, USA&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;jury&#34;&gt;Jury&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://people.irisa.fr/Sandrine.Blazy/&#34; target=&#34;_blank&#34;&gt;Sandrine Blazy&lt;/a&gt; (President)&lt;br /&gt;
-Université de Rennes, Rennes, France&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cs.nyu.edu/~pcousot/&#34; target=&#34;_blank&#34;&gt;Patrick Cousot&lt;/a&gt;&lt;br /&gt;
-New York University, New York, USA&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://laure.gonnord.org/pro/&#34; target=&#34;_blank&#34;&gt;Laure Gonnord&lt;/a&gt;&lt;br /&gt;
-Grenoble INP - UGA, Valence, France&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jpmarquessilva.github.io&#34; target=&#34;_blank&#34;&gt;João Marques Silva&lt;/a&gt;&lt;br /&gt;
-ICREA &amp;amp; University of Lleida, Lleida, Spain&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www-apr.lip6.fr/~mine/&#34; target=&#34;_blank&#34;&gt;Antoine Miné&lt;/a&gt;&lt;br /&gt;
-Sorbonne Université, Paris, France&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.di.ens.fr/~rival/&#34; target=&#34;_blank&#34;&gt;Xavier Rival&lt;/a&gt;&lt;br /&gt;
-Inria &amp;amp; École Normale Supérieure | Université PSL, Paris, France&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://janvitek.org&#34; target=&#34;_blank&#34;&gt;Jan Vitek&lt;/a&gt;&lt;br /&gt;
-Northeastern University, Boston, USA&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/hdr2025.png&#34; alt=&#34;hdr2025&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Termination Resilience Static Analysis</title>
-      <link>https://caterinaurban.github.io/talk/fbk2025/</link>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/fbk2025/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/function.png&#34; alt=&#34;FuncTion&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hallucination-Resilient LLM-Driven Sound and Tunable Static Analysis</title>
-      <link>https://caterinaurban.github.io/publication/lmpl2025/</link>
-      <pubDate>Sat, 09 Aug 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/lmpl2025/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Relating Distances and Abstractions: An Abstract Interpretation Perspective</title>
-      <link>https://caterinaurban.github.io/publication/sas2025/</link>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/sas2025/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Static Analysis for Trustworthy and Explainable Machine Learning</title>
-      <link>https://caterinaurban.github.io/talk/inesia2025/</link>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/talk/inesia2025/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/whoopie.png&#34; alt=&#34;Whoopie&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introducing Pyra: A High Level Linter for Data Science</title>
-      <link>https://caterinaurban.github.io/publication/ecmlpkdd2025/</link>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://caterinaurban.github.io/publication/ecmlpkdd2025/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://caterinaurban.github.io/img/sedano.png&#34; alt=&#34;Sedano&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
